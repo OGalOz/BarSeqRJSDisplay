@@ -1,5 +1,5 @@
 # BarSeqR Visualization
-* (README Incomplete )
+An in-browser visualizer for BarSeq output fitness data
 
 ## Inputs
 * Organism fitness score data in TSV format (e.g. organism_fitness.tsv)
