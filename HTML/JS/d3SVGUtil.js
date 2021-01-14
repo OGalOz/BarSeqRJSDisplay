@@ -164,17 +164,20 @@ function makeDashedLine(d3svg, start_coordinates, end_coordinates,
 
 
 function makeYAxisLabel(d3svg, svgWidth, svgHeight, yt) {
-    // yt: 
-    //              blc: <x frac from left, y frac from top>
-    //              trc: <x frac from left, y frac from top>
-    //              style_i:
-    //                  name (Str) -> value (str)
-    //              label: str
+    /* 
+     yt: y title object. Contains the following keys:
+        blc: <x frac from left, y frac from top>
+        trc: <x frac from left, y frac from top>
+        style_i:
+            name (Str) -> value (str)
+        label: str
+    */
 
             // Yx and Yy refer to the Y label location x and y coordinates
             let Yx = svgWidth * (yt["blc"][0] + yt["trc"][0]) * (0.5)
             let Yy = svgHeight * (yt["blc"][1] + yt["trc"][1]) * (0.5)
 
+            // axis translate value
             let ax_tsl = Yx.toString() + "," + Yy.toString()
 
             
