@@ -1,0 +1,17 @@
+
+
+
+Get data:
+    fitness TSV and t_score TSV 
+
+Which JS files are stable, which are updated data?
+
+Updated:
+    exp2col.js
+    genes2row.js
+    volcano_obj.js
+
+Run 
+    
+
+

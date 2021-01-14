@@ -1,0 +1,24 @@
+Program Info:
+ 
+So far there are 3 important data objects:
+
+    1. We get a mapping from column number to set name
+
+    2. We get a mapping from row number to gene info
+
+    3. We get the 'volcano_object', which has 6 keys:
+        min_x: minimum fitness score out of all
+        min_y: minimum t-score (absolute values -> this will be 0)
+        max_x: maximum fitness score out of all
+        max_y: maximum t-score
+        fit_mega_matrix: list<list<fitness (Num), fitness(Num),...>>
+        t_mega_matrix: list<list<t_score (Num), t_score (Num),...>>
+
+    Where the two 'mega matrices' contain all of the values for the conditions
+        (columns) vs genes (rows).
+
+
+NOTE: WE SPLIT GENE INFORMATION BY this character: '|', so it is
+        crucial that this character is not included in gene info
+
+
