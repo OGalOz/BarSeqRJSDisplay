@@ -30,8 +30,8 @@ window.BasicShellData = {
                 "values_type": "fractions",
                 "l": 0,
                 "t": 0,
-                "h": .85,
-                "w": 0.7
+                "h": .8,
+                "w": 0.6
             },
             "style_i": {
                 "position": "absolute",
@@ -116,10 +116,10 @@ window.BasicShellData = {
             },
             "size_loc_i": {
                 "values_type": "fractions",
-                "l": 0.7,
+                "l": 0.6,
                 "t": 0,
                 "h": 1,
-                "w": 0.3
+                "w": 0.4
             },
             "style_i": {
                 "position": "absolute",
@@ -287,7 +287,7 @@ window.BasicShellData = {
                 "fontSize": "20px"
             },
             "unq_prp": {
-                "innerHTML": "Clear Selected Condition"
+                "innerHTML": "Clear Selected Conditions"
             }
         },
 
@@ -371,9 +371,9 @@ window.BasicShellData = {
             "size_loc_i": {
                 "values_type": "fractions",
                 "l": 0,
-                "t": .85,
-                "h": .15,
-                "w": 0.7
+                "t": .8,
+                "h": .2,
+                "w": 0.6
             },
             "style_i": {
                 "position": "absolute",
@@ -392,7 +392,7 @@ window.BasicShellData = {
                 "l": 0,
                 "t": 0,
                 "h": 1,
-                "w": 0.3
+                "w": 0.5
             },
             "style_i": {
                 "position": "absolute",

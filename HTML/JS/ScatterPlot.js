@@ -367,7 +367,7 @@ async function populateSVGWithScatterPoints(svg_id,
                             y_axis_len,
                             y_axis_start,
                             y_ticks[0],
-                            3,
+                            4.5,
                             async=true,
                             quadrant_coloration = my_qc,
                             point_contains_data= point_contains_data,
@@ -375,7 +375,7 @@ async function populateSVGWithScatterPoints(svg_id,
                             )
 
     points_added.then((value) => {
-        console.log("Added points to plot A")
+        console.log("Added " + point_list.length.toString() + " points to plot A")
         return new Promise((resolve, reject) => {
             resolve(true)
         })

@@ -2,8 +2,12 @@
 // Here we do functions like populating the table 
 // with the experiments
 
-function BarSeqRPopulateTable(ix2col_d) {
+function BarSeqRPopulateTable(col2ix_d, ix2col_d) {
  /* 
+  * We go from sorted alphabetical setName to
+  *     number within list
+  * col2ix_d:
+  *     setName -> index
   * ix2col_d:
   *     index of column -> setName
   *
@@ -12,18 +16,25 @@ function BarSeqRPopulateTable(ix2col_d) {
     // We use the function from
     // LayoutUtil:
     // createTableWithRows(table_id, rows_info)
-    
-    let index_list = Object.keys(ix2col_d);
-    let rows_info = createRowsInfoFromIx2Col(index_list, ix2col_d); 
-    console.log(rows_info)
+    let setnamelist = Object.keys(col2ix_d) 
+    // we sort alphabetically
+    setnamelist.sort()
+    let rows_info = createRowsInfoFromIx2Col(setnamelist, col2ix_d); 
+    //console.log(rows_info)
     createTableWithRows('exp-table', rows_info)
 
 }
 
 
-function createRowsInfoFromIx2Col(index_list, ix2col_d) {
+function createRowsInfoFromIx2Col(set_name_list, col2ix) {
      /*
     *
+    * Args:
+    *   set_name_list list<set_name (str)>
+    *   col2ix: (object)
+    *       column_name (str) -> index (str)
+    *
+    * Returns:
      *     rows_info: list<row_info>
      *          row_info: list<cell_info, cell_info, ...>
      *              cell_info: Object
@@ -39,14 +50,13 @@ function createRowsInfoFromIx2Col(index_list, ix2col_d) {
      *                          [func_params]: If func, then func_params
      *                              must be present.
   */
-    //Args:
-    // index_list: list<ix (string of number)>
-    // ix2col_d: ix -> set_name (str) 
+
     let rows_info = []
 
-    for (let i = 0; i<index_list.length; i++) {
+    for (let i = 0; i<set_name_list.length; i++) {
 
         let row_info = []
+        /*
         let index_cell_info = {
             "type": "text",
             "tag_type": "p",
@@ -54,17 +64,18 @@ function createRowsInfoFromIx2Col(index_list, ix2col_d) {
             "id": "col-num-" + index_list[i],
             "color": "blue"
         }
+        */
         let set_name_info = {
             "type": "link",
-            "inner_text": ix2col_d[index_list[i]],
-            "id": "col-set-" + index_list[i],
-            "color": "purple",
+            "inner_text": set_name_list[i] ,
+            "id": "col-set-" + col2ix[set_name_list[i]],
+            "color": "blue",
             "func": BarSeqRAddToSelected,
-            "func_params":['chosen-display-div', ix2col_d[index_list[i]]] 
+            "func_params":['chosen-display-div', set_name_list[i]] 
         }
         row_info.push(set_name_info)
-        row_info.push(index_cell_info)
-        console.log(row_info)
+        //row_info.push(index_cell_info)
+        //console.log(row_info)
         rows_info.push(row_info)
 
     }
@@ -84,8 +95,8 @@ function BarSeqRAddToSelected(inp_list) {
     
     let selected_div_id = inp_list[0]
     let selected_condition_str = inp_list[1]
-    console.log(selected_div_id)
-    console.log(selected_condition_str)
+    //console.log(selected_div_id)
+    //console.log(selected_condition_str)
    
     if (window.selected_conditions == null) {
         window.selected_conditions = []
@@ -108,7 +119,7 @@ function BarSeqRAddToSelected(inp_list) {
             selected_div_dobj.removeChild(selected_div_dobj.firstChild);
         }
 
-        console.log(selected_div_dobj)
+        //console.log(selected_div_dobj)
         let color_d = {
             "0": "#9400D3",
             "1": "#008000"
@@ -128,8 +139,9 @@ function BarSeqRClearSelected() {
     // First we remove the actual selected
     window.selected_conditions = [] 
     // Then we remove the children in the display
-    let selected_div_dobj = BarSeqRRemoveChildrenNodes('chosen-display-div')
-    console.log("Cleared selected conditions.")
+    BarSeqRRemoveChildrenNodes('chosen-display-div')
+    BarSeqRRemoveChildrenNodes('selected-point-display')
+    //console.log("Cleared selected conditions.")
     refreshScatterPlotAxes('graph-svg',
                            volcano_object,
                            SVGGraphAxes)
@@ -283,7 +295,9 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
         gene_display = document.createElement("p")
         fit_display.innerHTML = "Fitness: " + inp_d['x_val'].toString()
         t_display.innerHTML = "T score: " + inp_d['y_val'].toString()
-        gene_display.innerHTML = "Gene: " + gene_info_list[1] + ". Description: " + gene_info_list[4]
+        gene_display.innerHTML = "Gene Description: " + gene_info_list[4] +
+                                ". Locus Tag: " + gene_info_list[1] + 
+                                ". Gene SysName: " + gene_info_list[2] + "."
         display_dobj.appendChild(gene_display)
         display_dobj.appendChild(fit_display)
         display_dobj.appendChild(t_display)
@@ -291,13 +305,21 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
 
         x_fit_display = document.createElement("p")
         y_fit_display = document.createElement("p")
+        x_t_display = document.createElement("p")
+        y_t_display = document.createElement("p")
         gene_display = document.createElement("p")
         x_fit_display.innerHTML = "X Fitness: " + inp_d['x_val'].toString()
+        x_t_display.innerHTML = "X T-Score (abs): " + inp_d['x_t_score'].toString()
         y_fit_display.innerHTML = "Y Fitness: " + inp_d['y_val'].toString()
-        gene_display.innerHTML = "Gene: " + gene_info_list[1] + ". Description: " + gene_info_list[4]
+        y_t_display.innerHTML = "Y T-Score (abs): " + inp_d['y_t_score'].toString()
+        gene_display.innerHTML = "Gene Description: " + gene_info_list[4] +
+                                ". Locus Tag: " + gene_info_list[1] + 
+                                ". Gene SysName: " + gene_info_list[2] + "."
         display_dobj.appendChild(gene_display)
         display_dobj.appendChild(x_fit_display)
+        display_dobj.appendChild(x_t_display)
         display_dobj.appendChild(y_fit_display)
+        display_dobj.appendChild(y_t_display)
     } else {
         console.log("Cannot recognize point type - no display")
     }
@@ -328,7 +350,7 @@ async function BarSeqRPlotComparedConditions(cond_a, cond_b) {
 
     let condition_info_obj = BarSeqRGetConditionListAndMinMax(col_ix_a, col_ix_b)
 
-    console.log(condition_info_obj)
+    //console.log(condition_info_obj)
 
     
     let new_ret_d = await refreshScatterPlotAxes('graph-svg',
@@ -374,6 +396,8 @@ function BarSeqRGetConditionListAndMinMax(col_ix_a, col_ix_b) {
 
         let x_val = window.volcano_object['fit_mega_matrix'][i][col_ix_a]
         let y_val = window.volcano_object['fit_mega_matrix'][i][col_ix_b]
+        let x_t_score = window.volcano_object['t_mega_matrix'][i][col_ix_a]
+        let y_t_score = window.volcano_object['t_mega_matrix'][i][col_ix_b]
 
         // Checking for x and y min/max
         if (x_val < min_x) {
@@ -392,7 +416,9 @@ function BarSeqRGetConditionListAndMinMax(col_ix_a, col_ix_b) {
             "typ": "compare",
             "row_num": i.toString(),
             "x_val": x_val,
-            "y_val": y_val
+            "y_val": y_val,
+            "x_t_score": x_t_score,
+            "y_t_score": y_t_score
         }
         fita2fitb_list.push([x_val,
                             y_val,

@@ -122,9 +122,18 @@ def add_files_to_js_dir(op_dir,
                         "compatible: t - {}, fit - {}".format(
                             inp_fit_score_fp, inp_t_score_fp))
 
+    # We switch the 'desc' part of the headers to have condition before set #
+    for i in range(len(t_column_headers)):
+        desc = t_column_headers[i]
+        desc_list = desc.split(' ')
+        new_desc_list = desc_list[1:] + desc_list[0:1]
+        new_desc = ' '.join(new_desc_list)
+        t_column_headers[i] = new_desc
+
+
     # We get map from index number to column name
     ix_to_clm_nm = {i:t_column_headers[i] for i in range(len(t_column_headers))}
-    # We get ther reverse map as well
+    # We get their reverse map as well
     clm_nm_to_ix = {v: k for k, v in ix_to_clm_nm.items()}
 
 

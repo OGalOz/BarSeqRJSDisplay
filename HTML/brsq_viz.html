@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>BFirm BarSeqR Visualization</title>
     <!-- Base JS util files: --!>
     <script src="JS/d3.min.js"></script>
     <script src="JS/LayoutUtil.js"></script>
@@ -60,9 +60,9 @@
             window.ret_d = await createScatterPlotAxes('graph-svg', 
                                                     volcano_object, 
                                                     SVGGraphAxes)
-            BarSeqRPopulateTable(exp2col['ix2col'])
+            BarSeqRPopulateTable(exp2col['col2ix'], exp2col['ix2col'])
             BarSeqRPrepareOnClicks() 
-            window.BarSeqROrganismName = 'Default Organism Name'
+    window.BarSeqROrganismName = "BFirm"
         }
         prepareViz()
 
