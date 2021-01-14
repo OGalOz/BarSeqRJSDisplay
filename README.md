@@ -34,4 +34,5 @@ SampleDATA/t_organism_BFirm.tsv BFirm 5 1
 
 
 ### Images:
-
+![Screenshot](img/BarSeqR_comp.png)
+![Screenshot](img/BarSeqRVolcano.png)

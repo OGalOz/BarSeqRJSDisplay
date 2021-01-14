@@ -65,7 +65,7 @@ window.BasicShellData = {
 
             },
             "unq_prp": {
-                "innerHTML": "Fitness vs T Score Volcano Plot"
+                "innerHTML": "BarSeqR Analysis Plot"
             }
         },
         "graph_svg_container_div": {
