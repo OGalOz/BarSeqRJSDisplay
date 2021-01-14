@@ -34,5 +34,7 @@ SampleDATA/t_organism_BFirm.tsv BFirm 5 1
 
 
 ### Images:
+* Comparing two conditions:
 ![Screenshot](img/BarSeqR_comp.png)
+* Single condition volcano plot:
 ![Screenshot](img/BarSeqRVolcano.png)
