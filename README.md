@@ -14,6 +14,13 @@ python3 make_BarSeqR_html_dir.py newHTMLdir_path organism_fitness.tsv organism_t
 ```
 * You'll need a browser that can run Javascript, e.g. Chrome, Firefox, Opera, Safari
 
+## Example Using Sample Data
+```shell
+python3 make_BarSeqR_html_dir.py BFirmHTML SampleDATA/fit_organism_BFirm.tsv \
+SampleDATA/t_organism_BFirm.tsv BFirm 5 1
+```
+* We run the program on existing BFirm data and create a directory at BFirmHTML
+
 ## How to use:
 1. Volcano Plot:
     * Choose a condition, then click on 'Volcano Plot'
