@@ -262,6 +262,9 @@ function BarSeqRPlotFirstSelectedCondition() {
     } else if (window.selected_conditions.length == 2) {
         alert('Plotting the first condition selected out of 2')
     }
+    refreshScatterPlotAxes('graph-svg',
+                           volcano_object,
+                           SVGGraphAxes)
     condition_to_plot = window.selected_conditions[0]
     BarSeqRPlotCondition(condition_to_plot)
 }
@@ -327,12 +330,16 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
 }
 
 function BarSeqRCompareConditions() {
-    
+
+
     let sC = window.selected_conditions
     if ( sC.length < 2) {
         alert("You must select two conditions to compare")
         return;
     } else {
+        refreshScatterPlotAxes('graph-svg',
+                           volcano_object,
+                           SVGGraphAxes)
         BarSeqRPlotComparedConditions(sC[0], sC[1])
     }
 }
