@@ -1,5 +1,66 @@
 
 
+
+function BarSeqRComputeCorrelationBetweenChosenConditions() {
+    // We use jstat to compute the correlation coefficient
+    let num_selected = window.selected_conditions.length
+    if (num_selected < 2) {
+        alert("In order to compute correlation you need 2 selected conditions." 
+                + " Currently " + num_selected.toString() + ". They are: " 
+                + window.selected_conditions.join(", "))
+    } else if (num_selected == 2) {
+
+        // We get the matrix column index of the conditions
+        let col_ix_a = window.exp2col['col2ix'][window.selected_conditions[0]]
+        let col_ix_b = window.exp2col['col2ix'][window.selected_conditions[1]]
+        
+        // We create the two 'vectors' that hold the values
+        let arr_a = []
+        let arr_b = []
+        for (let i=0; i<window.volcano_object['fit_mega_matrix'].length; i++) {
+            arr_a.push(volcano_object['fit_mega_matrix'][i][col_ix_a])
+            arr_b.push(volcano_object['fit_mega_matrix'][i][col_ix_b])
+        }
+        let corcoef = jStat.corrcoeff(arr_a, arr_b)
+        return corcoef
+    }
+}
+
+function BarSeqRComputeMeanof(typ) {
+    // typ: str ('gene', 'cond' )
+    // We use jStat lib to compute the mean
+    
+    if (typ == "gene") {
+        let last_gene = window.last_plotted_gene
+        let row_num = gene2row["gene_id4_2rownum"][last_gene][0]
+        let values = volcano_object["fit_mega_matrix"][row_num]  
+        mean = jStat.mean(values)
+        return mean
+    } else if (typ == "cond") {
+
+        let num_selected = window.selected_conditions.length
+        if (num_selected == 0) {
+            alert("In order to compute the mean you need at least a single" 
+                  + " selected condition.")
+        } else {
+            if (num_selected == 2) {
+                alert("Computing the mean of the first of two selected conditions")
+            }
+            // We get the matrix column index of the conditions
+            let col_ix = window.exp2col['col2ix'][window.selected_conditions[0]]
+
+            // We create the vector that holds the values
+            let arr_a = []
+            for (let i=0; i<window.volcano_object['fit_mega_matrix'].length; i++) {
+                arr_a.push(volcano_object['fit_mega_matrix'][i][col_ix])
+            }
+            let mean = jStat.mean(arr_a)
+            return mean 
+        }
+    }
+}
+
+
 async function BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str) {
     /* gene_id4_str: (str) A unique id for the gene with
      *  4 identifiers (does not include description)
@@ -21,24 +82,22 @@ async function BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str) {
 
     // We note which gene 
     updateGeneInfoBox(gene_id4_str)
+    window.last_plotted_gene = gene_id4_str
 
     let gene_v_cond_row_info = getRowInfoForGeneAgainstCondition(gene_id4_str)
 
-    console.log(gene_v_cond_row_info)
     let gene_plot_object = {
         "min_x": 0.1,
         "max_x": gene_v_cond_row_info.length + 1,
         "min_y": gene_v_cond_row_info[0][1],
         "max_y": gene_v_cond_row_info[gene_v_cond_row_info.length - 1][1],
     }
-    console.log(gene_plot_object)
 
     let new_ret_d = await refreshScatterPlotAxes('graph-svg',
                            gene_plot_object,
                            gene_plot_axes)
 
 
-    console.log(new_ret_d)
 
     populateSVGWithScatterPoints('graph-svg',
                                  gene_v_cond_row_info,
@@ -49,8 +108,11 @@ async function BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str) {
                                  window.ret_d['x_axis_len'],
                                  window.ret_d['y_axis_len'],
                                  point_contains_data = true, 
-                                 point_click_function = BarSeqRShowInfoRelatedToPoint
+                                 point_click_function = BarSeqRShowInfoRelatedToPoint,
+                                 point_radius = 7
                                 )
+
+    console.log("Mean Fitness: " + (BarSeqRComputeMeanof('gene')).toString())
 
     return null;
 
@@ -213,7 +275,7 @@ function BarSeqRAddToSelected(inp_list) {
         window.selected_conditions = []
     }
     //Note that the selected list is a global list
-    num_selected = window.selected_conditions.length
+    let num_selected = window.selected_conditions.length
     if (num_selected >= 2) {
         alert("maximum number of selected conditions to compare is 2")
     } else {
@@ -375,6 +437,8 @@ async function BarSeqRPlotCondition(condition_str, clear_svg=true) {
                                  point_contains_data = true, 
                                  point_click_function = BarSeqRShowInfoRelatedToPoint
                                 )
+    console.log("mean fitness: " + (BarSeqRComputeMeanof('cond')).toString())
+
 }
 
 function BarSeqRPlotFirstSelectedCondition() {
@@ -420,15 +484,13 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
 
     let display_dobj = BarSeqRRemoveChildrenNodes('selected-point-display')
     let gene_info_list = null 
-    if (inp_d['typ'] == "volcano") {
+    if (inp_d['typ'] == "volcano" || inp_d['typ'] == "compare") {
 
         gene_info_list = BarSeqRGetGeneInfoFromRow(inp_d['row_num'])
-        fit_display = document.createElement("p")
-        t_display = document.createElement("p")
+
         gene_display = document.createElement("p")
         gene_plot_link = document.createElement("a")
-        fit_display.innerHTML = "Fitness: " + inp_d['x_val'].toString()
-        t_display.innerHTML = "T score: " + inp_d['y_val'].toString()
+
         gene_display.innerHTML = "Gene Description: " + gene_info_list[4] +
                                 ". Locus Tag: " + gene_info_list[1] + 
                                 ". Gene SysName: " + gene_info_list[2] + "."
@@ -443,28 +505,29 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
         }
         display_dobj.appendChild(gene_display)
         display_dobj.appendChild(gene_plot_link)
-        display_dobj.appendChild(fit_display)
-        display_dobj.appendChild(t_display)
-    } else if (inp_d['typ'] == "compare") {
 
-        gene_info_list = BarSeqRGetGeneInfoFromRow(inp_d['row_num'])
-        x_fit_display = document.createElement("p")
-        y_fit_display = document.createElement("p")
-        x_t_display = document.createElement("p")
-        y_t_display = document.createElement("p")
-        gene_display = document.createElement("p")
-        x_fit_display.innerHTML = "X Fitness: " + inp_d['x_val'].toString()
-        x_t_display.innerHTML = "X T-Score (abs): " + inp_d['x_t_score'].toString()
-        y_fit_display.innerHTML = "Y Fitness: " + inp_d['y_val'].toString()
-        y_t_display.innerHTML = "Y T-Score (abs): " + inp_d['y_t_score'].toString()
-        gene_display.innerHTML = "Gene Description: " + gene_info_list[4] +
-                                ". Locus Tag: " + gene_info_list[1] + 
-                                ". Gene SysName: " + gene_info_list[2] + "."
-        display_dobj.appendChild(gene_display)
-        display_dobj.appendChild(x_fit_display)
-        display_dobj.appendChild(x_t_display)
-        display_dobj.appendChild(y_fit_display)
-        display_dobj.appendChild(y_t_display)
+        if (inp_d['typ'] == "volcano") {
+            fit_display = document.createElement("p")
+            t_display = document.createElement("p")
+            fit_display.innerHTML = "Fitness: " + inp_d['x_val'].toString()
+            t_display.innerHTML = "T score: " + inp_d['y_val'].toString()
+            display_dobj.appendChild(fit_display)
+            display_dobj.appendChild(t_display)
+        } else {
+            x_fit_display = document.createElement("p")
+            y_fit_display = document.createElement("p")
+            x_t_display = document.createElement("p")
+            y_t_display = document.createElement("p")
+            x_fit_display.innerHTML = "X Fitness: " + inp_d['x_val'].toString()
+            x_t_display.innerHTML = "X T-Score (abs): " + inp_d['x_t_score'].toString()
+            y_fit_display.innerHTML = "Y Fitness: " + inp_d['y_val'].toString()
+            y_t_display.innerHTML = "Y T-Score (abs): " + inp_d['y_t_score'].toString()
+            display_dobj.appendChild(x_fit_display)
+            display_dobj.appendChild(x_t_display)
+            display_dobj.appendChild(y_fit_display)
+            display_dobj.appendChild(y_t_display)
+        }
+
     } else if (inp_d['typ'] == "gene_cond") {
         let condition_link = document.createElement("a")
         let col_str = exp2col['ix2col'][inp_d['condition_column']]
@@ -494,6 +557,9 @@ function BarSeqRCompareConditions() {
                            volcano_object,
                            SVGGraphAxes)
         BarSeqRPlotComparedConditions(sC[0], sC[1])
+        console.log("Correlation: " + 
+                    (BarSeqRComputeCorrelationBetweenChosenConditions()
+                    ).toString())
     }
 }
 

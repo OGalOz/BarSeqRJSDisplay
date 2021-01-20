@@ -679,17 +679,17 @@ function addManyPointsToPlot(d3svg,
                     if (quadrant_coloration == null) {
                         return point_color
                     } else {
-                        if (d[0]*d[1] >= 0) {
-                            if (d[0] > 0) {
+                        if (d[0] >= 0) {
+                            if (d[1] >= 0) {
                                 return quadrant_coloration['q1']
                             } else {
-                                return quadrant_coloration['q3']
+                                return quadrant_coloration['q4']
                             }
                         } else {
-                            if (d[0] > 0) {
-                                return quadrant_coloration['q4']
-                            } else {
+                            if (d[1] >= 0) {
                                 return quadrant_coloration['q2']
+                            } else {
+                                return quadrant_coloration['q3']
                             }
                         }
                     }

@@ -327,7 +327,8 @@ async function populateSVGWithScatterPoints(svg_id,
                                       x_axis_len,
                                       y_axis_len,
                                       point_contains_data = false, 
-                                      point_click_function = null
+                                      point_click_function = null,
+                                      point_radius = 4.5
                                       ) {
     /*
      *
@@ -367,7 +368,7 @@ async function populateSVGWithScatterPoints(svg_id,
                             y_axis_len,
                             y_axis_start,
                             y_ticks[0],
-                            4.5,
+                            point_radius,
                             async=true,
                             quadrant_coloration = my_qc,
                             point_contains_data= point_contains_data,
