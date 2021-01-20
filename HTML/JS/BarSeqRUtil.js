@@ -121,8 +121,8 @@ function BarSeqRAddToSelected(inp_list) {
 
         //console.log(selected_div_dobj)
         let color_d = {
-            "0": "#9400D3",
-            "1": "#008000"
+            "0": "#D2691E",
+            "1": "#48D1CC"
         }
         for (let i = 0; i<window.selected_conditions.length; i++) {
             let current_p_tag = document.createElement("p")
@@ -176,8 +176,8 @@ function BarSeqRPrepareOnClicks() {
     //deep copy of SVGGraphAxes for later purposes:
     window.compare_axes_info = JSON.parse(JSON.stringify(SVGGraphAxes));
     compare_axes_info["y_i"]["y_title_i"]["label"] = "Fitness Score"
-    compare_axes_info["y_i"]["y_title_i"]["style_i"]["fontColor"] = "green"
-    compare_axes_info["x_i"]["x_title_i"]["style_i"]["fontColor"] = "purple"
+    compare_axes_info["y_i"]["y_title_i"]["style_i"]["fontColor"] = "#48D1CC"
+    compare_axes_info["x_i"]["x_title_i"]["style_i"]["fontColor"] = "#D2691E"
 }
 
 function BarSeqRgetConditionFitnessVsTScoreList(condition_str) {
