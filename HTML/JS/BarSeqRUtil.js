@@ -396,34 +396,62 @@ function BarSeqRgetConditionFitnessVsTScoreList(condition_str) {
 
     let fit_to_t_list = []
 
+    let min_x = 0
+    let max_x = 0
+    let min_y = 0
+    let max_y = 0
+
     for (let i=0; i<window.volcano_object['fit_mega_matrix'].length; i++) {
+        let cx = window.volcano_object['fit_mega_matrix'][i][col_ix]
+        let cy = window.volcano_object['t_mega_matrix'][i][col_ix]
+
+        if (cx < min_x) {
+            min_x = cx
+        } else if (cx > max_x) {
+            max_x = cx
+        }
+        if (cy < min_y) {
+            min_y = cy
+        } else if (cy > max_y) {
+            max_y = cy
+        }
+
         let point_data = {
             "typ": "volcano",
             "row_num": i.toString(),
-            "x_val": window.volcano_object['fit_mega_matrix'][i][col_ix],
-            "y_val": window.volcano_object['t_mega_matrix'][i][col_ix]
+            "x_val":cx ,
+            "y_val": cy
         }
-        fit_to_t_list.push([window.volcano_object['fit_mega_matrix'][i][col_ix],
-                            window.volcano_object['t_mega_matrix'][i][col_ix],
+        fit_to_t_list.push([cx,
+                            cy,
                             point_data])
     }
 
-    return fit_to_t_list
+    boundaries_object = {
+        "min_x": min_x,
+        "max_x": max_x,
+        "min_y": min_y,
+        "max_y": max_y
+    }
+
+    return [fit_to_t_list, boundaries_object]
 
 }
 
 async function BarSeqRPlotCondition(condition_str, clear_svg=true) {
 
-    /*
-    if (clear_svg) {
-        await refreshScatterPlotAxes('graph-svg', 
-                               volcano_object, 
-                               SVGGraphAxes)
-    }
-    */
 
     // ret_d is attached to the windo
-    let fit_to_t_list = await BarSeqRgetConditionFitnessVsTScoreList(condition_str)
+    let ret_list = await BarSeqRgetConditionFitnessVsTScoreList(condition_str)
+    let fit_to_t_list  = ret_list[0]
+    console.log(fit_to_t_list)
+    console.log(ret_list[1])
+
+    let my_ret = await refreshScatterPlotAxes('graph-svg',
+                           ret_list[1],
+                           SVGGraphAxes)
+
+    console.log(my_ret)
 
     //console.log(window.ret_d)
 
@@ -454,9 +482,6 @@ function BarSeqRPlotFirstSelectedCondition() {
     } else if (window.selected_conditions.length == 2) {
         alert('Plotting the first condition selected out of 2')
     }
-    refreshScatterPlotAxes('graph-svg',
-                           volcano_object,
-                           SVGGraphAxes)
     condition_to_plot = window.selected_conditions[0]
     BarSeqRPlotCondition(condition_to_plot)
 }
