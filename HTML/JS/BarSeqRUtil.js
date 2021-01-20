@@ -1,4 +1,115 @@
 
+
+async function BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str) {
+    /* gene_id4_str: (str) A unique id for the gene with
+     *  4 identifiers (does not include description)
+    //
+    //  Function process:
+            gene_id4_str -> row in t-score matrix along with original
+                        index of row
+            row in t score matrix is sorted from lowest to highest 
+            while original indices are maintained
+            
+            This list of lists 
+            <<t score of condition, 1, index of condition>,
+             <t score of condition, 2, index of condition>,
+             ...,>
+            is passed into the visualizer, where it is converted into 
+            actual points on the plot.
+    
+    */
+
+    // We note which gene 
+    updateGeneInfoBox(gene_id4_str)
+
+    let gene_v_cond_row_info = getRowInfoForGeneAgainstCondition(gene_id4_str)
+
+    console.log(gene_v_cond_row_info)
+    let gene_plot_object = {
+        "min_x": 0.1,
+        "max_x": gene_v_cond_row_info.length + 1,
+        "min_y": gene_v_cond_row_info[0][1],
+        "max_y": gene_v_cond_row_info[gene_v_cond_row_info.length - 1][1],
+    }
+    console.log(gene_plot_object)
+
+    let new_ret_d = await refreshScatterPlotAxes('graph-svg',
+                           gene_plot_object,
+                           gene_plot_axes)
+
+
+    console.log(new_ret_d)
+
+    populateSVGWithScatterPoints('graph-svg',
+                                 gene_v_cond_row_info,
+                                 window.ret_d['x_ticks_list'],
+                                 window.ret_d['y_ticks_list'],
+                                 window.ret_d['x_axis_start'],
+                                 window.ret_d['y_axis_start'],
+                                 window.ret_d['x_axis_len'],
+                                 window.ret_d['y_axis_len'],
+                                 point_contains_data = true, 
+                                 point_click_function = BarSeqRShowInfoRelatedToPoint
+                                )
+
+    return null;
+
+}
+
+function updateGeneInfoBox(gene_id4_str) {
+        
+    /* gene_id4_str: (str) A unique id for the gene with
+     *  4 identifiers (does not include description)
+     */
+
+    let gene_desc = gene2row["gene_id4_2rownum"][gene_id4_str][1];
+    let gene_display_dobj = document.getElementById('selected-gene-display');
+    gene_display_dobj.innerHTML = "Gene description: " + gene_desc;
+
+    
+
+}
+
+function getRowInfoForGeneAgainstCondition(gene_id4_str) {
+
+    /* gene_id4_str: (str) A unique id for the gene with
+     *  4 identifiers (does not include description)
+     */
+    
+    if (!(gene_id4_str in gene2row["gene_id4_2rownum"])) {
+        throw gene_id4_str + " not found in gene ids object, cannot plot."
+    }
+    let row_num = gene2row["gene_id4_2rownum"][gene_id4_str][0]
+    let fit_score_row = volcano_object["fit_mega_matrix"][row_num]  
+    let fit_score_and_condition_ix_list = []
+    for (let i =0; i<fit_score_row.length; i++) {
+        fit_score_and_condition_ix_list.push([fit_score_row[i], i])
+    }
+    // Now we sort the above list by the t score value of the sublists
+    fit_score_and_condition_ix_list.sort((a,b) => {
+        if (a[0] >= b[0]) {
+            return 1
+        } else {
+            return -1
+        }
+    })
+
+    // Now we add the internal numbering for plotting's sake
+    for (let i=0; i<fit_score_and_condition_ix_list.length; i++) {
+        let point_data = {
+            "typ": "gene_cond",
+            "condition_column": fit_score_and_condition_ix_list[i][1],
+            "y_val": fit_score_and_condition_ix_list[i][0]
+        }
+        fit_score_and_condition_ix_list[i] = [i,
+                                              fit_score_and_condition_ix_list[i][0],
+                                            point_data
+                                            ]
+    }
+    return fit_score_and_condition_ix_list
+}
+
+
 // Here we do functions like populating the table 
 // with the experiments
 
@@ -141,6 +252,8 @@ function BarSeqRClearSelected() {
     // Then we remove the children in the display
     BarSeqRRemoveChildrenNodes('chosen-display-div')
     BarSeqRRemoveChildrenNodes('selected-point-display')
+    BarSeqRRemoveChildrenNodes('selected-gene-display')
+
     //console.log("Cleared selected conditions.")
     refreshScatterPlotAxes('graph-svg',
                            volcano_object,
@@ -173,11 +286,21 @@ function BarSeqRPrepareOnClicks() {
             }
 
     
-    //deep copy of SVGGraphAxes for later purposes:
-    window.compare_axes_info = JSON.parse(JSON.stringify(SVGGraphAxes));
-    compare_axes_info["y_i"]["y_title_i"]["label"] = "Fitness Score"
-    compare_axes_info["y_i"]["y_title_i"]["style_i"]["fontColor"] = "#48D1CC"
-    compare_axes_info["x_i"]["x_title_i"]["style_i"]["fontColor"] = "#D2691E"
+    //deep copy of SVGGraphAxes for Compare Conditions Plot:
+
+    if (!(window.hasOwnProperty('compare_axes_info'))) {
+        window.compare_axes_info = JSON.parse(JSON.stringify(SVGGraphAxes));
+        compare_axes_info["y_i"]["y_title_i"]["label"] = "Fitness Score"
+        compare_axes_info["y_i"]["y_title_i"]["style_i"]["fontColor"] = "#48D1CC"
+        compare_axes_info["x_i"]["x_title_i"]["style_i"]["fontColor"] = "#D2691E"
+    }
+    if (!(window.hasOwnProperty('gene_plot_axes'))) {
+        window.gene_plot_axes = JSON.parse(JSON.stringify(SVGGraphAxes));
+        gene_plot_axes["x_i"]["x_title_i"]["label"] = "Condition"
+        gene_plot_axes["y_i"]["y_title_i"]["label"] = "Fitness Score"
+        gene_plot_axes["y_i"]["y_title_i"]["style_i"]["fontColor"] = "black"
+        gene_plot_axes["x_i"]["x_title_i"]["style_i"]["fontColor"] = "black"
+    }
 }
 
 function BarSeqRgetConditionFitnessVsTScoreList(condition_str) {
@@ -284,28 +407,47 @@ function BarSeqRGetGeneInfoFromRow(row_num) {
 function BarSeqRShowInfoRelatedToPoint(inp_d) {
 
     // inp_d: Object which contains the following keys: 
-    //      row_num: (Num) int representing row from which
-    //               point came
-    //      typ: (str) from ["volcano", "compare"] 
-    //      x_val: Num
-    //      y_val: Num
+    //      typ: (str) from ["volcano", "compare", "gene_cond"] 
+    //          IF typ volcano, compare:
+    //              row_num: (Num) int representing row from which
+    //                       point came
+    //              x_val: Num
+    //              y_val: Num
+    //          IF typ gene_cond:
+    //              [condition_column]: (Num) int representing
+    //                      column from which point came
+    //              [y_val]: Num (fitness value)
 
     let display_dobj = BarSeqRRemoveChildrenNodes('selected-point-display')
-    let gene_info_list = BarSeqRGetGeneInfoFromRow(inp_d['row_num'])
+    let gene_info_list = null 
     if (inp_d['typ'] == "volcano") {
+
+        gene_info_list = BarSeqRGetGeneInfoFromRow(inp_d['row_num'])
         fit_display = document.createElement("p")
         t_display = document.createElement("p")
         gene_display = document.createElement("p")
+        gene_plot_link = document.createElement("a")
         fit_display.innerHTML = "Fitness: " + inp_d['x_val'].toString()
         t_display.innerHTML = "T score: " + inp_d['y_val'].toString()
         gene_display.innerHTML = "Gene Description: " + gene_info_list[4] +
                                 ". Locus Tag: " + gene_info_list[1] + 
                                 ". Gene SysName: " + gene_info_list[2] + "."
+        gene_plot_link.innerHTML = "Plot Gene"
+        gene_plot_link.style.textDecoration = "underline"
+        gene_plot_link.style.color = "blue"
+        gene_plot_link.style.cursor = "pointer"
+        gene_plot_link.onclick = function () {
+            gene_id4_str = gene_info_list.slice(0,4).join('|')
+            console.log(gene_id4_str)
+            BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str)
+        }
         display_dobj.appendChild(gene_display)
+        display_dobj.appendChild(gene_plot_link)
         display_dobj.appendChild(fit_display)
         display_dobj.appendChild(t_display)
     } else if (inp_d['typ'] == "compare") {
 
+        gene_info_list = BarSeqRGetGeneInfoFromRow(inp_d['row_num'])
         x_fit_display = document.createElement("p")
         y_fit_display = document.createElement("p")
         x_t_display = document.createElement("p")
@@ -323,6 +465,17 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
         display_dobj.appendChild(x_t_display)
         display_dobj.appendChild(y_fit_display)
         display_dobj.appendChild(y_t_display)
+    } else if (inp_d['typ'] == "gene_cond") {
+        let condition_link = document.createElement("a")
+        let col_str = exp2col['ix2col'][inp_d['condition_column']]
+        condition_link.innerHTML = col_str 
+        condition_link.onclick = function() {
+            BarSeqRAddToSelected(['chosen-display-div', col_str])
+        }
+        let y_fit_display = document.createElement("p")
+        y_fit_display.innerHTML = "Fitness Value: " + inp_d['y_val'].toString()
+        display_dobj.appendChild(condition_link)
+        display_dobj.appendChild(y_fit_display)
     } else {
         console.log("Cannot recognize point type - no display")
     }

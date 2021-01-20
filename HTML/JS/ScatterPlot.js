@@ -49,8 +49,8 @@ async function createScatterPlotAxes(svg_id, scatter_data, axes_info,
 
     let x_axis_start_val = Math.ceil(scatter_data["min_x"] - 1);
     let x_axis_end_val = Math.floor(scatter_data["max_x"] + 1);
-    let y_axis_start_val = Math.floor(scatter_data["min_y"] - 1);
-    let y_axis_end_val = Math.ceil(scatter_data["max_y"] + 1);
+    let y_axis_start_val = Math.ceil(scatter_data["min_y"] - 1);
+    let y_axis_end_val = Math.floor(scatter_data["max_y"] + 1);
 
     // GetProperTicks is function from d3SVGUtil
     let x_ticks_list = GetProperTicks(x_axis_start_val, x_axis_end_val)

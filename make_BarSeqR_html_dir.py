@@ -228,9 +228,27 @@ def add_files_to_js_dir(op_dir,
         g.write("window.exp2col = " + \
                 json.dumps(barseqr_column_info_d))
 
+
+    gene2rownum = {'|'.join(v.split('|')[0:-1]): [k, v.split('|')[-1]] for k, v in \
+                    row_num_to_gene_info.items()}
+
+    genedesc2id4 = {}
+    num_repeated_desc = 0
+    for v in row_num_to_gene_info.values():
+        gene_desc = v.split('|')[-1]
+        gene_id4 = '|'.join(v.split('|')[0:-1])
+        if gene_desc in genedesc2id4:
+            genedesc2id4[gene_desc].append(gene_id4)
+            logging.debug(gene_desc)
+            num_repeated_desc += 1
+            logging.debug(num_repeated_desc)
+        else:
+            genedesc2id4[gene_desc] = [gene_id4]
+
     barseqr_row_info_d = {
         "rownum2gene": row_num_to_gene_info,
-        "gene2rownum": {v: k for k, v in row_num_to_gene_info.items()}
+        "gene_id4_2rownum": gene2rownum,
+        "desc2id4": genedesc2id4
     }
 
     logging.info("Writing genes to row number JSON at " + \
@@ -393,9 +411,15 @@ def convert_tsvs_to_json(
         g.write("window.exp2col = " + \
                 json.dumps(barseqr_column_info_d, indent=4))
 
+    # We make this dict so each gene hash doesn't contain the description
+    # The description is in the last part of the gene string,
+    # so we get rid of it
+    gene2rownum = {'|'.join(v.split('|')[0:-1]): k for k, v in \
+                    row_num_to_gene_info.items()}
+
     barseqr_row_info_d = {
         "rownum2gene": row_num_to_gene_info,
-        "gene2rownum": {v: k for k, v in row_num_to_gene_info.items()}
+        "gene2rownum": gene2rownum 
     }
 
     logging.info("Writing genes to row number JSON at " + \

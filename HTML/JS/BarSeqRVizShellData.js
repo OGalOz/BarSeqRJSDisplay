@@ -447,11 +447,76 @@ window.BasicShellData = {
                 "border": "2px solid gray",
                 "overflow": "auto"
             }
-        }
+        },
 
-
-        
-
+        "selected_gene_info_cnt" : {
+            "tag_type": "DIV",
+            "id_i": {
+                "parent_id": "bottom-bar",
+                "id": "selected-gene-full",
+                "class": "base-shell"
+            },
+            "size_loc_i": {
+                "values_type": "fractions",
+                "l": 0.5,
+                "t": 0,
+                "h": 1,
+                "w": 0.5
+            },
+            "style_i": {
+                "position": "absolute",
+                "border": "2px solid gray"
+            }
+        },
+        "selected_gene_info_title" : {
+            "tag_type": "DIV",
+            "id_i": {
+                "parent_id": "selected-gene-full",
+                "id": "selected-gene-title",
+                "class": "base-shell"
+            },
+            "size_loc_i": {
+                "values_type": "fractions",
+                "l": 0,
+                "t": 0,
+                "h": .3,
+                "w": 1
+            },
+            "style_i": {
+                "position": "absolute",
+                "border": "2px solid gray",
+                "fontWeight": "bold",
+                "textAlign": "center",
+                "justifyContent": "center",
+                "display": "flex",
+                "alignItems": "center",
+                "textDecoration": "underline",
+                "fontSize": "18px"
+            },
+            "unq_prp": {
+                "innerHTML": "Selected gene info:"
+            }
+        },
+        "selected_gene_info_display" : {
+            "tag_type": "DIV",
+            "id_i": {
+                "parent_id": "selected-gene-full",
+                "id": "selected-gene-display",
+                "class": "base-shell"
+            },
+            "size_loc_i": {
+                "values_type": "fractions",
+                "l": 0,
+                "t": 0.3,
+                "h": 0.7,
+                "w": 1
+            },
+            "style_i": {
+                "position": "absolute",
+                "border": "2px solid gray",
+                "overflow": "auto"
+            }
+        },
     }
 }
 
