@@ -9,6 +9,7 @@
     <script src="JS/d3SVGUtil.js"></script>
     <script src="JS/ScatterPlot.js"></script>
     <script src="JS/BarSeqRUtil.js"></script>
+    <script src="JS/jstat.min.js"></script>
 
     <!-- The Shell Data --!>
     <script src="JS/BarSeqRVizShellData.js"></script>
@@ -61,8 +62,10 @@
                                                     volcano_object, 
                                                     SVGGraphAxes)
             BarSeqRPopulateTable(exp2col['col2ix'], exp2col['ix2col'])
+            window.BarSeqROrganismName = "BFirm"
+            
             BarSeqRPrepareOnClicks() 
-    window.BarSeqROrganismName = "BFirm"
+
         }
         prepareViz()
 

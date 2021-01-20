@@ -112,7 +112,9 @@ async function BarSeqR_PlotGeneAgainstAllConditions(gene_id4_str) {
                                  point_radius = 7
                                 )
 
-    console.log("Mean Fitness: " + (BarSeqRComputeMeanof('gene')).toString())
+    //Add Mean Fitness to SVG
+    let mf_text = "Mean Fitness: " + (BarSeqRComputeMeanof('gene')).toString().slice(0,6)
+    makeText(d3svg, 'normal', 20, 20, 20, mf_text, 'black', id_txt=null) 
 
     return null;
 
@@ -437,7 +439,10 @@ async function BarSeqRPlotCondition(condition_str, clear_svg=true) {
                                  point_contains_data = true, 
                                  point_click_function = BarSeqRShowInfoRelatedToPoint
                                 )
-    console.log("mean fitness: " + (BarSeqRComputeMeanof('cond')).toString())
+
+    //Add Mean Fitness to SVG
+    let mf_text = "Mean Fitness: " + (BarSeqRComputeMeanof('cond')).toString().slice(0,6)
+    makeText(d3svg, 'normal', 20, 20, 20, mf_text, 'black', id_txt=null) 
 
 }
 
@@ -557,9 +562,11 @@ function BarSeqRCompareConditions() {
                            volcano_object,
                            SVGGraphAxes)
         BarSeqRPlotComparedConditions(sC[0], sC[1])
-        console.log("Correlation: " + 
-                    (BarSeqRComputeCorrelationBetweenChosenConditions()
-                    ).toString())
+
+        //Add Correlation Fitness to SVG
+        let fc_text = "Fitness Correlation: " + 
+            BarSeqRComputeCorrelationBetweenChosenConditions().toString().slice(0,6);
+        makeText(d3svg, 'normal', 20, 20, 20, fc_text, 'black', id_txt=null) 
     }
 }
 
