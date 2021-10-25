@@ -1,0 +1,5 @@
+SetName	Date_pool_expt_started	Drop	Person	Mutant Library	Description	gDNA plate	gDNA well	Index	Sequenced At	Media	Growth Method	Group	Temperature	pH	Liquid v. solid	Aerobic_v_Anaerobic	Shaking	Condition_1	Concentration_1	Units_1	Condition_2	Concentration_2	Units_2	Timecourse	Timecourse Sample	Growth Plate ID	Growth Plate wells	StartOD	EndOD	Total Generations
+In_Pool 	12/20/2020	NA	Ramon	SF_TSB	Time0	Input		A1	IT001	NA	IT001	In_Pool	37	NA	Liquid	Aerobic	200 rpm	Input	NA		NA	NA	NA	NA	NA	NA		0.02	0.3	NA
+1H_Pool 	12/20/2020	NA	Ramon	SF_TSB	1_H	1h_Infection	A2	IT002	NA	IT002	1H_Pool 37	NA	Liquid	Aerobic	201 rpm	Input	NA		NA	NA	NA	NA	NA	NA		0.02	0.3	NA
+2H_Pool 	12/20/2020	NA	Ramon	SF_TSB	2_H	2h_Infection	A3	IT003	NA	IT003	2H_Pool	37	NA	Liquid	Aerobic	202 rpm	Input	NA		NA	NA	NA	NA	NA	NA		0.02	0.3	NA
+4H_Pool 	12/20/2020	NA	Ramon	SF_TSB	4_H	4h_Infection	A4	IT004	NA	IT004	4H_Pool	37	NA	Liquid	Aerobic	203 rpm	Input	NA		NA	NA	NA	NA	NA	NA		0.02	0.3	NA

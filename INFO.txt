@@ -1,5 +1,8 @@
 Program Info:
- 
+
+To run, consider sample_start.sh
+
+
 So far there are 3 important data objects:
 
     1. We get a mapping from column number to set name

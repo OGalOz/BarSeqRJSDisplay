@@ -25,7 +25,7 @@ and then a variable number of sets with different conditions
 def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t,
                         inp_exps_used=None,
                         org_name="Unknown",
-                        col_start="5",
+                        col_start=5,
                         tmp_dir="./tmp"):
     """ We make an HTML directory from which to run visualization
     
@@ -99,6 +99,11 @@ def add_files_to_js_dir(op_dir,
     """
     All inputs string, col_start is string of int.
     inp_exps_used could be None
+    Description:
+        Within the function 'check_input_files' we look at the input tables,
+        replace them with ones that match the rest of the program's way
+        of running things, which originally took in TSV files 
+        that have a certain configuration.
     """
     
     JS_dir = os.path.join(op_dir, "JS")
@@ -119,20 +124,24 @@ def add_files_to_js_dir(op_dir,
             raise Exception("Input file for exps {} does not exist".format(
                             inp_exps_used))
 
-    fit_fp, t_fp = check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_index, org_name)
+    fit_fp, t_fp = check_input_files(inp_fit_score_fp, inp_t_score_fp,
+                                     inp_exps_used, 
+                                     tmp_dir, column_start_index, org_name)
     column_start_index = 5
 
     Fit_tsv_fh = open(fit_fp, "r")
     T_tsv_fh = open(t_fp, "r")
-    if eb:
-        expsUsed_df = pd.read_table(inp_exps_used, sep="\t")
+
+    #if eb:
+    #    expsUsed_df = pd.read_table(inp_exps_used, sep="\t")
 
 
     # We get the headers in lists
     fit_headers = Fit_tsv_fh.readline().rstrip().split('\t')
     t_headers = T_tsv_fh.readline().rstrip().split('\t')
-    if eb:
-        exps_headers = expsUsed_df.columns.to_list()
+
+    #if eb:
+    #    exps_headers = expsUsed_df.columns.to_list()
 
 
     # Below fit_column_headers refers to condition sets
@@ -290,7 +299,8 @@ def add_files_to_js_dir(op_dir,
     return None
 
 
-def check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_index, org_name):
+def check_input_files(inp_fit_score_fp, inp_t_score_fp, inp_exps_used, 
+                      tmp_dir, column_start_index, org_name):
     """
     Description:
         This function is used to verify that the formats in which the files
@@ -300,55 +310,57 @@ def check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_in
         their existing location.
     """
     
-    Fit_tsv_fh = open(inp_fit_score_fp, "r")
-    T_tsv_fh = open(inp_t_score_fp, "r")
 
 
     op_fit_fp = os.path.join(tmp_dir, "fit.tsv")
     op_t_fp = os.path.join(tmp_dir, "t.tsv")
     
-    # We get the headers in lists
-    fit_headers = Fit_tsv_fh.readline().rstrip().split('\t')
-    t_headers = T_tsv_fh.readline().rstrip().split('\t')
-
     fit_df = pd.read_table(inp_fit_score_fp)
     t_df = pd.read_table(inp_t_score_fp)
+
+    if inp_exps_used is not None:
+        t_df, fit_df = replace_headers_using_exps(t_df, inp_exps_used, column_start_index, fit_df)
+
     # Below fit_column_headers refers to condition sets
-    fit_column_headers = fit_df.columns.to_list()
-    t_column_headers = t_df.columns.to_list()
+    fit_df_column_headers = fit_df.columns.to_list()
+    t_df_column_headers = t_df.columns.to_list()
 
-    print(fit_column_headers)
-    print(t_column_headers)
-
-
-    fit_info = fit_df[fit_df.columns.to_list()[:column_start_index]]
-    t_info = t_df[t_df.columns.to_list()[:column_start_index]]
-    fit_values = fit_df[fit_df.columns.to_list()[column_start_index:]]
-    t_values = t_df[t_df.columns.to_list()[column_start_index:]]
+    
 
 
-    if len(fit_column_headers) != len(t_column_headers):
+    if len(fit_df_column_headers) != len(t_df_column_headers):
         raise Exception("fitness score file and t score file not " + \
                 "compatible: t - {}, fit - {}".format(
                     inp_fit_score_fp, inp_t_score_fp))
     else:
-        for i in range(len(fit_column_headers)):
-            if fit_column_headers[i] != t_column_headers[i]:
+        for i in range(len(fit_df_column_headers)):
+            if fit_df_column_headers[i] != t_df_column_headers[i]:
                 raise Exception("fitness score file and t score file not " + \
                         "compatible: t - {}, fit - {}".format(
                             inp_fit_score_fp, inp_t_score_fp))
 
     for x in ["locusId", "desc"]:
-        if x not in t_column_headers:
+        if x not in t_df_column_headers:
             raise Exception(f"Crucial header '{x}' missing from headers: " + \
-                            ", ".join(t_column_headers)
+                            ", ".join(t_df_column_headers)
                             )
+
+        
+
+
+    # Each of these is a subset of the dataframes, info is the columns besides
+    # the experiment names, e.g. 'desc', 'sysName', 'locusId', etc.
+    # 'values' is the columns of the experiment names.
+    fit_info = fit_df[fit_df_column_headers[:column_start_index]]
+    t_info = t_df[t_df_column_headers[:column_start_index]]
+    fit_values = fit_df[fit_df_column_headers[column_start_index:]]
+    t_values = t_df[t_df_column_headers[column_start_index:]]
 
     updated = False
     for x in ["sysName", "orgId", "geneName"]:
-        if x not in t_column_headers:
+        if x not in t_df_column_headers:
             logging.warning(f"Non-crucial header '{x}' missing from headers: " + \
-                            ", ".join(t_column_headers) + ". " + \
+                            ", ".join(t_df_column_headers) + ". " + \
                             "Adding header to dataframe."
                             )
             updated = True
@@ -371,6 +383,35 @@ def check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_in
 
     return op_fit_fp, op_t_fp
         
+
+def replace_headers_using_exps(t_df, inp_exps_used, column_start_index, fit_df):
+    """
+    We move the headers of the t scores dataframe from not having 
+    the experiment description in each to yes having the experiment
+    description after the set index name
+    """
+    
+    expsUsed_df = pd.read_table(inp_exps_used)
+    exp_cols = expsUsed_df.columns
+    required_exps_cols = ["SetName", "Index", "Description", "name"]
+    
+    for x in required_exps_cols:
+        if x not in exp_cols:
+            raise Exception(f"Column '{x}' not found in experiment file column names. " + \
+                            "Existing names: " + ", ".join(exp_cols))
+    
+    t_cols = t_df.columns
+    rename_d = {}
+    for index, row in expsUsed_df.iterrows():
+        setIX_name = row["name"]
+        if setIX_name in t_cols:
+            rename_d[setIX_name] = setIX_name + " " + row["Description"]
+
+    t_df = t_df.rename(mapper=rename_d, axis=1)
+    fit_df = fit_df.rename(mapper=rename_d, axis=1)
+
+    return t_df, fit_df
+
 
 
 

@@ -1,0 +1,5 @@
+SetName	Date_pool_expt_started	Drop	Person	Description	gDNA plate	gDNA well	Index	Media	Units_1	Group	num	short	name	t0set
+shig_set1	12/20/2020	False	Ramon	Time0	Input	A1	IT001	IT001		Time0	1	Time0	set1IT001	12/20/2020
+shig_set1	12/20/2020	False	Ramon	1_H	1h_Infection	A2	IT002	IT002		group1	2	1_H	set1IT002	12/20/2020
+shig_set1	12/20/2020	False	Ramon	2_H	2h_Infection	A3	IT003	IT003		group1	3	2_H	set1IT003	12/20/2020
+shig_set1	12/20/2020	False	Ramon	4_H	4h_Infection	A4	IT004	IT004		group1	4	4_H	set1IT004	12/20/2020

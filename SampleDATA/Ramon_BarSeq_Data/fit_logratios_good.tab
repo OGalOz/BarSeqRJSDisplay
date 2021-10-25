@@ -1,0 +1,1391 @@
+locusId	sysName	desc	comb
+EKN05_000480	EKN05_000480	hydrogenase-2 assembly chaperone	EKN05_000480 hydrogenase-2 assembly chaperone
+EKN05_000495	EKN05_000495	glutathione-dependent disulfide-bond oxidoreductase	EKN05_000495 glutathione-dependent disulfide-bond oxidoreductase
+EKN05_005075	EKN05_005075	bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase	EKN05_005075 bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase
+EKN05_005080	EKN05_005080	glycoside hydrolase family 25 protein	EKN05_005080 glycoside hydrolase family 25 protein
+EKN05_005085	EKN05_005085	GntR family transcriptional regulator	EKN05_005085 GntR family transcriptional regulator
+EKN05_005090	EKN05_005090	sugar kinase	EKN05_005090 sugar kinase
+EKN05_005100	EKN05_005100	MFS transporter	EKN05_005100 MFS transporter
+EKN05_005105	EKN05_005105	class I fructose-bisphosphate aldolase	EKN05_005105 class I fructose-bisphosphate aldolase
+EKN05_005115	EKN05_005115	tagatose-bisphosphate aldolase subunit GatZ	EKN05_005115 tagatose-bisphosphate aldolase subunit GatZ
+EKN05_005120	EKN05_005120	PTS galactitol transporter subunit IIA	EKN05_005120 PTS galactitol transporter subunit IIA
+EKN05_005125	EKN05_005125	PTS galactitol transporter subunit IIB	EKN05_005125 PTS galactitol transporter subunit IIB
+EKN05_005130	EKN05_005130	PTS galactitol transporter subunit IIC	EKN05_005130 PTS galactitol transporter subunit IIC
+EKN05_005135	EKN05_005135	galactitol-1-phosphate 5-dehydrogenase	EKN05_005135 galactitol-1-phosphate 5-dehydrogenase
+EKN05_005140	EKN05_005140	DeoR/GlpR transcriptional regulator	EKN05_005140 DeoR/GlpR transcriptional regulator
+EKN05_005145	EKN05_005145	lipid kinase YegS	EKN05_005145 lipid kinase YegS
+EKN05_005155	EKN05_005155	hypothetical protein	EKN05_005155 hypothetical protein
+EKN05_005160	EKN05_005160	U32 family peptidase	EKN05_005160 U32 family peptidase
+EKN05_005165	EKN05_005165	DUF1508 domain-containing protein	EKN05_005165 DUF1508 domain-containing protein
+EKN05_005170	EKN05_005170	two-component system response regulator BaeR	EKN05_005170 two-component system response regulator BaeR
+EKN05_005175	EKN05_005175	two-component system sensor histidine kinase BaeS	EKN05_005175 two-component system sensor histidine kinase BaeS
+EKN05_005180	EKN05_005180	MFS transporter	EKN05_005180 MFS transporter
+EKN05_005185	EKN05_005185	multidrug efflux RND transporter permease subunit MdtC	EKN05_005185 multidrug efflux RND transporter permease subunit MdtC
+EKN05_005190	EKN05_005190	multidrug efflux RND transporter permease subunit MdtB	EKN05_005190 multidrug efflux RND transporter permease subunit MdtB
+EKN05_005215	EKN05_005215	molecular chaperone	EKN05_005215 molecular chaperone
+EKN05_005225	EKN05_005225	helix-hairpin-helix domain-containing protein	EKN05_005225 helix-hairpin-helix domain-containing protein
+EKN05_005265	EKN05_005265	TerC family protein	EKN05_005265 TerC family protein
+EKN05_005270	EKN05_005270	polysaccharide export protein	EKN05_005270 polysaccharide export protein
+EKN05_005280	EKN05_005280	tyrosine-protein kinase Wzc	EKN05_005280 tyrosine-protein kinase Wzc
+EKN05_005285	EKN05_005285	colanic acid biosynthesis glycosyltransferase WcaA	EKN05_005285 colanic acid biosynthesis glycosyltransferase WcaA
+EKN05_005290	EKN05_005290	colanic acid biosynthesis acetyltransferase WcaB	EKN05_005290 colanic acid biosynthesis acetyltransferase WcaB
+EKN05_005295	EKN05_005295	colanic acid biosynthesis glycosyltransferase WcaC	EKN05_005295 colanic acid biosynthesis glycosyltransferase WcaC
+EKN05_005300	EKN05_005300	putative colanic acid polymerase WcaD	EKN05_005300 putative colanic acid polymerase WcaD
+EKN05_005305	EKN05_005305	colanic acid biosynthesis glycosyltransferase WcaE	EKN05_005305 colanic acid biosynthesis glycosyltransferase WcaE
+EKN05_005315	EKN05_005315	colanic acid biosynthesis glycosyl transferase	EKN05_005315 colanic acid biosynthesis glycosyl transferase
+EKN05_005320	EKN05_005320	colanic acid biosynthesis acetyltransferase WcaF	EKN05_005320 colanic acid biosynthesis acetyltransferase WcaF
+EKN05_005325	EKN05_005325	GDP-mannose 4,6-dehydratase	EKN05_005325 GDP-mannose 4,6-dehydratase
+EKN05_005330	EKN05_005330	GDP-L-fucose synthase	EKN05_005330 GDP-L-fucose synthase
+EKN05_005340	EKN05_005340	colanic acid biosynthesis glycosyltransferase WcaI	EKN05_005340 colanic acid biosynthesis glycosyltransferase WcaI
+EKN05_005345	EKN05_005345	mannose-1-phosphate guanyltransferase	EKN05_005345 mannose-1-phosphate guanyltransferase
+EKN05_005350	EKN05_005350	phosphomannomutase CpsG	EKN05_005350 phosphomannomutase CpsG
+EKN05_005355	EKN05_005355	undecaprenyl-phosphate glucose phosphotransferase	EKN05_005355 undecaprenyl-phosphate glucose phosphotransferase
+EKN05_005360	EKN05_005360	M-antigen undecaprenyl disphosphate flippase	EKN05_005360 M-antigen undecaprenyl disphosphate flippase
+EKN05_005365	EKN05_005365	colanic acid biosynthesis pyruvyl transferase WcaK	EKN05_005365 colanic acid biosynthesis pyruvyl transferase WcaK
+EKN05_005370	EKN05_005370	colanic acid biosynthesis glycosyltransferase WcaL	EKN05_005370 colanic acid biosynthesis glycosyltransferase WcaL
+EKN05_005375	EKN05_005375	colanic acid biosynthesis protein WcaM	EKN05_005375 colanic acid biosynthesis protein WcaM
+EKN05_005380	EKN05_005380	UTP--glucose-1-phosphate uridylyltransferase GalF	EKN05_005380 UTP--glucose-1-phosphate uridylyltransferase GalF
+EKN05_005385	EKN05_005385	dTDP-glucose 4,6-dehydratase	EKN05_005385 dTDP-glucose 4,6-dehydratase
+EKN05_005445	EKN05_005445	hypothetical protein	EKN05_005445 hypothetical protein
+EKN05_005450	EKN05_005450	NADP-dependent phosphogluconate dehydrogenase	EKN05_005450 NADP-dependent phosphogluconate dehydrogenase
+EKN05_005455	EKN05_005455	UDP-glucose 6-dehydrogenase	EKN05_005455 UDP-glucose 6-dehydrogenase
+EKN05_005460	EKN05_005460	LPS O-antigen chain length determinant protein WzzB	EKN05_005460 LPS O-antigen chain length determinant protein WzzB
+EKN05_005475	EKN05_005475	1-(5-phosphoribosyl)-5-((5- phosphoribosylamino)methylideneamino)imidazole-4- carboxamide isomerase	EKN05_005475 1-(5-phosphoribosyl)-5-((5- phosphoribosylamino)methylideneamino)imidazole-4- carboxamide isomerase
+EKN05_005480	EKN05_005480	imidazole glycerol phosphate synthase subunit HisH	EKN05_005480 imidazole glycerol phosphate synthase subunit HisH
+EKN05_005485	EKN05_005485	bifunctional histidinol-phosphatase/imidazoleglycerol-phosphate dehydratase HisB	EKN05_005485 bifunctional histidinol-phosphatase/imidazoleglycerol-phosphate dehydratase HisB
+EKN05_005490	EKN05_005490	histidinol-phosphate transaminase	EKN05_005490 histidinol-phosphate transaminase
+EKN05_005500	EKN05_005500	ATP phosphoribosyltransferase	EKN05_005500 ATP phosphoribosyltransferase
+EKN05_005530	EKN05_005530	SDR family oxidoreductase	EKN05_005530 SDR family oxidoreductase
+EKN05_005535	EKN05_005535	LysR family transcriptional regulator	EKN05_005535 LysR family transcriptional regulator
+EKN05_005545	EKN05_005545	putrescine/proton symporter PlaP	EKN05_005545 putrescine/proton symporter PlaP
+EKN05_005550	EKN05_005550	YeeE/YedE family protein	EKN05_005550 YeeE/YedE family protein
+EKN05_005555	EKN05_005555	hypothetical protein	EKN05_005555 hypothetical protein
+EKN05_005560	EKN05_005560	exodeoxyribonuclease I	EKN05_005560 exodeoxyribonuclease I
+EKN05_005565	EKN05_005565	DUF4102 domain-containing protein	EKN05_005565 DUF4102 domain-containing protein
+EKN05_005580	EKN05_005580	hypothetical protein	EKN05_005580 hypothetical protein
+EKN05_005595	EKN05_005595	bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase	EKN05_005595 bifunctional adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase
+EKN05_005600	EKN05_005600	adenosylcobinamide-GDP ribazoletransferase	EKN05_005600 adenosylcobinamide-GDP ribazoletransferase
+EKN05_005605	EKN05_005605	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	EKN05_005605 nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase
+EKN05_005610	EKN05_005610	L,D-transpeptidase	EKN05_005610 L,D-transpeptidase
+EKN05_005620	EKN05_005620	nitrogen assimilation transcriptional regulator	EKN05_005620 nitrogen assimilation transcriptional regulator
+EKN05_005625	EKN05_005625	HTH-type transcriptional regulator Cbl	EKN05_005625 HTH-type transcriptional regulator Cbl
+EKN05_005635	EKN05_005635	toxic metabolite efflux MATE transporter YeeO	EKN05_005635 toxic metabolite efflux MATE transporter YeeO
+EKN05_005640	EKN05_005640	tRNA-Asn	EKN05_005640 tRNA-Asn
+EKN05_005650	EKN05_005650	AMP nucleosidase	EKN05_005650 AMP nucleosidase
+EKN05_005655	EKN05_005655	hypothetical protein	EKN05_005655 hypothetical protein
+EKN05_005665	EKN05_005665	serine transporter	EKN05_005665 serine transporter
+EKN05_005675	EKN05_005675	DUF4102 domain-containing protein	EKN05_005675 DUF4102 domain-containing protein
+EKN05_005695	EKN05_005695	integrase	EKN05_005695 integrase
+EKN05_005700	EKN05_005700	DUF4224 domain-containing protein	EKN05_005700 DUF4224 domain-containing protein
+EKN05_005710	EKN05_005710	3'-5' exoribonuclease	EKN05_005710 3'-5' exoribonuclease
+EKN05_005720	EKN05_005720	hypothetical protein	EKN05_005720 hypothetical protein
+EKN05_005725	EKN05_005725	hypothetical protein	EKN05_005725 hypothetical protein
+EKN05_005730	EKN05_005730	hypothetical protein	EKN05_005730 hypothetical protein
+EKN05_005755	EKN05_005755	RusA family crossover junction endodeoxyribonuclease	EKN05_005755 RusA family crossover junction endodeoxyribonuclease
+EKN05_005760	EKN05_005760	antiterminator	EKN05_005760 antiterminator
+EKN05_005840	EKN05_005840	metal-binding protein ZinT	EKN05_005840 metal-binding protein ZinT
+EKN05_005845	EKN05_005845	protein-methionine-sulfoxide reductase heme-binding subunit MsrQ	EKN05_005845 protein-methionine-sulfoxide reductase heme-binding subunit MsrQ
+EKN05_005850	EKN05_005850	protein-methionine-sulfoxide reductase catalytic subunit MsrP	EKN05_005850 protein-methionine-sulfoxide reductase catalytic subunit MsrP
+EKN05_005860	EKN05_005860	DNA-binding response regulator HprR	EKN05_005860 DNA-binding response regulator HprR
+EKN05_005870	EKN05_005870	protein deglycase HchA	EKN05_005870 protein deglycase HchA
+EKN05_005880	EKN05_005880	hypothetical protein	EKN05_005880 hypothetical protein
+EKN05_005890	EKN05_005890	hypothetical protein	EKN05_005890 hypothetical protein
+EKN05_005900	EKN05_005900	hypothetical protein	EKN05_005900 hypothetical protein
+EKN05_005905	EKN05_005905	phosphohydrolase	EKN05_005905 phosphohydrolase
+EKN05_005910	EKN05_005910	DNA cytosine methyltransferase	EKN05_005910 DNA cytosine methyltransferase
+EKN05_005915	EKN05_005915	very short patch repair endonuclease	EKN05_005915 very short patch repair endonuclease
+EKN05_005920	EKN05_005920	drug/metabolite exporter YedA	EKN05_005920 drug/metabolite exporter YedA
+EKN05_005925	EKN05_005925	DUF808 domain-containing protein	EKN05_005925 DUF808 domain-containing protein
+EKN05_005935	EKN05_005935	cellulose biosynthesis regulator YedQ	EKN05_005935 cellulose biosynthesis regulator YedQ
+EKN05_005940	EKN05_005940	mannosyl-3-phosphoglycerate phosphatase-related protein	EKN05_005940 mannosyl-3-phosphoglycerate phosphatase-related protein
+EKN05_005950	EKN05_005950	hypothetical protein	EKN05_005950 hypothetical protein
+EKN05_005960	EKN05_005960	transcriptional regulator RcsA	EKN05_005960 transcriptional regulator RcsA
+EKN05_005990	EKN05_005990	flagellar motor switch protein FliM	EKN05_005990 flagellar motor switch protein FliM
+EKN05_006120	EKN05_006120	FliC/FljB family flagellin	EKN05_006120 FliC/FljB family flagellin
+EKN05_006125	EKN05_006125	RNA polymerase sigma factor FliA	EKN05_006125 RNA polymerase sigma factor FliA
+EKN05_006130	EKN05_006130	flagella biosynthesis regulatory protein FliZ	EKN05_006130 flagella biosynthesis regulatory protein FliZ
+EKN05_006135	EKN05_006135	cystine ABC transporter substrate-binding protein	EKN05_006135 cystine ABC transporter substrate-binding protein
+EKN05_006140	EKN05_006140	D-cysteine desulfhydrase	EKN05_006140 D-cysteine desulfhydrase
+EKN05_006145	EKN05_006145	amino acid ABC transporter permease	EKN05_006145 amino acid ABC transporter permease
+EKN05_006150	EKN05_006150	L-cystine ABC transporter ATP-binding protein YecC	EKN05_006150 L-cystine ABC transporter ATP-binding protein YecC
+EKN05_006155	EKN05_006155	transcriptional regulator SdiA	EKN05_006155 transcriptional regulator SdiA
+EKN05_006165	EKN05_006165	hypothetical protein	EKN05_006165 hypothetical protein
+EKN05_006170	EKN05_006170	two-component system response regulator UvrY	EKN05_006170 two-component system response regulator UvrY
+EKN05_006175	EKN05_006175	excinuclease ABC subunit UvrC	EKN05_006175 excinuclease ABC subunit UvrC
+EKN05_006200	EKN05_006200	UPF0149 family protein YecA	EKN05_006200 UPF0149 family protein YecA
+EKN05_006205	EKN05_006205	tyrosine transporter TyrP	EKN05_006205 tyrosine transporter TyrP
+EKN05_006230	EKN05_006230	DUF2766 domain-containing protein	EKN05_006230 DUF2766 domain-containing protein
+EKN05_006240	EKN05_006240	arabinose ABC transporter substrate-binding protein	EKN05_006240 arabinose ABC transporter substrate-binding protein
+EKN05_006245	EKN05_006245	L-arabinose ABC transporter ATP-binding protein AraG	EKN05_006245 L-arabinose ABC transporter ATP-binding protein AraG
+EKN05_006250	EKN05_006250	arabinose ABC transporter permease	EKN05_006250 arabinose ABC transporter permease
+EKN05_006255	EKN05_006255	trehalose-phosphatase	EKN05_006255 trehalose-phosphatase
+EKN05_006260	EKN05_006260	alpha,alpha-trehalose-phosphate synthase	EKN05_006260 alpha,alpha-trehalose-phosphate synthase
+EKN05_006280	EKN05_006280	flagellar motor stator protein MotA	EKN05_006280 flagellar motor stator protein MotA
+EKN05_006285	EKN05_006285	motility protein MotB	EKN05_006285 motility protein MotB
+EKN05_006290	EKN05_006290	chemotaxis protein CheA	EKN05_006290 chemotaxis protein CheA
+EKN05_006300	EKN05_006300	methyl-accepting chemotaxis protein II	EKN05_006300 methyl-accepting chemotaxis protein II
+EKN05_006305	EKN05_006305	methyl-accepting chemotaxis protein IV	EKN05_006305 methyl-accepting chemotaxis protein IV
+EKN05_006315	EKN05_006315	chemotaxis response regulator protein-glutamate methylesterase	EKN05_006315 chemotaxis response regulator protein-glutamate methylesterase
+EKN05_006320	EKN05_006320	two-component system response regulator	EKN05_006320 two-component system response regulator
+EKN05_006325	EKN05_006325	protein phosphatase CheZ	EKN05_006325 protein phosphatase CheZ
+EKN05_006330	EKN05_006330	hypothetical protein	EKN05_006330 hypothetical protein
+EKN05_006360	EKN05_006360	flagellar type III secretion system protein FlhB	EKN05_006360 flagellar type III secretion system protein FlhB
+EKN05_006365	EKN05_006365	flagellar biosynthesis protein FlhA	EKN05_006365 flagellar biosynthesis protein FlhA
+EKN05_006370	EKN05_006370	flagellar protein FlhE	EKN05_006370 flagellar protein FlhE
+EKN05_006405	EKN05_006405	cytochrome C	EKN05_006405 cytochrome C
+EKN05_006410	EKN05_006410	twin-arginine translocation signal domain-containing protein	EKN05_006410 twin-arginine translocation signal domain-containing protein
+EKN05_006420	EKN05_006420	trimethylamine-N-oxide reductase TorA	EKN05_006420 trimethylamine-N-oxide reductase TorA
+EKN05_006425	EKN05_006425	tRNA 5-methoxyuridine(34)/uridine 5-oxyacetic acid(34) synthase CmoB	EKN05_006425 tRNA 5-methoxyuridine(34)/uridine 5-oxyacetic acid(34) synthase CmoB
+EKN05_006430	EKN05_006430	carboxy-S-adenosyl-L-methionine synthase CmoA	EKN05_006430 carboxy-S-adenosyl-L-methionine synthase CmoA
+EKN05_006440	EKN05_006440	DUF72 domain-containing protein	EKN05_006440 DUF72 domain-containing protein
+EKN05_006445	EKN05_006445	hypothetical protein	EKN05_006445 hypothetical protein
+EKN05_006480	EKN05_006480	transposase	EKN05_006480 transposase
+EKN05_006490	EKN05_006490	phage tail tape measure protein	EKN05_006490 phage tail tape measure protein
+EKN05_006495	EKN05_006495	hypothetical protein	EKN05_006495 hypothetical protein
+EKN05_006555	EKN05_006555	phage tail protein	EKN05_006555 phage tail protein
+EKN05_006560	EKN05_006560	phage tail protein	EKN05_006560 phage tail protein
+EKN05_006630	EKN05_006630	E3 ubiquitin--protein ligase	EKN05_006630 E3 ubiquitin--protein ligase
+EKN05_006645	EKN05_006645	hydrolase	EKN05_006645 hydrolase
+EKN05_006670	EKN05_006670	YebC/PmpR family DNA-binding transcriptional regulator	EKN05_006670 YebC/PmpR family DNA-binding transcriptional regulator
+EKN05_006700	EKN05_006700	zinc ABC transporter permease subunit ZnuB	EKN05_006700 zinc ABC transporter permease subunit ZnuB
+EKN05_006720	EKN05_006720	lauroyl-Kdo(2)-lipid IV(A) myristoyltransferase	EKN05_006720 lauroyl-Kdo(2)-lipid IV(A) myristoyltransferase
+EKN05_006725	EKN05_006725	pyruvate kinase	EKN05_006725 pyruvate kinase
+EKN05_006730	EKN05_006730	MurR/RpiR family transcriptional regulator	EKN05_006730 MurR/RpiR family transcriptional regulator
+EKN05_006775	EKN05_006775	exodeoxyribonuclease X	EKN05_006775 exodeoxyribonuclease X
+EKN05_006780	EKN05_006780	carbon-nitrogen hydrolase family protein	EKN05_006780 carbon-nitrogen hydrolase family protein
+EKN05_006795	EKN05_006795	copper homeostasis membrane protein CopD	EKN05_006795 copper homeostasis membrane protein CopD
+EKN05_006800	EKN05_006800	DUF2511 domain-containing protein	EKN05_006800 DUF2511 domain-containing protein
+EKN05_006805	EKN05_006805	integrase	EKN05_006805 integrase
+EKN05_006865	EKN05_006865	low conductance mechanosensitive channel YnaI	EKN05_006865 low conductance mechanosensitive channel YnaI
+EKN05_006890	EKN05_006890	DUF2534 family protein	EKN05_006890 DUF2534 family protein
+EKN05_006895	EKN05_006895	universal stress protein UspE	EKN05_006895 universal stress protein UspE
+EKN05_006910	EKN05_006910	hypothetical protein	EKN05_006910 hypothetical protein
+EKN05_006915	EKN05_006915	AraC family transcriptional regulator	EKN05_006915 AraC family transcriptional regulator
+EKN05_006960	EKN05_006960	ATP-dependent RNA helicase DbpA	EKN05_006960 ATP-dependent RNA helicase DbpA
+EKN05_006965	EKN05_006965	tRNA 2-thiocytidine(32) synthetase TtcA	EKN05_006965 tRNA 2-thiocytidine(32) synthetase TtcA
+EKN05_006970	EKN05_006970	universal stress protein UspF	EKN05_006970 universal stress protein UspF
+EKN05_006975	EKN05_006975	porin OmpN	EKN05_006975 porin OmpN
+EKN05_006980	EKN05_006980	pyruvate:ferredoxin (flavodoxin) oxidoreductase	EKN05_006980 pyruvate:ferredoxin (flavodoxin) oxidoreductase
+EKN05_006995	EKN05_006995	helix-turn-helix domain-containing protein	EKN05_006995 helix-turn-helix domain-containing protein
+EKN05_007005	EKN05_007005	YnbE family lipoprotein	EKN05_007005 YnbE family lipoprotein
+EKN05_007010	EKN05_007010	YdbH family protein	EKN05_007010 YdbH family protein
+EKN05_007015	EKN05_007015	D-lactate dehydrogenase	EKN05_007015 D-lactate dehydrogenase
+EKN05_007020	EKN05_007020	heat shock protein HslJ	EKN05_007020 heat shock protein HslJ
+EKN05_007045	EKN05_007045	alpha/beta fold hydrolase	EKN05_007045 alpha/beta fold hydrolase
+EKN05_007050	EKN05_007050	inositol phosphorylceramide synthase	EKN05_007050 inositol phosphorylceramide synthase
+EKN05_007060	EKN05_007060	hypothetical protein	EKN05_007060 hypothetical protein
+EKN05_007070	EKN05_007070	ATP-dependent RNA helicase HrpA	EKN05_007070 ATP-dependent RNA helicase HrpA
+EKN05_007075	EKN05_007075	aspartate oxidase	EKN05_007075 aspartate oxidase
+EKN05_007085	EKN05_007085	YdcF family protein	EKN05_007085 YdcF family protein
+EKN05_007095	EKN05_007095	aldehyde dehydrogenase	EKN05_007095 aldehyde dehydrogenase
+EKN05_007105	EKN05_007105	cytochrome b561	EKN05_007105 cytochrome b561
+EKN05_007145	EKN05_007145	methyl-accepting chemotaxis protein Trg	EKN05_007145 methyl-accepting chemotaxis protein Trg
+EKN05_007150	EKN05_007150	LysR family transcriptional regulator	EKN05_007150 LysR family transcriptional regulator
+EKN05_007160	EKN05_007160	glucan biosynthesis protein D	EKN05_007160 glucan biosynthesis protein D
+EKN05_007170	EKN05_007170	50S ribosomal protein L7/L12-serine acetyltransferase	EKN05_007170 50S ribosomal protein L7/L12-serine acetyltransferase
+EKN05_007190	EKN05_007190	DUF3313 domain-containing protein	EKN05_007190 DUF3313 domain-containing protein
+EKN05_007230	EKN05_007230	CatB-related O-acetyltransferase	EKN05_007230 CatB-related O-acetyltransferase
+EKN05_007245	EKN05_007245	DUF2526 domain-containing protein	EKN05_007245 DUF2526 domain-containing protein
+EKN05_007250	EKN05_007250	DMT family transporter	EKN05_007250 DMT family transporter
+EKN05_007255	EKN05_007255	L-methionine sulfoximine/L-methionine sulfone acetyltransferase	EKN05_007255 L-methionine sulfoximine/L-methionine sulfone acetyltransferase
+EKN05_007275	EKN05_007275	GntR family transcriptional regulator	EKN05_007275 GntR family transcriptional regulator
+EKN05_007290	EKN05_007290	nitrate reductase subunit beta	EKN05_007290 nitrate reductase subunit beta
+EKN05_007295	EKN05_007295	nitrate reductase subunit alpha	EKN05_007295 nitrate reductase subunit alpha
+EKN05_007300	EKN05_007300	NarK family nitrate/nitrite MFS transporter	EKN05_007300 NarK family nitrate/nitrite MFS transporter
+EKN05_007310	EKN05_007310	leucine-rich repeat domain-containing protein	EKN05_007310 leucine-rich repeat domain-containing protein
+EKN05_007325	EKN05_007325	porin OmpC	EKN05_007325 porin OmpC
+EKN05_007330	EKN05_007330	aromatic amino acid exporter YddG	EKN05_007330 aromatic amino acid exporter YddG
+EKN05_007340	EKN05_007340	formate dehydrogenase-N subunit alpha	EKN05_007340 formate dehydrogenase-N subunit alpha
+EKN05_007345	EKN05_007345	formate dehydrogenase subunit beta	EKN05_007345 formate dehydrogenase subunit beta
+EKN05_007350	EKN05_007350	formate dehydrogenase-N subunit gamma	EKN05_007350 formate dehydrogenase-N subunit gamma
+EKN05_007355	EKN05_007355	addiction module antidote protein, HigA family	EKN05_007355 addiction module antidote protein, HigA family
+EKN05_007360	EKN05_007360	alcohol dehydrogenase AdhP	EKN05_007360 alcohol dehydrogenase AdhP
+EKN05_007365	EKN05_007365	NAD-dependent malic enzyme	EKN05_007365 NAD-dependent malic enzyme
+EKN05_007390	EKN05_007390	D,D-dipeptide ABC transporter permease	EKN05_007390 D,D-dipeptide ABC transporter permease
+EKN05_007395	EKN05_007395	D-alanyl-D-alanine dipeptidase	EKN05_007395 D-alanyl-D-alanine dipeptidase
+EKN05_007400	EKN05_007400	EAL domain-containing protein	EKN05_007400 EAL domain-containing protein
+EKN05_007405	EKN05_007405	diguanylate cyclase	EKN05_007405 diguanylate cyclase
+EKN05_007415	EKN05_007415	glutamate:gamma-aminobutyrate antiporter	EKN05_007415 glutamate:gamma-aminobutyrate antiporter
+EKN05_007430	EKN05_007430	insulinase family protein	EKN05_007430 insulinase family protein
+EKN05_007440	EKN05_007440	insulinase family protein	EKN05_007440 insulinase family protein
+EKN05_007445	EKN05_007445	TonB-dependent receptor	EKN05_007445 TonB-dependent receptor
+EKN05_007450	EKN05_007450	ATP-binding cassette domain-containing protein	EKN05_007450 ATP-binding cassette domain-containing protein
+EKN05_007465	EKN05_007465	ABC transporter ATP-binding protein/permease	EKN05_007465 ABC transporter ATP-binding protein/permease
+EKN05_007470	EKN05_007470	hypothetical protein	EKN05_007470 hypothetical protein
+EKN05_007480	EKN05_007480	anaerobic sulfatase maturase	EKN05_007480 anaerobic sulfatase maturase
+EKN05_007485	EKN05_007485	sulfatase	EKN05_007485 sulfatase
+EKN05_007500	EKN05_007500	quinate/shikimate dehydrogenase	EKN05_007500 quinate/shikimate dehydrogenase
+EKN05_007515	EKN05_007515	MFS transporter	EKN05_007515 MFS transporter
+EKN05_007530	EKN05_007530	MFS transporter	EKN05_007530 MFS transporter
+EKN05_007550	EKN05_007550	FAD-binding oxidoreductase	EKN05_007550 FAD-binding oxidoreductase
+EKN05_007555	EKN05_007555	1,4-dihydroxy-2-naphthoyl-CoA hydrolase	EKN05_007555 1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+EKN05_007565	EKN05_007565	Fe-S cluster assembly scaffold SufA	EKN05_007565 Fe-S cluster assembly scaffold SufA
+EKN05_007570	EKN05_007570	Fe-S cluster assembly protein SufB	EKN05_007570 Fe-S cluster assembly protein SufB
+EKN05_007575	EKN05_007575	Fe-S cluster assembly ATPase SufC	EKN05_007575 Fe-S cluster assembly ATPase SufC
+EKN05_007580	EKN05_007580	Fe-S cluster assembly protein SufD	EKN05_007580 Fe-S cluster assembly protein SufD
+EKN05_007585	EKN05_007585	cysteine desulfurase SufS	EKN05_007585 cysteine desulfurase SufS
+EKN05_007595	EKN05_007595	L,D-transpeptidase LdtE	EKN05_007595 L,D-transpeptidase LdtE
+EKN05_007615	EKN05_007615	fumarate hydratase FumD	EKN05_007615 fumarate hydratase FumD
+EKN05_007620	EKN05_007620	ferredoxin-like protein	EKN05_007620 ferredoxin-like protein
+EKN05_007625	EKN05_007625	aldehyde ferredoxin oxidoreductase	EKN05_007625 aldehyde ferredoxin oxidoreductase
+EKN05_007630	EKN05_007630	YdhW family putative oxidoreductase system protein	EKN05_007630 YdhW family putative oxidoreductase system protein
+EKN05_007640	EKN05_007640	thiosulfate reductase cytochrome B subunit	EKN05_007640 thiosulfate reductase cytochrome B subunit
+EKN05_007645	EKN05_007645	hypothetical protein	EKN05_007645 hypothetical protein
+EKN05_007650	EKN05_007650	FAD-NAD(P)-binding protein	EKN05_007650 FAD-NAD(P)-binding protein
+EKN05_007670	EKN05_007670	hypothetical protein	EKN05_007670 hypothetical protein
+EKN05_007675	EKN05_007675	multidrug efflux MATE transporter MdtK	EKN05_007675 multidrug efflux MATE transporter MdtK
+EKN05_007685	EKN05_007685	cyclopropane fatty acyl phospholipid synthase	EKN05_007685 cyclopropane fatty acyl phospholipid synthase
+EKN05_007690	EKN05_007690	Bcr/CflA family multidrug efflux MFS transporter	EKN05_007690 Bcr/CflA family multidrug efflux MFS transporter
+EKN05_007695	EKN05_007695	LysR family transcriptional regulator	EKN05_007695 LysR family transcriptional regulator
+EKN05_007700	EKN05_007700	HTH-type transcriptional repressor PurR	EKN05_007700 HTH-type transcriptional repressor PurR
+EKN05_007705	EKN05_007705	stress response protein YnhF	EKN05_007705 stress response protein YnhF
+EKN05_007710	EKN05_007710	MFS transporter	EKN05_007710 MFS transporter
+EKN05_007715	EKN05_007715	superoxide dismutase [Fe]	EKN05_007715 superoxide dismutase [Fe]
+EKN05_007720	EKN05_007720	endopeptidase	EKN05_007720 endopeptidase
+EKN05_007725	EKN05_007725	Grx4 family monothiol glutaredoxin	EKN05_007725 Grx4 family monothiol glutaredoxin
+EKN05_007740	EKN05_007740	ATP-dependent helicase	EKN05_007740 ATP-dependent helicase
+EKN05_007755	EKN05_007755	N-ethylmaleimide reductase	EKN05_007755 N-ethylmaleimide reductase
+EKN05_007760	EKN05_007760	TetR/AcrR family transcriptional regulator	EKN05_007760 TetR/AcrR family transcriptional regulator
+EKN05_007770	EKN05_007770	aldo/keto reductase family oxidoreductase	EKN05_007770 aldo/keto reductase family oxidoreductase
+EKN05_007780	EKN05_007780	FUSC family protein	EKN05_007780 FUSC family protein
+EKN05_007875	EKN05_007875	electron transport complex subunit RsxC	EKN05_007875 electron transport complex subunit RsxC
+EKN05_007880	EKN05_007880	electron transport complex subunit RsxB	EKN05_007880 electron transport complex subunit RsxB
+EKN05_007905	EKN05_007905	oxidoreductase	EKN05_007905 oxidoreductase
+EKN05_007910	EKN05_007910	adenosine deaminase	EKN05_007910 adenosine deaminase
+EKN05_007915	EKN05_007915	bifunctional maltose regulon transcriptional repressor/cystathionine beta-lyase MalY	EKN05_007915 bifunctional maltose regulon transcriptional repressor/cystathionine beta-lyase MalY
+EKN05_007920	EKN05_007920	PTS maltose transporter subunit IICB	EKN05_007920 PTS maltose transporter subunit IICB
+EKN05_007925	EKN05_007925	Mal regulon transcriptional regulator MalI	EKN05_007925 Mal regulon transcriptional regulator MalI
+EKN05_007930	EKN05_007930	7-alpha-hydroxysteroid dehydrogenase	EKN05_007930 7-alpha-hydroxysteroid dehydrogenase
+EKN05_007940	EKN05_007940	SDR family oxidoreductase	EKN05_007940 SDR family oxidoreductase
+EKN05_007945	EKN05_007945	TetR/AcrR family transcriptional regulator	EKN05_007945 TetR/AcrR family transcriptional regulator
+EKN05_007950	EKN05_007950	beta-glucuronidase	EKN05_007950 beta-glucuronidase
+EKN05_007955	EKN05_007955	glucuronide transporter	EKN05_007955 glucuronide transporter
+EKN05_007965	EKN05_007965	DUF945 domain-containing protein	EKN05_007965 DUF945 domain-containing protein
+EKN05_007970	EKN05_007970	mannose-6-phosphate isomerase	EKN05_007970 mannose-6-phosphate isomerase
+EKN05_007975	EKN05_007975	fumarate hydratase	EKN05_007975 fumarate hydratase
+EKN05_007980	EKN05_007980	class II fumarate hydratase	EKN05_007980 class II fumarate hydratase
+EKN05_007985	EKN05_007985	DNA replication terminus site-binding protein	EKN05_007985 DNA replication terminus site-binding protein
+EKN05_007990	EKN05_007990	two-component system sensor histidine kinase RstB	EKN05_007990 two-component system sensor histidine kinase RstB
+EKN05_007995	EKN05_007995	cation:dicarboxylase symporter family transporter	EKN05_007995 cation:dicarboxylase symporter family transporter
+EKN05_008005	EKN05_008005	GlpM family protein	EKN05_008005 GlpM family protein
+EKN05_008025	EKN05_008025	Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha	EKN05_008025 Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha
+EKN05_008030	EKN05_008030	Re/Si-specific NAD(P)(+) transhydrogenase subunit beta	EKN05_008030 Re/Si-specific NAD(P)(+) transhydrogenase subunit beta
+EKN05_008035	EKN05_008035	AI-2 transporter TqsA	EKN05_008035 AI-2 transporter TqsA
+EKN05_008050	EKN05_008050	multidrug/spermidine efflux SMR transporter subunit MdtI	EKN05_008050 multidrug/spermidine efflux SMR transporter subunit MdtI
+EKN05_008055	EKN05_008055	serine protease	EKN05_008055 serine protease
+EKN05_008060	EKN05_008060	hypothetical protein	EKN05_008060 hypothetical protein
+EKN05_008065	EKN05_008065	acid shock protein	EKN05_008065 acid shock protein
+EKN05_008075	EKN05_008075	LysR family transcriptional regulator	EKN05_008075 LysR family transcriptional regulator
+EKN05_008080	EKN05_008080	DNA-binding transcriptional repressor Mlc	EKN05_008080 DNA-binding transcriptional repressor Mlc
+EKN05_008085	EKN05_008085	ATP-dependent dethiobiotin synthetase BioD	EKN05_008085 ATP-dependent dethiobiotin synthetase BioD
+EKN05_008090	EKN05_008090	voltage-gated ClC-type chloride channel ClcB	EKN05_008090 voltage-gated ClC-type chloride channel ClcB
+EKN05_008115	EKN05_008115	dimethyl sulfoxide reductase subunit A	EKN05_008115 dimethyl sulfoxide reductase subunit A
+EKN05_008135	EKN05_008135	hypothetical protein	EKN05_008135 hypothetical protein
+EKN05_008150	EKN05_008150	efflux MFS transporter YdeE	EKN05_008150 efflux MFS transporter YdeE
+EKN05_008155	EKN05_008155	O-acetylserine/cysteine exporter	EKN05_008155 O-acetylserine/cysteine exporter
+EKN05_008160	EKN05_008160	multiple antibiotic resistance protein MarB	EKN05_008160 multiple antibiotic resistance protein MarB
+EKN05_008170	EKN05_008170	multiple antibiotic resistance transcriptional regulator MarR	EKN05_008170 multiple antibiotic resistance transcriptional regulator MarR
+EKN05_008180	EKN05_008180	L-arabinose transporter	EKN05_008180 L-arabinose transporter
+EKN05_008195	EKN05_008195	aldehyde dehydrogenase family protein	EKN05_008195 aldehyde dehydrogenase family protein
+EKN05_008205	EKN05_008205	DUF4186 domain-containing protein	EKN05_008205 DUF4186 domain-containing protein
+EKN05_008210	EKN05_008210	GGDEF domain-containing protein	EKN05_008210 GGDEF domain-containing protein
+EKN05_008215	EKN05_008215	tagaturonate reductase	EKN05_008215 tagaturonate reductase
+EKN05_008230	EKN05_008230	hypothetical protein	EKN05_008230 hypothetical protein
+EKN05_008235	EKN05_008235	trans-aconitate 2-methyltransferase	EKN05_008235 trans-aconitate 2-methyltransferase
+EKN05_008240	EKN05_008240	(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase	EKN05_008240 (4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione isomerase
+EKN05_008245	EKN05_008245	3-hydroxy-5-phosphonooxypentane-2,4-dione thiolase	EKN05_008245 3-hydroxy-5-phosphonooxypentane-2,4-dione thiolase
+EKN05_008260	EKN05_008260	autoinducer 2 ABC transporter permease LsrD	EKN05_008260 autoinducer 2 ABC transporter permease LsrD
+EKN05_008265	EKN05_008265	autoinducer 2 ABC transporter permease LsrC	EKN05_008265 autoinducer 2 ABC transporter permease LsrC
+EKN05_008270	EKN05_008270	autoinducer 2 ABC transporter ATP-binding protein LsrA	EKN05_008270 autoinducer 2 ABC transporter ATP-binding protein LsrA
+EKN05_008290	EKN05_008290	starvation-sensing protein RspA	EKN05_008290 starvation-sensing protein RspA
+EKN05_008315	EKN05_008315	DUF1161 domain-containing protein	EKN05_008315 DUF1161 domain-containing protein
+EKN05_008320	EKN05_008320	oxidoreductase	EKN05_008320 oxidoreductase
+EKN05_008335	EKN05_008335	TIGR00156 family protein	EKN05_008335 TIGR00156 family protein
+EKN05_008340	EKN05_008340	2-oxo-tetronate isomerase	EKN05_008340 2-oxo-tetronate isomerase
+EKN05_008345	EKN05_008345	peptidyl-dipeptidase Dcp	EKN05_008345 peptidyl-dipeptidase Dcp
+EKN05_008350	EKN05_008350	bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG	EKN05_008350 bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG
+EKN05_008365	EKN05_008365	mannitol dehydrogenase family protein	EKN05_008365 mannitol dehydrogenase family protein
+EKN05_008370	EKN05_008370	MFS transporter	EKN05_008370 MFS transporter
+EKN05_008380	EKN05_008380	hypothetical protein	EKN05_008380 hypothetical protein
+EKN05_008390	EKN05_008390	type II toxin-antitoxin system mRNA interferase RelE	EKN05_008390 type II toxin-antitoxin system mRNA interferase RelE
+EKN05_008395	EKN05_008395	type I toxin-antitoxin system toxin HokD	EKN05_008395 type I toxin-antitoxin system toxin HokD
+EKN05_008400	EKN05_008400	hypothetical protein	EKN05_008400 hypothetical protein
+EKN05_008410	EKN05_008410	DUF968 domain-containing protein	EKN05_008410 DUF968 domain-containing protein
+EKN05_008415	EKN05_008415	RusA family crossover junction endodeoxyribonuclease	EKN05_008415 RusA family crossover junction endodeoxyribonuclease
+EKN05_008420	EKN05_008420	antitermination protein	EKN05_008420 antitermination protein
+EKN05_008425	EKN05_008425	antitermination protein	EKN05_008425 antitermination protein
+EKN05_008435	EKN05_008435	tRNA-Arg	EKN05_008435 tRNA-Arg
+EKN05_008440	EKN05_008440	hypothetical protein	EKN05_008440 hypothetical protein
+EKN05_008460	EKN05_008460	holin	EKN05_008460 holin
+EKN05_008480	EKN05_008480	acid resistance putative oxidoreductase YdeP	EKN05_008480 acid resistance putative oxidoreductase YdeP
+EKN05_008495	EKN05_008495	sulfatase	EKN05_008495 sulfatase
+EKN05_008510	EKN05_008510	electron transfer flavoprotein	EKN05_008510 electron transfer flavoprotein
+EKN05_008515	EKN05_008515	electron transfer flavoprotein subunit alpha	EKN05_008515 electron transfer flavoprotein subunit alpha
+EKN05_008530	EKN05_008530	medium-chain fatty-acid--CoA ligase	EKN05_008530 medium-chain fatty-acid--CoA ligase
+EKN05_008535	EKN05_008535	phosphoenolpyruvate synthase	EKN05_008535 phosphoenolpyruvate synthase
+EKN05_008540	EKN05_008540	posphoenolpyruvate synthetase regulatory kinase/phosphorylase PpsR	EKN05_008540 posphoenolpyruvate synthetase regulatory kinase/phosphorylase PpsR
+EKN05_008545	EKN05_008545	3-deoxy-7-phosphoheptulonate synthase AroH	EKN05_008545 3-deoxy-7-phosphoheptulonate synthase AroH
+EKN05_008560	EKN05_008560	anti-FlhDC factor	EKN05_008560 anti-FlhDC factor
+EKN05_008570	EKN05_008570	lipoprotein	EKN05_008570 lipoprotein
+EKN05_008585	EKN05_008585	vitamin B12 ABC transporter permease BtuC	EKN05_008585 vitamin B12 ABC transporter permease BtuC
+EKN05_008650	EKN05_008650	DUF481 domain-containing protein	EKN05_008650 DUF481 domain-containing protein
+EKN05_008665	EKN05_008665	fructosamine kinase family protein	EKN05_008665 fructosamine kinase family protein
+EKN05_008670	EKN05_008670	hypothetical protein	EKN05_008670 hypothetical protein
+EKN05_008675	EKN05_008675	hexitol phosphatase HxpB	EKN05_008675 hexitol phosphatase HxpB
+EKN05_008685	EKN05_008685	L-cystine transporter	EKN05_008685 L-cystine transporter
+EKN05_008695	EKN05_008695	cell division activator CedA	EKN05_008695 cell division activator CedA
+EKN05_008700	EKN05_008700	catalase HPII	EKN05_008700 catalase HPII
+EKN05_008705	EKN05_008705	chitin disaccharide deacetylase	EKN05_008705 chitin disaccharide deacetylase
+EKN05_008710	EKN05_008710	6-phospho-beta-glucosidase	EKN05_008710 6-phospho-beta-glucosidase
+EKN05_008720	EKN05_008720	PTS N,N'-diacetylchitobiose transporter subunit IIA	EKN05_008720 PTS N,N'-diacetylchitobiose transporter subunit IIA
+EKN05_008725	EKN05_008725	PTS N,N'-diacetylchitobiose transporter subunit IIC	EKN05_008725 PTS N,N'-diacetylchitobiose transporter subunit IIC
+EKN05_008735	EKN05_008735	hypothetical protein	EKN05_008735 hypothetical protein
+EKN05_008740	EKN05_008740	osmotically-inducible lipoprotein OsmE	EKN05_008740 osmotically-inducible lipoprotein OsmE
+EKN05_008750	EKN05_008750	excinuclease Cho	EKN05_008750 excinuclease Cho
+EKN05_008760	EKN05_008760	ATP-independent periplasmic protein-refolding chaperone	EKN05_008760 ATP-independent periplasmic protein-refolding chaperone
+EKN05_008770	EKN05_008770	N-succinylarginine dihydrolase	EKN05_008770 N-succinylarginine dihydrolase
+EKN05_008775	EKN05_008775	succinylglutamate-semialdehyde dehydrogenase	EKN05_008775 succinylglutamate-semialdehyde dehydrogenase
+EKN05_008780	EKN05_008780	arginine N-succinyltransferase	EKN05_008780 arginine N-succinyltransferase
+EKN05_008865	EKN05_008865	NADP-specific glutamate dehydrogenase	EKN05_008865 NADP-specific glutamate dehydrogenase
+EKN05_008870	EKN05_008870	DUF1266 domain-containing protein	EKN05_008870 DUF1266 domain-containing protein
+EKN05_008880	EKN05_008880	DUF1266 domain-containing protein	EKN05_008880 DUF1266 domain-containing protein
+EKN05_008890	EKN05_008890	selenide, water dikinase SelD	EKN05_008890 selenide, water dikinase SelD
+EKN05_008900	EKN05_008900	signal peptide peptidase SppA	EKN05_008900 signal peptide peptidase SppA
+EKN05_008905	EKN05_008905	L-asparaginase 1	EKN05_008905 L-asparaginase 1
+EKN05_008925	EKN05_008925	MFS transporter	EKN05_008925 MFS transporter
+EKN05_008940	EKN05_008940	sugar kinase	EKN05_008940 sugar kinase
+EKN05_008945	EKN05_008945	ketose-bisphosphate aldolase	EKN05_008945 ketose-bisphosphate aldolase
+EKN05_009030	EKN05_009030	Slp family lipoprotein YeaY	EKN05_009030 Slp family lipoprotein YeaY
+EKN05_009040	EKN05_009040	ATP-dependent DNA helicase	EKN05_009040 ATP-dependent DNA helicase
+EKN05_009045	EKN05_009045	RidA family protein	EKN05_009045 RidA family protein
+EKN05_009050	EKN05_009050	DUF1889 family protein	EKN05_009050 DUF1889 family protein
+EKN05_009060	EKN05_009060	aminodeoxychorismate synthase component 1	EKN05_009060 aminodeoxychorismate synthase component 1
+EKN05_009065	EKN05_009065	CoA pyrophosphatase	EKN05_009065 CoA pyrophosphatase
+EKN05_009070	EKN05_009070	L-serine ammonia-lyase	EKN05_009070 L-serine ammonia-lyase
+EKN05_009075	EKN05_009075	cyclic diguanylate phosphodiesterase	EKN05_009075 cyclic diguanylate phosphodiesterase
+EKN05_009080	EKN05_009080	TerC family protein	EKN05_009080 TerC family protein
+EKN05_009085	EKN05_009085	PTS mannose transporter subunit IIAB	EKN05_009085 PTS mannose transporter subunit IIAB
+EKN05_009090	EKN05_009090	PTS mannose/fructose/sorbose transporter subunit IIC	EKN05_009090 PTS mannose/fructose/sorbose transporter subunit IIC
+EKN05_009095	EKN05_009095	PTS mannose transporter subunit IID	EKN05_009095 PTS mannose transporter subunit IID
+EKN05_009110	EKN05_009110	manganese efflux pump MntP	EKN05_009110 manganese efflux pump MntP
+EKN05_009115	EKN05_009115	23S rRNA (guanine(745)-N(1))-methyltransferase	EKN05_009115 23S rRNA (guanine(745)-N(1))-methyltransferase
+EKN05_009145	EKN05_009145	DNA-binding transcriptional regulator KdgR	EKN05_009145 DNA-binding transcriptional regulator KdgR
+EKN05_009150	EKN05_009150	MFS transporter	EKN05_009150 MFS transporter
+EKN05_009160	EKN05_009160	carboxy terminal-processing peptidase	EKN05_009160 carboxy terminal-processing peptidase
+EKN05_009170	EKN05_009170	GAF domain-containing protein	EKN05_009170 GAF domain-containing protein
+EKN05_009175	EKN05_009175	paraquat-inducible protein A	EKN05_009175 paraquat-inducible protein A
+EKN05_009180	EKN05_009180	PqiB family protein	EKN05_009180 PqiB family protein
+EKN05_009185	EKN05_009185	16S rRNA (cytosine(1407)-C(5))-methyltransferase RsmF	EKN05_009185 16S rRNA (cytosine(1407)-C(5))-methyltransferase RsmF
+EKN05_009190	EKN05_009190	DUF1480 family protein	EKN05_009190 DUF1480 family protein
+EKN05_009210	EKN05_009210	serine/threonine protein phosphatase	EKN05_009210 serine/threonine protein phosphatase
+EKN05_009220	EKN05_009220	T3SS effector E3 ubiquitin-protein ligase IpaH3	EKN05_009220 T3SS effector E3 ubiquitin-protein ligase IpaH3
+EKN05_009235	EKN05_009235	hypothetical protein	EKN05_009235 hypothetical protein
+EKN05_009260	EKN05_009260	site-specific integrase	EKN05_009260 site-specific integrase
+EKN05_009265	EKN05_009265	iron/manganese ABC transporter substrate-binding protein SitA	EKN05_009265 iron/manganese ABC transporter substrate-binding protein SitA
+EKN05_009270	EKN05_009270	iron/manganese ABC transporter ATP-binding protein SitB	EKN05_009270 iron/manganese ABC transporter ATP-binding protein SitB
+EKN05_009275	EKN05_009275	iron/manganese ABC transporter permease subunit SitC	EKN05_009275 iron/manganese ABC transporter permease subunit SitC
+EKN05_009280	EKN05_009280	iron/manganese ABC transporter permease subunit SitD	EKN05_009280 iron/manganese ABC transporter permease subunit SitD
+EKN05_009295	EKN05_009295	tail fiber assembly protein	EKN05_009295 tail fiber assembly protein
+EKN05_009305	EKN05_009305	hypothetical protein	EKN05_009305 hypothetical protein
+EKN05_009325	EKN05_009325	site-specific integrase	EKN05_009325 site-specific integrase
+EKN05_009355	EKN05_009355	ORF6N domain-containing protein	EKN05_009355 ORF6N domain-containing protein
+EKN05_009370	EKN05_009370	DUF1133 family protein	EKN05_009370 DUF1133 family protein
+EKN05_009380	EKN05_009380	DUF1367 family protein	EKN05_009380 DUF1367 family protein
+EKN05_009390	EKN05_009390	hypothetical protein	EKN05_009390 hypothetical protein
+EKN05_009405	EKN05_009405	hypothetical protein	EKN05_009405 hypothetical protein
+EKN05_009455	EKN05_009455	DUF1376 domain-containing protein	EKN05_009455 DUF1376 domain-containing protein
+EKN05_009465	EKN05_009465	LysR family transcriptional regulator	EKN05_009465 LysR family transcriptional regulator
+EKN05_009470	EKN05_009470	alpha/beta hydrolase	EKN05_009470 alpha/beta hydrolase
+EKN05_009475	EKN05_009475	alpha/beta hydrolase	EKN05_009475 alpha/beta hydrolase
+EKN05_009490	EKN05_009490	SDR family oxidoreductase	EKN05_009490 SDR family oxidoreductase
+EKN05_009500	EKN05_009500	L-Ala-D/L-Glu epimerase	EKN05_009500 L-Ala-D/L-Glu epimerase
+EKN05_009510	EKN05_009510	TyrR family transcriptional regulator	EKN05_009510 TyrR family transcriptional regulator
+EKN05_009515	EKN05_009515	TIGR01620 family protein	EKN05_009515 TIGR01620 family protein
+EKN05_009520	EKN05_009520	YcjX family protein	EKN05_009520 YcjX family protein
+EKN05_009530	EKN05_009530	monomeric porin OmpG	EKN05_009530 monomeric porin OmpG
+EKN05_009540	EKN05_009540	beta-phosphoglucomutase	EKN05_009540 beta-phosphoglucomutase
+EKN05_009545	EKN05_009545	kojibiose phosphorylase	EKN05_009545 kojibiose phosphorylase
+EKN05_009550	EKN05_009550	Gfo/Idh/MocA family oxidoreductase	EKN05_009550 Gfo/Idh/MocA family oxidoreductase
+EKN05_009560	EKN05_009560	zinc-binding alcohol dehydrogenase	EKN05_009560 zinc-binding alcohol dehydrogenase
+EKN05_009565	EKN05_009565	carbohydrate ABC transporter permease	EKN05_009565 carbohydrate ABC transporter permease
+EKN05_009615	EKN05_009615	phage shock protein PspA	EKN05_009615 phage shock protein PspA
+EKN05_009625	EKN05_009625	4-aminobutyrate transaminase	EKN05_009625 4-aminobutyrate transaminase
+EKN05_009630	EKN05_009630	FAD-binding oxidoreductase	EKN05_009630 FAD-binding oxidoreductase
+EKN05_009640	EKN05_009640	HTH-type transcriptional regulator PuuR	EKN05_009640 HTH-type transcriptional regulator PuuR
+EKN05_009645	EKN05_009645	gamma-glutamyl-gamma-aminobutyrate hydrolase	EKN05_009645 gamma-glutamyl-gamma-aminobutyrate hydrolase
+EKN05_009650	EKN05_009650	glutamine synthetase	EKN05_009650 glutamine synthetase
+EKN05_009655	EKN05_009655	hypothetical protein	EKN05_009655 hypothetical protein
+EKN05_009705	EKN05_009705	CMD domain-containing protein	EKN05_009705 CMD domain-containing protein
+EKN05_009710	EKN05_009710	exoribonuclease II	EKN05_009710 exoribonuclease II
+EKN05_009725	EKN05_009725	hypothetical protein	EKN05_009725 hypothetical protein
+EKN05_009730	EKN05_009730	DeoR/GlpR transcriptional regulator	EKN05_009730 DeoR/GlpR transcriptional regulator
+EKN05_009750	EKN05_009750	lipopolysaccharide assembly protein LapB	EKN05_009750 lipopolysaccharide assembly protein LapB
+EKN05_009760	EKN05_009760	phosphatidylglycerophosphatase B	EKN05_009760 phosphatidylglycerophosphatase B
+EKN05_009770	EKN05_009770	aconitate hydratase AcnA	EKN05_009770 aconitate hydratase AcnA
+EKN05_009815	EKN05_009815	YciK family oxidoreductase	EKN05_009815 YciK family oxidoreductase
+EKN05_009820	EKN05_009820	cob(I)yrinic acid a,c-diamide adenosyltransferase	EKN05_009820 cob(I)yrinic acid a,c-diamide adenosyltransferase
+EKN05_009845	EKN05_009845	anthranilate synthase component I	EKN05_009845 anthranilate synthase component I
+EKN05_009850	EKN05_009850	bifunctional anthranilate synthase glutamate amidotransferase component TrpG/anthranilate phosphoribosyltransferase TrpD	EKN05_009850 bifunctional anthranilate synthase glutamate amidotransferase component TrpG/anthranilate phosphoribosyltransferase TrpD
+EKN05_009855	EKN05_009855	bifunctional indole-3-glycerol-phosphate synthase TrpC/phosphoribosylanthranilate isomerase TrpF	EKN05_009855 bifunctional indole-3-glycerol-phosphate synthase TrpC/phosphoribosylanthranilate isomerase TrpF
+EKN05_009860	EKN05_009860	tryptophan synthase subunit beta	EKN05_009860 tryptophan synthase subunit beta
+EKN05_009865	EKN05_009865	tryptophan synthase subunit alpha	EKN05_009865 tryptophan synthase subunit alpha
+EKN05_009875	EKN05_009875	ferritin-like domain-containing protein	EKN05_009875 ferritin-like domain-containing protein
+EKN05_009885	EKN05_009885	outer membrane protein OmpW	EKN05_009885 outer membrane protein OmpW
+EKN05_009900	EKN05_009900	septation protein A	EKN05_009900 septation protein A
+EKN05_009905	EKN05_009905	acyl-CoA thioester hydrolase YciA	EKN05_009905 acyl-CoA thioester hydrolase YciA
+EKN05_009915	EKN05_009915	YciI family protein	EKN05_009915 YciI family protein
+EKN05_009935	EKN05_009935	cardiolipin synthase	EKN05_009935 cardiolipin synthase
+EKN05_009945	EKN05_009945	murein tripeptide/oligopeptide ABC transporter ATP binding protein OppF	EKN05_009945 murein tripeptide/oligopeptide ABC transporter ATP binding protein OppF
+EKN05_009950	EKN05_009950	murein tripeptide/oligopeptide ABC transporter ATP binding protein OppD	EKN05_009950 murein tripeptide/oligopeptide ABC transporter ATP binding protein OppD
+EKN05_009960	EKN05_009960	oligopeptide ABC transporter permease OppB	EKN05_009960 oligopeptide ABC transporter permease OppB
+EKN05_009965	EKN05_009965	oligopeptide ABC transporter substrate-binding protein OppA	EKN05_009965 oligopeptide ABC transporter substrate-binding protein OppA
+EKN05_009975	EKN05_009975	bifunctional acetaldehyde-CoA/alcohol dehydrogenase	EKN05_009975 bifunctional acetaldehyde-CoA/alcohol dehydrogenase
+EKN05_009985	EKN05_009985	thymidine kinase	EKN05_009985 thymidine kinase
+EKN05_010000	EKN05_010000	two-component system response regulator RssB	EKN05_010000 two-component system response regulator RssB
+EKN05_010005	EKN05_010005	patatin-like phospholipase RssA	EKN05_010005 patatin-like phospholipase RssA
+EKN05_010010	EKN05_010010	YchJ family protein	EKN05_010010 YchJ family protein
+EKN05_010020	EKN05_010020	tRNA-Tyr	EKN05_010020 tRNA-Tyr
+EKN05_010035	EKN05_010035	nitrate reductase molybdenum cofactor assembly chaperone	EKN05_010035 nitrate reductase molybdenum cofactor assembly chaperone
+EKN05_010040	EKN05_010040	nitrate reductase subunit beta	EKN05_010040 nitrate reductase subunit beta
+EKN05_010045	EKN05_010045	nitrate reductase subunit alpha	EKN05_010045 nitrate reductase subunit alpha
+EKN05_010050	EKN05_010050	nitrate transporter NarK	EKN05_010050 nitrate transporter NarK
+EKN05_010055	EKN05_010055	nitrate/nitrite two-component system sensor histidine kinase NarX	EKN05_010055 nitrate/nitrite two-component system sensor histidine kinase NarX
+EKN05_010060	EKN05_010060	two-component system response regulator NarL	EKN05_010060 two-component system response regulator NarL
+EKN05_010075	EKN05_010075	gamma-glutamylcyclotransferase	EKN05_010075 gamma-glutamylcyclotransferase
+EKN05_010085	EKN05_010085	sodium-potassium/proton antiporter ChaA	EKN05_010085 sodium-potassium/proton antiporter ChaA
+EKN05_010115	EKN05_010115	SirB family protein	EKN05_010115 SirB family protein
+EKN05_010150	EKN05_010150	C4-dicarboxylic acid transporter DauA	EKN05_010150 C4-dicarboxylic acid transporter DauA
+EKN05_010170	EKN05_010170	autotransporter outer membrane beta-barrel domain-containing protein	EKN05_010170 autotransporter outer membrane beta-barrel domain-containing protein
+EKN05_010175	EKN05_010175	PTS-dependent dihydroxyacetone kinase operon transcriptional regulator DhaR	EKN05_010175 PTS-dependent dihydroxyacetone kinase operon transcriptional regulator DhaR
+EKN05_010180	EKN05_010180	dihydroxyacetone kinase subunit DhaK	EKN05_010180 dihydroxyacetone kinase subunit DhaK
+EKN05_010190	EKN05_010190	dihydroxyacetone kinase subunit DhaM	EKN05_010190 dihydroxyacetone kinase subunit DhaM
+EKN05_010195	EKN05_010195	alpha,alpha-trehalase	EKN05_010195 alpha,alpha-trehalase
+EKN05_010200	EKN05_010200	hypothetical protein	EKN05_010200 hypothetical protein
+EKN05_010210	EKN05_010210	iron ABC transporter permease	EKN05_010210 iron ABC transporter permease
+EKN05_010215	EKN05_010215	ABC transporter ATP-binding protein	EKN05_010215 ABC transporter ATP-binding protein
+EKN05_010220	EKN05_010220	methyltransferase domain-containing protein	EKN05_010220 methyltransferase domain-containing protein
+EKN05_010235	EKN05_010235	TonB-dependent receptor	EKN05_010235 TonB-dependent receptor
+EKN05_010265	EKN05_010265	invasion protein	EKN05_010265 invasion protein
+EKN05_010280	EKN05_010280	D-amino acid dehydrogenase	EKN05_010280 D-amino acid dehydrogenase
+EKN05_011610	EKN05_011610	fimbrial chaperone	EKN05_011610 fimbrial chaperone
+EKN05_011615	EKN05_011615	type 1 fimbrial protein	EKN05_011615 type 1 fimbrial protein
+EKN05_011620	EKN05_011620	fimbrial protein	EKN05_011620 fimbrial protein
+EKN05_011625	EKN05_011625	fimbrial protein	EKN05_011625 fimbrial protein
+EKN05_011630	EKN05_011630	fimbrial biogenesis outer membrane usher protein	EKN05_011630 fimbrial biogenesis outer membrane usher protein
+EKN05_011635	EKN05_011635	molecular chaperone	EKN05_011635 molecular chaperone
+EKN05_011640	EKN05_011640	fimbrial protein	EKN05_011640 fimbrial protein
+EKN05_011660	EKN05_011660	NADPH-dependent FMN reductase	EKN05_011660 NADPH-dependent FMN reductase
+EKN05_011665	EKN05_011665	sulfonate ABC transporter substrate-binding protein	EKN05_011665 sulfonate ABC transporter substrate-binding protein
+EKN05_011670	EKN05_011670	FMNH2-dependent alkanesulfonate monooxygenase	EKN05_011670 FMNH2-dependent alkanesulfonate monooxygenase
+EKN05_011685	EKN05_011685	aliphatic sulfonate ABC transporter permease SsuC	EKN05_011685 aliphatic sulfonate ABC transporter permease SsuC
+EKN05_011695	EKN05_011695	aminopeptidase N	EKN05_011695 aminopeptidase N
+EKN05_011715	EKN05_011715	aspartate/tyrosine/aromatic aminotransferase	EKN05_011715 aspartate/tyrosine/aromatic aminotransferase
+EKN05_011725	EKN05_011725	DUF882 domain-containing protein	EKN05_011725 DUF882 domain-containing protein
+EKN05_011765	EKN05_011765	hypothetical protein	EKN05_011765 hypothetical protein
+EKN05_011780	EKN05_011780	winged helix-turn-helix domain-containing protein	EKN05_011780 winged helix-turn-helix domain-containing protein
+EKN05_011795	EKN05_011795	ComEC family protein	EKN05_011795 ComEC family protein
+EKN05_011815	EKN05_011815	metalloprotease	EKN05_011815 metalloprotease
+EKN05_011825	EKN05_011825	3-phosphoshikimate 1-carboxyvinyltransferase	EKN05_011825 3-phosphoshikimate 1-carboxyvinyltransferase
+EKN05_011835	EKN05_011835	DUF421 domain-containing protein	EKN05_011835 DUF421 domain-containing protein
+EKN05_011840	EKN05_011840	30S ribosomal protein S12 methylthiotransferase accessory protein YcaO	EKN05_011840 30S ribosomal protein S12 methylthiotransferase accessory protein YcaO
+EKN05_011845	EKN05_011845	formate transporter FocA	EKN05_011845 formate transporter FocA
+EKN05_011850	EKN05_011850	formate C-acetyltransferase	EKN05_011850 formate C-acetyltransferase
+EKN05_011870	EKN05_011870	hypothetical protein	EKN05_011870 hypothetical protein
+EKN05_011875	EKN05_011875	LysR family transcriptional regulator	EKN05_011875 LysR family transcriptional regulator
+EKN05_011885	EKN05_011885	LysR family transcriptional regulator	EKN05_011885 LysR family transcriptional regulator
+EKN05_011920	EKN05_011920	amino acid permease	EKN05_011920 amino acid permease
+EKN05_011925	EKN05_011925	MFS transporter	EKN05_011925 MFS transporter
+EKN05_011930	EKN05_011930	hydrolase	EKN05_011930 hydrolase
+EKN05_011935	EKN05_011935	dimethyl sulfoxide reductase anchor subunit	EKN05_011935 dimethyl sulfoxide reductase anchor subunit
+EKN05_011940	EKN05_011940	dimethylsulfoxide reductase subunit B	EKN05_011940 dimethylsulfoxide reductase subunit B
+EKN05_011945	EKN05_011945	dimethylsulfoxide reductase subunit A	EKN05_011945 dimethylsulfoxide reductase subunit A
+EKN05_011955	EKN05_011955	replication-associated recombination protein A	EKN05_011955 replication-associated recombination protein A
+EKN05_011970	EKN05_011970	leucine-responsive transcriptional regulator Lrp	EKN05_011970 leucine-responsive transcriptional regulator Lrp
+EKN05_011990	EKN05_011990	leucyl/phenylalanyl-tRNA--protein transferase	EKN05_011990 leucyl/phenylalanyl-tRNA--protein transferase
+EKN05_012010	EKN05_012010	ATP-dependent Clp protease ATP-binding subunit ClpA	EKN05_012010 ATP-dependent Clp protease ATP-binding subunit ClpA
+EKN05_012015	EKN05_012015	ATP-dependent Clp protease adapter ClpS	EKN05_012015 ATP-dependent Clp protease adapter ClpS
+EKN05_012020	EKN05_012020	cold shock-like protein CspD	EKN05_012020 cold shock-like protein CspD
+EKN05_012025	EKN05_012025	macrolide ABC transporter ATP-binding protein/permease MacB	EKN05_012025 macrolide ABC transporter ATP-binding protein/permease MacB
+EKN05_012035	EKN05_012035	DUF535 domain-containing protein	EKN05_012035 DUF535 domain-containing protein
+EKN05_012040	EKN05_012040	ATP-dependent endonuclease	EKN05_012040 ATP-dependent endonuclease
+EKN05_012050	EKN05_012050	aquaporin Z	EKN05_012050 aquaporin Z
+EKN05_012055	EKN05_012055	aquaporin	EKN05_012055 aquaporin
+EKN05_012060	EKN05_012060	L-lysine exporter LysO	EKN05_012060 L-lysine exporter LysO
+EKN05_012065	EKN05_012065	hydroxylamine reductase	EKN05_012065 hydroxylamine reductase
+EKN05_012070	EKN05_012070	NADH oxidoreductase	EKN05_012070 NADH oxidoreductase
+EKN05_012075	EKN05_012075	ubiquinone-dependent pyruvate dehydrogenase	EKN05_012075 ubiquinone-dependent pyruvate dehydrogenase
+EKN05_012080	EKN05_012080	low-specificity L-threonine aldolase	EKN05_012080 low-specificity L-threonine aldolase
+EKN05_012085	EKN05_012085	SDR family oxidoreductase	EKN05_012085 SDR family oxidoreductase
+EKN05_012090	EKN05_012090	NAD(P)-dependent oxidoreductase	EKN05_012090 NAD(P)-dependent oxidoreductase
+EKN05_012095	EKN05_012095	N-acetylmuramoyl-L-alanine amidase	EKN05_012095 N-acetylmuramoyl-L-alanine amidase
+EKN05_012130	EKN05_012130	lipoprotein	EKN05_012130 lipoprotein
+EKN05_012135	EKN05_012135	arginine ABC transporter ATP-binding protein ArtP	EKN05_012135 arginine ABC transporter ATP-binding protein ArtP
+EKN05_012140	EKN05_012140	arginine ABC transporter substrate-binding protein	EKN05_012140 arginine ABC transporter substrate-binding protein
+EKN05_012155	EKN05_012155	arginine ABC transporter substrate-binding protein	EKN05_012155 arginine ABC transporter substrate-binding protein
+EKN05_012160	EKN05_012160	23S rRNA (uracil(747)-C(5))-methyltransferase RlmC	EKN05_012160 23S rRNA (uracil(747)-C(5))-methyltransferase RlmC
+EKN05_012165	EKN05_012165	DUF2593 family protein	EKN05_012165 DUF2593 family protein
+EKN05_012170	EKN05_012170	putrescine ABC transporter permease PotI	EKN05_012170 putrescine ABC transporter permease PotI
+EKN05_012175	EKN05_012175	putrescine ABC transporter permease PotH	EKN05_012175 putrescine ABC transporter permease PotH
+EKN05_012180	EKN05_012180	putrescine ABC transporter ATP-binding subunit PotG	EKN05_012180 putrescine ABC transporter ATP-binding subunit PotG
+EKN05_012185	EKN05_012185	spermidine/putrescine ABC transporter substrate-binding protein PotF	EKN05_012185 spermidine/putrescine ABC transporter substrate-binding protein PotF
+EKN05_012190	EKN05_012190	YbjN domain-containing protein	EKN05_012190 YbjN domain-containing protein
+EKN05_012195	EKN05_012195	30S ribosomal protein S6--L-glutamate ligase	EKN05_012195 30S ribosomal protein S6--L-glutamate ligase
+EKN05_012200	EKN05_012200	nitroreductase NfsA	EKN05_012200 nitroreductase NfsA
+EKN05_012205	EKN05_012205	DUF1418 family protein	EKN05_012205 DUF1418 family protein
+EKN05_012210	EKN05_012210	GrxA family glutaredoxin	EKN05_012210 GrxA family glutaredoxin
+EKN05_012220	EKN05_012220	transporter	EKN05_012220 transporter
+EKN05_012230	EKN05_012230	MFS transporter	EKN05_012230 MFS transporter
+EKN05_012235	EKN05_012235	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	EKN05_012235 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase
+EKN05_012245	EKN05_012245	multidrug efflux MFS transporter MdfA	EKN05_012245 multidrug efflux MFS transporter MdfA
+EKN05_012250	EKN05_012250	undecaprenyl-diphosphate phosphatase	EKN05_012250 undecaprenyl-diphosphate phosphatase
+EKN05_012255	EKN05_012255	DNA-binding transcriptional repressor DeoR	EKN05_012255 DNA-binding transcriptional repressor DeoR
+EKN05_012260	EKN05_012260	hypothetical protein	EKN05_012260 hypothetical protein
+EKN05_012270	EKN05_012270	serine-type D-Ala-D-Ala carboxypeptidase	EKN05_012270 serine-type D-Ala-D-Ala carboxypeptidase
+EKN05_012275	EKN05_012275	glutathione S-transferase family protein	EKN05_012275 glutathione S-transferase family protein
+EKN05_012285	EKN05_012285	PQQ-dependent sugar dehydrogenase	EKN05_012285 PQQ-dependent sugar dehydrogenase
+EKN05_012295	EKN05_012295	30S ribosomal protein S12 methylthiotransferase RimO	EKN05_012295 30S ribosomal protein S12 methylthiotransferase RimO
+EKN05_012300	EKN05_012300	GGDEF domain-containing protein	EKN05_012300 GGDEF domain-containing protein
+EKN05_012315	EKN05_012315	glutathione ABC transporter permease GsiD	EKN05_012315 glutathione ABC transporter permease GsiD
+EKN05_012320	EKN05_012320	glutathione ABC transporter permease GsiC	EKN05_012320 glutathione ABC transporter permease GsiC
+EKN05_012325	EKN05_012325	glutathione ABC transporter substrate-binding protein GsiB	EKN05_012325 glutathione ABC transporter substrate-binding protein GsiB
+EKN05_012330	EKN05_012330	glutathione ABC transporter ATP-binding protein GsiA	EKN05_012330 glutathione ABC transporter ATP-binding protein GsiA
+EKN05_012340	EKN05_012340	molybdopterin molybdotransferase MoeA	EKN05_012340 molybdopterin molybdotransferase MoeA
+EKN05_012345	EKN05_012345	molybdopterin-synthase adenylyltransferase MoeB	EKN05_012345 molybdopterin-synthase adenylyltransferase MoeB
+EKN05_012350	EKN05_012350	fructose-6-phosphate aldolase	EKN05_012350 fructose-6-phosphate aldolase
+EKN05_012355	EKN05_012355	glycyl-radical enzyme activating protein	EKN05_012355 glycyl-radical enzyme activating protein
+EKN05_012360	EKN05_012360	glycyl radical protein	EKN05_012360 glycyl radical protein
+EKN05_012365	EKN05_012365	Cof-type HAD-IIB family hydrolase	EKN05_012365 Cof-type HAD-IIB family hydrolase
+EKN05_012370	EKN05_012370	DUF1479 domain-containing protein	EKN05_012370 DUF1479 domain-containing protein
+EKN05_012375	EKN05_012375	ABC-F family ATPase	EKN05_012375 ABC-F family ATPase
+EKN05_012380	EKN05_012380	L,D-transpeptidase	EKN05_012380 L,D-transpeptidase
+EKN05_012390	EKN05_012390	manganese-binding transcriptional regulator MntR	EKN05_012390 manganese-binding transcriptional regulator MntR
+EKN05_012395	EKN05_012395	manganase accumulation protein MntS	EKN05_012395 manganase accumulation protein MntS
+EKN05_012400	EKN05_012400	phosphoethanolamine transferase	EKN05_012400 phosphoethanolamine transferase
+EKN05_012415	EKN05_012415	threonine/homoserine exporter RhtA	EKN05_012415 threonine/homoserine exporter RhtA
+EKN05_012425	EKN05_012425	glutamine ABC transporter substrate-binding protein GlnH	EKN05_012425 glutamine ABC transporter substrate-binding protein GlnH
+EKN05_012430	EKN05_012430	glutamine ABC transporter permease	EKN05_012430 glutamine ABC transporter permease
+EKN05_012440	EKN05_012440	mechanosensitive channel protein	EKN05_012440 mechanosensitive channel protein
+EKN05_012445	EKN05_012445	23S rRNA (adenine(1618)-N(6))-methyltransferase RlmF	EKN05_012445 23S rRNA (adenine(1618)-N(6))-methyltransferase RlmF
+EKN05_012450	EKN05_012450	DUF1471 domain-containing protein	EKN05_012450 DUF1471 domain-containing protein
+EKN05_012465	EKN05_012465	catecholate siderophore receptor Fiu	EKN05_012465 catecholate siderophore receptor Fiu
+EKN05_012470	EKN05_012470	PKHD-type hydroxylase YbiX	EKN05_012470 PKHD-type hydroxylase YbiX
+EKN05_012485	EKN05_012485	malate/lactate/ureidoglycolate dehydrogenase	EKN05_012485 malate/lactate/ureidoglycolate dehydrogenase
+EKN05_012490	EKN05_012490	DNA-binding protein YbiB	EKN05_012490 DNA-binding protein YbiB
+EKN05_012500	EKN05_012500	N-glycosidase YbiA	EKN05_012500 N-glycosidase YbiA
+EKN05_012505	EKN05_012505	ATP-dependent RNA helicase RhlE	EKN05_012505 ATP-dependent RNA helicase RhlE
+EKN05_012510	EKN05_012510	DNA-binding transcriptional regulator CecR	EKN05_012510 DNA-binding transcriptional regulator CecR
+EKN05_012515	EKN05_012515	secretion protein HlyD	EKN05_012515 secretion protein HlyD
+EKN05_012520	EKN05_012520	ABC transporter ATP-binding protein	EKN05_012520 ABC transporter ATP-binding protein
+EKN05_012525	EKN05_012525	ABC transporter permease	EKN05_012525 ABC transporter permease
+EKN05_012530	EKN05_012530	ABC transporter permease	EKN05_012530 ABC transporter permease
+EKN05_012535	EKN05_012535	hypothetical protein	EKN05_012535 hypothetical protein
+EKN05_012540	EKN05_012540	endonuclease/exonuclease/phosphatase family protein	EKN05_012540 endonuclease/exonuclease/phosphatase family protein
+EKN05_012545	EKN05_012545	cardiolipin synthase ClsB	EKN05_012545 cardiolipin synthase ClsB
+EKN05_012550	EKN05_012550	UPF0104 family protein	EKN05_012550 UPF0104 family protein
+EKN05_012555	EKN05_012555	Bax inhibitor-1/YccA family protein	EKN05_012555 Bax inhibitor-1/YccA family protein
+EKN05_012560	EKN05_012560	Bax inhibitor-1/YccA family protein	EKN05_012560 Bax inhibitor-1/YccA family protein
+EKN05_012575	EKN05_012575	cyclic pyranopterin monophosphate synthase MoaC	EKN05_012575 cyclic pyranopterin monophosphate synthase MoaC
+EKN05_012580	EKN05_012580	molybdenum cofactor biosynthesis protein B	EKN05_012580 molybdenum cofactor biosynthesis protein B
+EKN05_012585	EKN05_012585	GTP 3',8-cyclase MoaA	EKN05_012585 GTP 3',8-cyclase MoaA
+EKN05_012590	EKN05_012590	uridine diphosphate-N-acetylglucosamine-binding protein YvcK	EKN05_012590 uridine diphosphate-N-acetylglucosamine-binding protein YvcK
+EKN05_012595	EKN05_012595	excinuclease ABC subunit B	EKN05_012595 excinuclease ABC subunit B
+EKN05_012600	EKN05_012600	ATP-dependent dethiobiotin synthetase BioD	EKN05_012600 ATP-dependent dethiobiotin synthetase BioD
+EKN05_012605	EKN05_012605	malonyl-ACP O-methyltransferase BioC	EKN05_012605 malonyl-ACP O-methyltransferase BioC
+EKN05_012610	EKN05_012610	8-amino-7-oxononanoate synthase	EKN05_012610 8-amino-7-oxononanoate synthase
+EKN05_012615	EKN05_012615	biotin synthase	EKN05_012615 biotin synthase
+EKN05_012620	EKN05_012620	adenosylmethionine--8-amino-7-oxononanoate transaminase	EKN05_012620 adenosylmethionine--8-amino-7-oxononanoate transaminase
+EKN05_012625	EKN05_012625	kinase inhibitor	EKN05_012625 kinase inhibitor
+EKN05_012630	EKN05_012630	putative acyl-CoA thioester hydrolase	EKN05_012630 putative acyl-CoA thioester hydrolase
+EKN05_012635	EKN05_012635	hydratase	EKN05_012635 hydratase
+EKN05_012640	EKN05_012640	anion permease	EKN05_012640 anion permease
+EKN05_012675	EKN05_012675	DUF4376 domain-containing protein	EKN05_012675 DUF4376 domain-containing protein
+EKN05_012730	EKN05_012730	hypothetical protein	EKN05_012730 hypothetical protein
+EKN05_012735	EKN05_012735	hypothetical protein	EKN05_012735 hypothetical protein
+EKN05_012740	EKN05_012740	hypothetical protein	EKN05_012740 hypothetical protein
+EKN05_012755	EKN05_012755	epoxyqueuosine reductase QueH	EKN05_012755 epoxyqueuosine reductase QueH
+EKN05_012765	EKN05_012765	hypothetical protein	EKN05_012765 hypothetical protein
+EKN05_012770	EKN05_012770	DUF1367 family protein	EKN05_012770 DUF1367 family protein
+EKN05_012780	EKN05_012780	DUF1133 family protein	EKN05_012780 DUF1133 family protein
+EKN05_012825	EKN05_012825	lysozyme	EKN05_012825 lysozyme
+EKN05_012850	EKN05_012850	lysis protein	EKN05_012850 lysis protein
+EKN05_012865	EKN05_012865	DedA family protein	EKN05_012865 DedA family protein
+EKN05_012870	EKN05_012870	hypothetical protein	EKN05_012870 hypothetical protein
+EKN05_012875	EKN05_012875	PBSX family phage terminase large subunit	EKN05_012875 PBSX family phage terminase large subunit
+EKN05_012885	EKN05_012885	PBSX family phage terminase large subunit	EKN05_012885 PBSX family phage terminase large subunit
+EKN05_012890	EKN05_012890	DUF1073 domain-containing protein	EKN05_012890 DUF1073 domain-containing protein
+EKN05_012895	EKN05_012895	phage head morphogenesis protein	EKN05_012895 phage head morphogenesis protein
+EKN05_012900	EKN05_012900	DUF2213 domain-containing protein	EKN05_012900 DUF2213 domain-containing protein
+EKN05_012905	EKN05_012905	hypothetical protein	EKN05_012905 hypothetical protein
+EKN05_012910	EKN05_012910	DUF2184 domain-containing protein	EKN05_012910 DUF2184 domain-containing protein
+EKN05_012915	EKN05_012915	hypothetical protein	EKN05_012915 hypothetical protein
+EKN05_012925	EKN05_012925	transposase	EKN05_012925 transposase
+EKN05_012930	EKN05_012930	transcriptional regulator	EKN05_012930 transcriptional regulator
+EKN05_012935	EKN05_012935	DNA-binding protein	EKN05_012935 DNA-binding protein
+EKN05_012940	EKN05_012940	response regulator	EKN05_012940 response regulator
+EKN05_012945	EKN05_012945	anaerobic C4-dicarboxylate transporter DcuC	EKN05_012945 anaerobic C4-dicarboxylate transporter DcuC
+EKN05_012950	EKN05_012950	phospholipid:lipid A palmitoyltransferase	EKN05_012950 phospholipid:lipid A palmitoyltransferase
+EKN05_014295	EKN05_014295	inosine/guanosine kinase	EKN05_014295 inosine/guanosine kinase
+EKN05_014300	EKN05_014300	acetyl esterase	EKN05_014300 acetyl esterase
+EKN05_014315	EKN05_014315	molecular chaperone HtpG	EKN05_014315 molecular chaperone HtpG
+EKN05_014320	EKN05_014320	recombination protein RecR	EKN05_014320 recombination protein RecR
+EKN05_014340	EKN05_014340	DUF454 family protein	EKN05_014340 DUF454 family protein
+EKN05_014345	EKN05_014345	primosomal replication protein N''	EKN05_014345 primosomal replication protein N''
+EKN05_014355	EKN05_014355	mechanosensitive channel MscK	EKN05_014355 mechanosensitive channel MscK
+EKN05_014360	EKN05_014360	multidrug efflux transporter transcriptional repressor AcrR	EKN05_014360 multidrug efflux transporter transcriptional repressor AcrR
+EKN05_014365	EKN05_014365	multidrug efflux RND transporter periplasmic adaptor subunit AcrA	EKN05_014365 multidrug efflux RND transporter periplasmic adaptor subunit AcrA
+EKN05_014370	EKN05_014370	multidrug efflux RND transporter permease subunit	EKN05_014370 multidrug efflux RND transporter permease subunit
+EKN05_014375	EKN05_014375	Hha toxicity modulator TomB	EKN05_014375 Hha toxicity modulator TomB
+EKN05_014385	EKN05_014385	maltose O-acetyltransferase	EKN05_014385 maltose O-acetyltransferase
+EKN05_014390	EKN05_014390	hypothetical protein	EKN05_014390 hypothetical protein
+EKN05_014395	EKN05_014395	cyclic-guanylate-specific phosphodiesterase PdeB	EKN05_014395 cyclic-guanylate-specific phosphodiesterase PdeB
+EKN05_014410	EKN05_014410	DNA base-flipping protein	EKN05_014410 DNA base-flipping protein
+EKN05_014420	EKN05_014420	hypothetical protein	EKN05_014420 hypothetical protein
+EKN05_014425	EKN05_014425	acyl-CoA thioesterase II	EKN05_014425 acyl-CoA thioesterase II
+EKN05_014430	EKN05_014430	ammonium transporter AmtB	EKN05_014430 ammonium transporter AmtB
+EKN05_014440	EKN05_014440	SmdB family multidrug efflux ABC transporter permease/ATP-binding protein	EKN05_014440 SmdB family multidrug efflux ABC transporter permease/ATP-binding protein
+EKN05_014445	EKN05_014445	SmdA family multidrug ABC transporter permease/ATP-binding protein	EKN05_014445 SmdA family multidrug ABC transporter permease/ATP-binding protein
+EKN05_014450	EKN05_014450	Lrp/AsnC family transcriptional regulator	EKN05_014450 Lrp/AsnC family transcriptional regulator
+EKN05_014455	EKN05_014455	HMP-PP phosphatase	EKN05_014455 HMP-PP phosphatase
+EKN05_014460	EKN05_014460	SgrR family transcriptional regulator	EKN05_014460 SgrR family transcriptional regulator
+EKN05_014465	EKN05_014465	7-cyano-7-deazaguanine synthase QueC	EKN05_014465 7-cyano-7-deazaguanine synthase QueC
+EKN05_014475	EKN05_014475	hypothetical protein	EKN05_014475 hypothetical protein
+EKN05_014480	EKN05_014480	peptidylprolyl isomerase	EKN05_014480 peptidylprolyl isomerase
+EKN05_014485	EKN05_014485	DNA-binding protein HU-beta	EKN05_014485 DNA-binding protein HU-beta
+EKN05_014490	EKN05_014490	endopeptidase La	EKN05_014490 endopeptidase La
+EKN05_014495	EKN05_014495	ATP-dependent Clp protease ATP-binding subunit ClpX	EKN05_014495 ATP-dependent Clp protease ATP-binding subunit ClpX
+EKN05_014505	EKN05_014505	trigger factor	EKN05_014505 trigger factor
+EKN05_014510	EKN05_014510	transcriptional regulator BolA	EKN05_014510 transcriptional regulator BolA
+EKN05_014515	EKN05_014515	hypothetical protein	EKN05_014515 hypothetical protein
+EKN05_014520	EKN05_014520	muropeptide MFS transporter AmpG	EKN05_014520 muropeptide MFS transporter AmpG
+EKN05_014545	EKN05_014545	cytochrome o ubiquinol oxidase subunit II	EKN05_014545 cytochrome o ubiquinol oxidase subunit II
+EKN05_014550	EKN05_014550	cytochrome o ubiquinol oxidase subunit I	EKN05_014550 cytochrome o ubiquinol oxidase subunit I
+EKN05_014555	EKN05_014555	cytochrome o ubiquinol oxidase subunit III	EKN05_014555 cytochrome o ubiquinol oxidase subunit III
+EKN05_014565	EKN05_014565	protoheme IX farnesyltransferase	EKN05_014565 protoheme IX farnesyltransferase
+EKN05_014580	EKN05_014580	GNAT family N-acetyltransferase	EKN05_014580 GNAT family N-acetyltransferase
+EKN05_014585	EKN05_014585	sel1 repeat family protein	EKN05_014585 sel1 repeat family protein
+EKN05_014595	EKN05_014595	sel1 repeat family protein	EKN05_014595 sel1 repeat family protein
+EKN05_014600	EKN05_014600	MFS transporter	EKN05_014600 MFS transporter
+EKN05_014605	EKN05_014605	hypothetical protein	EKN05_014605 hypothetical protein
+EKN05_014610	EKN05_014610	hypothetical protein	EKN05_014610 hypothetical protein
+EKN05_014620	EKN05_014620	2-dehydropantoate 2-reductase	EKN05_014620 2-dehydropantoate 2-reductase
+EKN05_014630	EKN05_014630	tRNA 4-thiouridine(8) synthase ThiI	EKN05_014630 tRNA 4-thiouridine(8) synthase ThiI
+EKN05_014865	EKN05_014865	peptide antibiotic transporter SbmA	EKN05_014865 peptide antibiotic transporter SbmA
+EKN05_014870	EKN05_014870	D-alanyl-D-alanine- carboxypeptidase/endopeptidase AmpH	EKN05_014870 D-alanyl-D-alanine- carboxypeptidase/endopeptidase AmpH
+EKN05_014875	EKN05_014875	transcriptional regulator	EKN05_014875 transcriptional regulator
+EKN05_014880	EKN05_014880	autotransporter outer membrane beta-barrel domain-containing protein	EKN05_014880 autotransporter outer membrane beta-barrel domain-containing protein
+EKN05_014895	EKN05_014895	hypothetical protein	EKN05_014895 hypothetical protein
+EKN05_014905	EKN05_014905	taurine dioxygenase	EKN05_014905 taurine dioxygenase
+EKN05_014910	EKN05_014910	taurine ABC transporter permease TauC	EKN05_014910 taurine ABC transporter permease TauC
+EKN05_014915	EKN05_014915	taurine ABC transporter ATP-binding subunit	EKN05_014915 taurine ABC transporter ATP-binding subunit
+EKN05_014920	EKN05_014920	taurine ABC transporter substrate-binding protein	EKN05_014920 taurine ABC transporter substrate-binding protein
+EKN05_014935	EKN05_014935	transposase	EKN05_014935 transposase
+EKN05_014945	EKN05_014945	choline BCCT transporter BetT	EKN05_014945 choline BCCT transporter BetT
+EKN05_014950	EKN05_014950	transcriptional regulator BetI	EKN05_014950 transcriptional regulator BetI
+EKN05_014955	EKN05_014955	betaine-aldehyde dehydrogenase	EKN05_014955 betaine-aldehyde dehydrogenase
+EKN05_014960	EKN05_014960	choline dehydrogenase	EKN05_014960 choline dehydrogenase
+EKN05_014970	EKN05_014970	lactate utilization protein C	EKN05_014970 lactate utilization protein C
+EKN05_014975	EKN05_014975	iron-sulfur cluster-binding protein	EKN05_014975 iron-sulfur cluster-binding protein
+EKN05_014980	EKN05_014980	(Fe-S)-binding protein	EKN05_014980 (Fe-S)-binding protein
+EKN05_014990	EKN05_014990	hypothetical protein	EKN05_014990 hypothetical protein
+EKN05_014995	EKN05_014995	hypothetical protein	EKN05_014995 hypothetical protein
+EKN05_015000	EKN05_015000	type VI secretion system tip protein VgrG	EKN05_015000 type VI secretion system tip protein VgrG
+EKN05_015005	EKN05_015005	DUF1795 domain-containing protein	EKN05_015005 DUF1795 domain-containing protein
+EKN05_015010	EKN05_015010	type IV secretion protein Rhs	EKN05_015010 type IV secretion protein Rhs
+EKN05_015015	EKN05_015015	RHS repeat protein	EKN05_015015 RHS repeat protein
+EKN05_015020	EKN05_015020	type IV secretion protein Rhs	EKN05_015020 type IV secretion protein Rhs
+EKN05_015040	EKN05_015040	2-oxoglutaramate amidase	EKN05_015040 2-oxoglutaramate amidase
+EKN05_015045	EKN05_015045	C-lysozyme inhibitor	EKN05_015045 C-lysozyme inhibitor
+EKN05_015050	EKN05_015050	acyl-CoA dehydrogenase	EKN05_015050 acyl-CoA dehydrogenase
+EKN05_015060	EKN05_015060	class II glutamine amidotransferase	EKN05_015060 class II glutamine amidotransferase
+EKN05_015065	EKN05_015065	murein L,D-transpeptidase	EKN05_015065 murein L,D-transpeptidase
+EKN05_015070	EKN05_015070	peptidoglycan endopeptidase	EKN05_015070 peptidoglycan endopeptidase
+EKN05_015075	EKN05_015075	transposase	EKN05_015075 transposase
+EKN05_015080	EKN05_015080	flagellar type III secretion system protein FlhA	EKN05_015080 flagellar type III secretion system protein FlhA
+EKN05_015085	EKN05_015085	putative lateral flagellar export/assembly protein LafU	EKN05_015085 putative lateral flagellar export/assembly protein LafU
+EKN05_015090	EKN05_015090	DNA polymerase IV	EKN05_015090 DNA polymerase IV
+EKN05_015100	EKN05_015100	type II toxin-antitoxin system YafO family toxin	EKN05_015100 type II toxin-antitoxin system YafO family toxin
+EKN05_015105	EKN05_015105	GNAT family N-acetyltransferase	EKN05_015105 GNAT family N-acetyltransferase
+EKN05_015130	EKN05_015130	esterase FrsA	EKN05_015130 esterase FrsA
+EKN05_015175	EKN05_015175	DNA-binding protein	EKN05_015175 DNA-binding protein
+EKN05_015180	EKN05_015180	lysis protein	EKN05_015180 lysis protein
+EKN05_015190	EKN05_015190	phage holin, lambda family	EKN05_015190 phage holin, lambda family
+EKN05_015215	EKN05_015215	DNA-binding protein	EKN05_015215 DNA-binding protein
+EKN05_015225	EKN05_015225	hypothetical protein	EKN05_015225 hypothetical protein
+EKN05_015240	EKN05_015240	helicase DnaB	EKN05_015240 helicase DnaB
+EKN05_015245	EKN05_015245	DNA replication protein	EKN05_015245 DNA replication protein
+EKN05_015260	EKN05_015260	XRE family transcriptional regulator	EKN05_015260 XRE family transcriptional regulator
+EKN05_015270	EKN05_015270	hypothetical protein	EKN05_015270 hypothetical protein
+EKN05_015445	EKN05_015445	phage tail protein	EKN05_015445 phage tail protein
+EKN05_015455	EKN05_015455	hypothetical protein	EKN05_015455 hypothetical protein
+EKN05_015460	EKN05_015460	hypothetical protein	EKN05_015460 hypothetical protein
+EKN05_015485	EKN05_015485	HK97 family phage prohead protease	EKN05_015485 HK97 family phage prohead protease
+EKN05_015490	EKN05_015490	phage portal protein	EKN05_015490 phage portal protein
+EKN05_015495	EKN05_015495	hypothetical protein	EKN05_015495 hypothetical protein
+EKN05_015500	EKN05_015500	terminase large subunit	EKN05_015500 terminase large subunit
+EKN05_015515	EKN05_015515	lytic transglycosylase domain-containing protein	EKN05_015515 lytic transglycosylase domain-containing protein
+EKN05_015520	EKN05_015520	acyltransferase	EKN05_015520 acyltransferase
+EKN05_015525	EKN05_015525	DNA transfer protein	EKN05_015525 DNA transfer protein
+EKN05_015530	EKN05_015530	DUF2824 family protein	EKN05_015530 DUF2824 family protein
+EKN05_015535	EKN05_015535	hypothetical protein	EKN05_015535 hypothetical protein
+EKN05_015540	EKN05_015540	hypothetical protein	EKN05_015540 hypothetical protein
+EKN05_015545	EKN05_015545	recombinase RmuC	EKN05_015545 recombinase RmuC
+EKN05_015555	EKN05_015555	coat protein	EKN05_015555 coat protein
+EKN05_015560	EKN05_015560	scaffolding protein	EKN05_015560 scaffolding protein
+EKN05_015565	EKN05_015565	portal protein	EKN05_015565 portal protein
+EKN05_015570	EKN05_015570	terminase	EKN05_015570 terminase
+EKN05_015585	EKN05_015585	hypothetical protein	EKN05_015585 hypothetical protein
+EKN05_015590	EKN05_015590	hypothetical protein	EKN05_015590 hypothetical protein
+EKN05_015595	EKN05_015595	hypothetical protein	EKN05_015595 hypothetical protein
+EKN05_015605	EKN05_015605	DUF1327 domain-containing protein	EKN05_015605 DUF1327 domain-containing protein
+EKN05_015610	EKN05_015610	lysozyme	EKN05_015610 lysozyme
+EKN05_015660	EKN05_015660	cytoplasmic protein	EKN05_015660 cytoplasmic protein
+EKN05_015675	EKN05_015675	ribonuclease HI	EKN05_015675 ribonuclease HI
+EKN05_015680	EKN05_015680	SAM-dependent methyltransferase	EKN05_015680 SAM-dependent methyltransferase
+EKN05_015685	EKN05_015685	hydroxyacylglutathione hydrolase	EKN05_015685 hydroxyacylglutathione hydrolase
+EKN05_015690	EKN05_015690	murein transglycosylase D	EKN05_015690 murein transglycosylase D
+EKN05_015695	EKN05_015695	class I SAM-dependent methyltransferase	EKN05_015695 class I SAM-dependent methyltransferase
+EKN05_015700	EKN05_015700	endonuclease/exonuclease/phosphatase family protein	EKN05_015700 endonuclease/exonuclease/phosphatase family protein
+EKN05_015705	EKN05_015705	LysR family transcriptional regulator	EKN05_015705 LysR family transcriptional regulator
+EKN05_015715	EKN05_015715	2,5-didehydrogluconate reductase DkgB	EKN05_015715 2,5-didehydrogluconate reductase DkgB
+EKN05_015745	EKN05_015745	16S ribosomal RNA	EKN05_015745 16S ribosomal RNA
+EKN05_015755	EKN05_015755	methionine ABC transporter ATP-binding protein MetN	EKN05_015755 methionine ABC transporter ATP-binding protein MetN
+EKN05_015765	EKN05_015765	methionine ABC transporter substrate-binding protein MetQ	EKN05_015765 methionine ABC transporter substrate-binding protein MetQ
+EKN05_015770	EKN05_015770	Rcs stress response system protein RcsF	EKN05_015770 Rcs stress response system protein RcsF
+EKN05_015785	EKN05_015785	YaeF family permuted papain-like enzyme	EKN05_015785 YaeF family permuted papain-like enzyme
+EKN05_015790	EKN05_015790	envelope stress response activation lipoprotein NlpE	EKN05_015790 envelope stress response activation lipoprotein NlpE
+EKN05_015795	EKN05_015795	aminoacyl-tRNA hydrolase	EKN05_015795 aminoacyl-tRNA hydrolase
+EKN05_015800	EKN05_015800	YaeQ family protein	EKN05_015800 YaeQ family protein
+EKN05_015820	EKN05_015820	VOC family protein	EKN05_015820 VOC family protein
+EKN05_015825	EKN05_015825	lysine decarboxylase LdcC	EKN05_015825 lysine decarboxylase LdcC
+EKN05_015930	EKN05_015930	DUF3461 family protein	EKN05_015930 DUF3461 family protein
+EKN05_015940	EKN05_015940	serine endoprotease DegP	EKN05_015940 serine endoprotease DegP
+EKN05_015945	EKN05_015945	dGTPase	EKN05_015945 dGTPase
+EKN05_015955	EKN05_015955	vitamin B12 ABC transporter substrate-binding protein BtuF	EKN05_015955 vitamin B12 ABC transporter substrate-binding protein BtuF
+EKN05_015960	EKN05_015960	TRIC cation channel family protein	EKN05_015960 TRIC cation channel family protein
+EKN05_015975	EKN05_015975	H(+)/Cl(-) exchange transporter ClcA	EKN05_015975 H(+)/Cl(-) exchange transporter ClcA
+EKN05_015985	EKN05_015985	Fe(3+)-hydroxamate ABC transporter permease FhuB	EKN05_015985 Fe(3+)-hydroxamate ABC transporter permease FhuB
+EKN05_016000	EKN05_016000	ferrichrome porin FhuA	EKN05_016000 ferrichrome porin FhuA
+EKN05_016005	EKN05_016005	bifunctional glycosyl transferase/transpeptidase	EKN05_016005 bifunctional glycosyl transferase/transpeptidase
+EKN05_016010	EKN05_016010	ATP-dependent helicase HrpB	EKN05_016010 ATP-dependent helicase HrpB
+EKN05_016015	EKN05_016015	RNA 2',3'-cyclic phosphodiesterase	EKN05_016015 RNA 2',3'-cyclic phosphodiesterase
+EKN05_016030	EKN05_016030	tRNA glutamyl-Q(34) synthetase GluQRS	EKN05_016030 tRNA glutamyl-Q(34) synthetase GluQRS
+EKN05_016035	EKN05_016035	polynucleotide adenylyltransferase PcnB	EKN05_016035 polynucleotide adenylyltransferase PcnB
+EKN05_016050	EKN05_016050	fimbrial-like adhesin	EKN05_016050 fimbrial-like adhesin
+EKN05_016055	EKN05_016055	3-methyl-2-oxobutanoate hydroxymethyltransferase	EKN05_016055 3-methyl-2-oxobutanoate hydroxymethyltransferase
+EKN05_016060	EKN05_016060	pantoate--beta-alanine ligase	EKN05_016060 pantoate--beta-alanine ligase
+EKN05_016065	EKN05_016065	Rpn family recombination-promoting nuclease/putative transposase	EKN05_016065 Rpn family recombination-promoting nuclease/putative transposase
+EKN05_016070	EKN05_016070	aspartate 1-decarboxylase	EKN05_016070 aspartate 1-decarboxylase
+EKN05_016075	EKN05_016075	polysaccharide deacetylase family protein	EKN05_016075 polysaccharide deacetylase family protein
+EKN05_016080	EKN05_016080	PTS sugar transporter subunit IIA	EKN05_016080 PTS sugar transporter subunit IIA
+EKN05_016085	EKN05_016085	ABC transporter permease	EKN05_016085 ABC transporter permease
+EKN05_016090	EKN05_016090	ABC transporter ATP-binding protein	EKN05_016090 ABC transporter ATP-binding protein
+EKN05_016100	EKN05_016100	hypoxanthine phosphoribosyltransferase	EKN05_016100 hypoxanthine phosphoribosyltransferase
+EKN05_016105	EKN05_016105	pyrroloquinoline quinone-dependent dehydrogenase	EKN05_016105 pyrroloquinoline quinone-dependent dehydrogenase
+EKN05_016110	EKN05_016110	multicopper oxidase CueO	EKN05_016110 multicopper oxidase CueO
+EKN05_016115	EKN05_016115	hypothetical protein	EKN05_016115 hypothetical protein
+EKN05_016120	EKN05_016120	polyamine aminopropyltransferase	EKN05_016120 polyamine aminopropyltransferase
+EKN05_016140	EKN05_016140	DUF3300 domain-containing protein	EKN05_016140 DUF3300 domain-containing protein
+EKN05_016160	EKN05_016160	pyruvate dehydrogenase complex transcriptional repressor PdhR	EKN05_016160 pyruvate dehydrogenase complex transcriptional repressor PdhR
+EKN05_016165	EKN05_016165	aromatic amino acid transporter AroP	EKN05_016165 aromatic amino acid transporter AroP
+EKN05_016170	EKN05_016170	beta-lactamase regulator AmpE	EKN05_016170 beta-lactamase regulator AmpE
+EKN05_016175	EKN05_016175	1,6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD	EKN05_016175 1,6-anhydro-N-acetylmuramyl-L-alanine amidase AmpD
+EKN05_016180	EKN05_016180	carboxylating nicotinate-nucleotide diphosphorylase	EKN05_016180 carboxylating nicotinate-nucleotide diphosphorylase
+EKN05_016190	EKN05_016190	type II secretion system protein GspE	EKN05_016190 type II secretion system protein GspE
+EKN05_016195	EKN05_016195	protein transport protein HofC	EKN05_016195 protein transport protein HofC
+EKN05_016200	EKN05_016200	GMP reductase	EKN05_016200 GMP reductase
+EKN05_016210	EKN05_016210	cell division protein ZapD	EKN05_016210 cell division protein ZapD
+EKN05_016220	EKN05_016220	8-oxo-dGTP diphosphatase MutT	EKN05_016220 8-oxo-dGTP diphosphatase MutT
+EKN05_016230	EKN05_016230	secA regulator SecM	EKN05_016230 secA regulator SecM
+EKN05_016255	EKN05_016255	D-alanine--D-alanine ligase B	EKN05_016255 D-alanine--D-alanine ligase B
+EKN05_016295	EKN05_016295	peptidoglycan glycosyltransferase FtsI	EKN05_016295 peptidoglycan glycosyltransferase FtsI
+EKN05_016320	EKN05_016320	catabolite repressor/activator	EKN05_016320 catabolite repressor/activator
+EKN05_016330	EKN05_016330	acetolactate synthase small subunit	EKN05_016330 acetolactate synthase small subunit
+EKN05_016335	EKN05_016335	acetolactate synthase 3 large subunit	EKN05_016335 acetolactate synthase 3 large subunit
+EKN05_016340	EKN05_016340	transcriptional regulator LeuO	EKN05_016340 transcriptional regulator LeuO
+EKN05_016345	EKN05_016345	leu operon leader peptide	EKN05_016345 leu operon leader peptide
+EKN05_016350	EKN05_016350	2-isopropylmalate synthase	EKN05_016350 2-isopropylmalate synthase
+EKN05_016390	EKN05_016390	thiamine/thiamine pyrophosphate ABC transporter permease ThiP	EKN05_016390 thiamine/thiamine pyrophosphate ABC transporter permease ThiP
+EKN05_016400	EKN05_016400	DedA family protein	EKN05_016400 DedA family protein
+EKN05_016405	EKN05_016405	arabinose operon transcriptional regulator AraC	EKN05_016405 arabinose operon transcriptional regulator AraC
+EKN05_016415	EKN05_016415	L-arabinose isomerase	EKN05_016415 L-arabinose isomerase
+EKN05_016420	EKN05_016420	L-ribulose-5-phosphate 4-epimerase	EKN05_016420 L-ribulose-5-phosphate 4-epimerase
+EKN05_016430	EKN05_016430	RNA polymerase-associated protein RapA	EKN05_016430 RNA polymerase-associated protein RapA
+EKN05_016435	EKN05_016435	bifunctional tRNA pseudouridine(32) synthase/23S rRNA pseudouridine(746) synthase RluA	EKN05_016435 bifunctional tRNA pseudouridine(32) synthase/23S rRNA pseudouridine(746) synthase RluA
+EKN05_016465	EKN05_016465	Co2+/Mg2+ efflux protein ApaG	EKN05_016465 Co2+/Mg2+ efflux protein ApaG
+EKN05_016470	EKN05_016470	bis(5'-nucleosyl)-tetraphosphatase (symmetrical)	EKN05_016470 bis(5'-nucleosyl)-tetraphosphatase (symmetrical)
+EKN05_016480	EKN05_016480	glutathione-regulated potassium-efflux system protein KefC	EKN05_016480 glutathione-regulated potassium-efflux system protein KefC
+EKN05_016485	EKN05_016485	glutathione-regulated potassium-efflux system oxidoreductase KefF	EKN05_016485 glutathione-regulated potassium-efflux system oxidoreductase KefF
+EKN05_016490	EKN05_016490	MFS transporter	EKN05_016490 MFS transporter
+EKN05_016500	EKN05_016500	FAD-dependent oxidoreductase	EKN05_016500 FAD-dependent oxidoreductase
+EKN05_016515	EKN05_016515	L-carnitine/gamma-butyrobetaine antiport BCCT transporter	EKN05_016515 L-carnitine/gamma-butyrobetaine antiport BCCT transporter
+EKN05_016520	EKN05_016520	crotonobetainyl-CoA dehydrogenase	EKN05_016520 crotonobetainyl-CoA dehydrogenase
+EKN05_016525	EKN05_016525	L-carnitine CoA-transferase	EKN05_016525 L-carnitine CoA-transferase
+EKN05_016535	EKN05_016535	carnitinyl-CoA dehydratase	EKN05_016535 carnitinyl-CoA dehydratase
+EKN05_016540	EKN05_016540	carnitine operon protein CaiE	EKN05_016540 carnitine operon protein CaiE
+EKN05_016550	EKN05_016550	carbamoyl-phosphate synthase large subunit	EKN05_016550 carbamoyl-phosphate synthase large subunit
+EKN05_016555	EKN05_016555	carbamoyl-phosphate synthase small subunit	EKN05_016555 carbamoyl-phosphate synthase small subunit
+EKN05_016565	EKN05_016565	ribonucleoside hydrolase RihC	EKN05_016565 ribonucleoside hydrolase RihC
+EKN05_016595	EKN05_016595	DUF2575 domain-containing protein	EKN05_016595 DUF2575 domain-containing protein
+EKN05_016615	EKN05_016615	transcriptional activator NhaR	EKN05_016615 transcriptional activator NhaR
+EKN05_016630	EKN05_016630	molecular chaperone DnaJ	EKN05_016630 molecular chaperone DnaJ
+EKN05_016640	EKN05_016640	DUF2541 family protein	EKN05_016640 DUF2541 family protein
+EKN05_016645	EKN05_016645	acidic protein MsyB	EKN05_016645 acidic protein MsyB
+EKN05_016650	EKN05_016650	acetate uptake transporter	EKN05_016650 acetate uptake transporter
+EKN05_016660	EKN05_016660	transaldolase	EKN05_016660 transaldolase
+EKN05_016665	EKN05_016665	sodium:alanine symporter family protein	EKN05_016665 sodium:alanine symporter family protein
+EKN05_016670	EKN05_016670	peroxide stress protein YaaA	EKN05_016670 peroxide stress protein YaaA
+EKN05_016675	EKN05_016675	DUF2502 domain-containing protein	EKN05_016675 DUF2502 domain-containing protein
+EKN05_016680	EKN05_016680	threonine synthase	EKN05_016680 threonine synthase
+EKN05_016685	EKN05_016685	homoserine kinase	EKN05_016685 homoserine kinase
+EKN05_016690	EKN05_016690	bifunctional aspartate kinase/homoserine dehydrogenase I	EKN05_016690 bifunctional aspartate kinase/homoserine dehydrogenase I
+EKN05_016695	EKN05_016695	thr operon leader peptide	EKN05_016695 thr operon leader peptide
+EKN05_016700	EKN05_016700	tRNA/rRNA methyltransferase	EKN05_016700 tRNA/rRNA methyltransferase
+EKN05_016715	EKN05_016715	cell envelope integrity protein CreD	EKN05_016715 cell envelope integrity protein CreD
+EKN05_016720	EKN05_016720	two-component system sensor histidine kinase CreC	EKN05_016720 two-component system sensor histidine kinase CreC
+EKN05_016725	EKN05_016725	two-component system response regulator CreB	EKN05_016725 two-component system response regulator CreB
+EKN05_016730	EKN05_016730	protein CreA	EKN05_016730 protein CreA
+EKN05_016735	EKN05_016735	MDR efflux pump AcrAB transcriptional activator RobA	EKN05_016735 MDR efflux pump AcrAB transcriptional activator RobA
+EKN05_016740	EKN05_016740	phosphoglycerate mutase GpmB	EKN05_016740 phosphoglycerate mutase GpmB
+EKN05_016745	EKN05_016745	non-canonical purine NTP phosphatase	EKN05_016745 non-canonical purine NTP phosphatase
+EKN05_016755	EKN05_016755	murein transglycosylase	EKN05_016755 murein transglycosylase
+EKN05_016760	EKN05_016760	energy-dependent translational throttle protein EttA	EKN05_016760 energy-dependent translational throttle protein EttA
+EKN05_016765	EKN05_016765	multifunctional transcriptional regulator/nicotinamide-nucleotide adenylyltransferase/ribosylnicotinamide kinase NadR	EKN05_016765 multifunctional transcriptional regulator/nicotinamide-nucleotide adenylyltransferase/ribosylnicotinamide kinase NadR
+EKN05_016775	EKN05_016775	phosphoserine phosphatase	EKN05_016775 phosphoserine phosphatase
+EKN05_016785	EKN05_016785	lipoate--protein ligase LplA	EKN05_016785 lipoate--protein ligase LplA
+EKN05_016790	EKN05_016790	XRE family transcriptional regulator	EKN05_016790 XRE family transcriptional regulator
+EKN05_016810	EKN05_016810	deoxyribose-phosphate aldolase	EKN05_016810 deoxyribose-phosphate aldolase
+EKN05_016815	EKN05_016815	YjjI family glycine radical enzyme	EKN05_016815 YjjI family glycine radical enzyme
+EKN05_016820	EKN05_016820	YjjW family glycine radical enzyme activase	EKN05_016820 YjjW family glycine radical enzyme activase
+EKN05_016825	EKN05_016825	metal-dependent hydrolase	EKN05_016825 metal-dependent hydrolase
+EKN05_016830	EKN05_016830	patatin family protein	EKN05_016830 patatin family protein
+EKN05_016890	EKN05_016890	hydroxamate siderophore iron reductase FhuF	EKN05_016890 hydroxamate siderophore iron reductase FhuF
+EKN05_016895	EKN05_016895	DNA-binding transcriptional activator BglJ	EKN05_016895 DNA-binding transcriptional activator BglJ
+EKN05_016900	EKN05_016900	response regulator transcription factor	EKN05_016900 response regulator transcription factor
+EKN05_016910	EKN05_016910	threonine/serine exporter ThrE family protein	EKN05_016910 threonine/serine exporter ThrE family protein
+EKN05_016915	EKN05_016915	threonine/serine exporter	EKN05_016915 threonine/serine exporter
+EKN05_017260	EKN05_017260	bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase	EKN05_017260 bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase
+EKN05_017265	EKN05_017265	tRNA epoxyqueuosine(34) reductase QueG	EKN05_017265 tRNA epoxyqueuosine(34) reductase QueG
+EKN05_017310	EKN05_017310	miniconductance mechanosensitive channel MscM	EKN05_017310 miniconductance mechanosensitive channel MscM
+EKN05_017315	EKN05_017315	glutamate/gamma-aminobutyrate family transporter YjeM	EKN05_017315 glutamate/gamma-aminobutyrate family transporter YjeM
+EKN05_017320	EKN05_017320	elongation factor P--(R)-beta-lysine ligase	EKN05_017320 elongation factor P--(R)-beta-lysine ligase
+EKN05_017325	EKN05_017325	fumarate reductase (quinol) flavoprotein subunit	EKN05_017325 fumarate reductase (quinol) flavoprotein subunit
+EKN05_017330	EKN05_017330	succinate dehydrogenase/fumarate reductase iron-sulfur subunit	EKN05_017330 succinate dehydrogenase/fumarate reductase iron-sulfur subunit
+EKN05_017340	EKN05_017340	fumarate reductase subunit FrdD	EKN05_017340 fumarate reductase subunit FrdD
+EKN05_017345	EKN05_017345	BlaEC family class C beta-lactamase	EKN05_017345 BlaEC family class C beta-lactamase
+EKN05_017350	EKN05_017350	outer membrane lipoprotein Blc	EKN05_017350 outer membrane lipoprotein Blc
+EKN05_017355	EKN05_017355	quaternary ammonium compound-resistance protein SugE	EKN05_017355 quaternary ammonium compound-resistance protein SugE
+EKN05_017375	EKN05_017375	EF-P beta-lysylation protein EpmB	EKN05_017375 EF-P beta-lysylation protein EpmB
+EKN05_017390	EKN05_017390	hypothetical protein	EKN05_017390 hypothetical protein
+EKN05_017410	EKN05_017410	L-methionine/branched-chain amino acid transporter	EKN05_017410 L-methionine/branched-chain amino acid transporter
+EKN05_017415	EKN05_017415	membrane protein FxsA	EKN05_017415 membrane protein FxsA
+EKN05_017420	EKN05_017420	aspartate ammonia-lyase	EKN05_017420 aspartate ammonia-lyase
+EKN05_017425	EKN05_017425	anaerobic C4-dicarboxylate transporter	EKN05_017425 anaerobic C4-dicarboxylate transporter
+EKN05_017430	EKN05_017430	divalent cation tolerance protein CutA	EKN05_017430 divalent cation tolerance protein CutA
+EKN05_017435	EKN05_017435	protein-disulfide reductase DsbD	EKN05_017435 protein-disulfide reductase DsbD
+EKN05_017440	EKN05_017440	transcriptional regulator	EKN05_017440 transcriptional regulator
+EKN05_017470	EKN05_017470	sugar phosphate isomerase/epimerase	EKN05_017470 sugar phosphate isomerase/epimerase
+EKN05_017475	EKN05_017475	3-ketoacyl-ACP reductase	EKN05_017475 3-ketoacyl-ACP reductase
+EKN05_017480	EKN05_017480	TetR/AcrR family transcriptional regulator	EKN05_017480 TetR/AcrR family transcriptional regulator
+EKN05_017490	EKN05_017490	peptidylprolyl isomerase	EKN05_017490 peptidylprolyl isomerase
+EKN05_017495	EKN05_017495	FKBP-type peptidyl-prolyl cis-trans isomerase	EKN05_017495 FKBP-type peptidyl-prolyl cis-trans isomerase
+EKN05_017500	EKN05_017500	D-serine/D-alanine/glycine transporter	EKN05_017500 D-serine/D-alanine/glycine transporter
+EKN05_017510	EKN05_017510	DMT family transporter	EKN05_017510 DMT family transporter
+EKN05_017515	EKN05_017515	NAD(P)H:quinone oxidoreductase	EKN05_017515 NAD(P)H:quinone oxidoreductase
+EKN05_017520	EKN05_017520	transcriptional regulator	EKN05_017520 transcriptional regulator
+EKN05_017525	EKN05_017525	2',3'-cyclic-nucleotide 2'-phosphodiesterase	EKN05_017525 2',3'-cyclic-nucleotide 2'-phosphodiesterase
+EKN05_017545	EKN05_017545	DUF1107 domain-containing protein	EKN05_017545 DUF1107 domain-containing protein
+EKN05_017550	EKN05_017550	HlyC/CorC family transporter	EKN05_017550 HlyC/CorC family transporter
+EKN05_017560	EKN05_017560	autotransporter assembly complex protein TamA	EKN05_017560 autotransporter assembly complex protein TamA
+EKN05_017565	EKN05_017565	autotransporter assembly complex protein TamB	EKN05_017565 autotransporter assembly complex protein TamB
+EKN05_017970	EKN05_017970	glucose-6-phosphate isomerase	EKN05_017970 glucose-6-phosphate isomerase
+EKN05_017985	EKN05_017985	hypothetical protein	EKN05_017985 hypothetical protein
+EKN05_017990	EKN05_017990	YjbH domain-containing protein	EKN05_017990 YjbH domain-containing protein
+EKN05_018005	EKN05_018005	D-xylose transporter XylE	EKN05_018005 D-xylose transporter XylE
+EKN05_018010	EKN05_018010	maltose ABC transporter permease MalG	EKN05_018010 maltose ABC transporter permease MalG
+EKN05_018035	EKN05_018035	maltose operon protein MalM	EKN05_018035 maltose operon protein MalM
+EKN05_018045	EKN05_018045	chorismate--pyruvate lyase	EKN05_018045 chorismate--pyruvate lyase
+EKN05_018100	EKN05_018100	envelope stress response protein PspG	EKN05_018100 envelope stress response protein PspG
+EKN05_018105	EKN05_018105	quinone oxidoreductase	EKN05_018105 quinone oxidoreductase
+EKN05_018110	EKN05_018110	replicative DNA helicase DnaB	EKN05_018110 replicative DNA helicase DnaB
+EKN05_018120	EKN05_018120	aromatic amino acid transaminase	EKN05_018120 aromatic amino acid transaminase
+EKN05_018130	EKN05_018130	class B acid phosphatase	EKN05_018130 class B acid phosphatase
+EKN05_018135	EKN05_018135	YjbQ family protein	EKN05_018135 YjbQ family protein
+EKN05_018140	EKN05_018140	MmcQ/YjbR family DNA-binding protein	EKN05_018140 MmcQ/YjbR family DNA-binding protein
+EKN05_018145	EKN05_018145	excinuclease ABC subunit UvrA	EKN05_018145 excinuclease ABC subunit UvrA
+EKN05_018165	EKN05_018165	c-di-GMP phosphodiesterase PdeC	EKN05_018165 c-di-GMP phosphodiesterase PdeC
+EKN05_018175	EKN05_018175	redox-sensitive transcriptional activator SoxR	EKN05_018175 redox-sensitive transcriptional activator SoxR
+EKN05_018180	EKN05_018180	NCS2 family permease	EKN05_018180 NCS2 family permease
+EKN05_018185	EKN05_018185	Na+/H+ antiporter	EKN05_018185 Na+/H+ antiporter
+EKN05_018195	EKN05_018195	cation/acetate symporter ActP	EKN05_018195 cation/acetate symporter ActP
+EKN05_018200	EKN05_018200	DUF485 domain-containing protein	EKN05_018200 DUF485 domain-containing protein
+EKN05_018205	EKN05_018205	acetate--CoA ligase	EKN05_018205 acetate--CoA ligase
+EKN05_018210	EKN05_018210	ammonia-forming nitrite reductase cytochrome c552 subunit	EKN05_018210 ammonia-forming nitrite reductase cytochrome c552 subunit
+EKN05_018215	EKN05_018215	cytochrome c nitrite reductase pentaheme subunit	EKN05_018215 cytochrome c nitrite reductase pentaheme subunit
+EKN05_018230	EKN05_018230	heme lyase CcmF/NrfE family subunit	EKN05_018230 heme lyase CcmF/NrfE family subunit
+EKN05_018235	EKN05_018235	heme lyase NrfEFG subunit NrfF	EKN05_018235 heme lyase NrfEFG subunit NrfF
+EKN05_018240	EKN05_018240	heme lyase NrfEFG subunit NrfG	EKN05_018240 heme lyase NrfEFG subunit NrfG
+EKN05_018245	EKN05_018245	glutamate/aspartate:proton symporter GltP	EKN05_018245 glutamate/aspartate:proton symporter GltP
+EKN05_018255	EKN05_018255	formate dehydrogenase subunit alpha	EKN05_018255 formate dehydrogenase subunit alpha
+EKN05_018260	EKN05_018260	multidrug efflux transporter outer membrane subunit MdtP	EKN05_018260 multidrug efflux transporter outer membrane subunit MdtP
+EKN05_018265	EKN05_018265	multidrug efflux transporter permease subunit MdtO	EKN05_018265 multidrug efflux transporter permease subunit MdtO
+EKN05_018270	EKN05_018270	multidrug efflux transporter periplasmic adaptor subunit MdtN	EKN05_018270 multidrug efflux transporter periplasmic adaptor subunit MdtN
+EKN05_018280	EKN05_018280	membrane channel protein of phosphonate transporter	EKN05_018280 membrane channel protein of phosphonate transporter
+EKN05_018285	EKN05_018285	phosphonate ABC transporter substrate-binding protein	EKN05_018285 phosphonate ABC transporter substrate-binding protein
+EKN05_018290	EKN05_018290	phosphonate ABC transporter ATP-binding protein	EKN05_018290 phosphonate ABC transporter ATP-binding protein
+EKN05_018295	EKN05_018295	VOC family metalloprotein YjdN	EKN05_018295 VOC family metalloprotein YjdN
+EKN05_018300	EKN05_018300	phnA family protein	EKN05_018300 phnA family protein
+EKN05_018305	EKN05_018305	clamp-binding protein CrfC	EKN05_018305 clamp-binding protein CrfC
+EKN05_018310	EKN05_018310	hypothetical protein	EKN05_018310 hypothetical protein
+EKN05_018355	EKN05_018355	transcriptional regulator MelR	EKN05_018355 transcriptional regulator MelR
+EKN05_018360	EKN05_018360	alpha-galactosidase	EKN05_018360 alpha-galactosidase
+EKN05_018365	EKN05_018365	melibiose:sodium transporter MelB	EKN05_018365 melibiose:sodium transporter MelB
+EKN05_018375	EKN05_018375	DUF2238 domain-containing protein	EKN05_018375 DUF2238 domain-containing protein
+EKN05_018380	EKN05_018380	class I fumarate hydratase	EKN05_018380 class I fumarate hydratase
+EKN05_018385	EKN05_018385	anaerobic C4-dicarboxylate transporter	EKN05_018385 anaerobic C4-dicarboxylate transporter
+EKN05_018390	EKN05_018390	two-component system response regulator DcuR	EKN05_018390 two-component system response regulator DcuR
+EKN05_018395	EKN05_018395	two-component system sensor histidine kinase DcuS	EKN05_018395 two-component system sensor histidine kinase DcuS
+EKN05_018400	EKN05_018400	hypothetical protein	EKN05_018400 hypothetical protein
+EKN05_018410	EKN05_018410	DUF3811 domain-containing protein	EKN05_018410 DUF3811 domain-containing protein
+EKN05_018420	EKN05_018420	hypothetical protein	EKN05_018420 hypothetical protein
+EKN05_018425	EKN05_018425	sugar-binding transcriptional regulator	EKN05_018425 sugar-binding transcriptional regulator
+EKN05_018430	EKN05_018430	SDR family oxidoreductase	EKN05_018430 SDR family oxidoreductase
+EKN05_018440	EKN05_018440	PTS system mannose/fructose/N-acetylgalactosamine-transporter subunit IIB	EKN05_018440 PTS system mannose/fructose/N-acetylgalactosamine-transporter subunit IIB
+EKN05_018445	EKN05_018445	PTS mannose/fructose/sorbose transporter subunit IIC	EKN05_018445 PTS mannose/fructose/sorbose transporter subunit IIC
+EKN05_018450	EKN05_018450	PTS mannose transporter subunit IID	EKN05_018450 PTS mannose transporter subunit IID
+EKN05_018455	EKN05_018455	L-sorbose 1-phosphate reductase	EKN05_018455 L-sorbose 1-phosphate reductase
+EKN05_018460	EKN05_018460	dipeptidase PepE	EKN05_018460 dipeptidase PepE
+EKN05_018465	EKN05_018465	Na/Pi cotransporter family protein	EKN05_018465 Na/Pi cotransporter family protein
+EKN05_018470	EKN05_018470	methionine synthase	EKN05_018470 methionine synthase
+EKN05_018475	EKN05_018475	glyoxylate bypass operon transcriptional repressor IclR	EKN05_018475 glyoxylate bypass operon transcriptional repressor IclR
+EKN05_018485	EKN05_018485	bifunctional isocitrate dehydrogenase kinase/phosphatase	EKN05_018485 bifunctional isocitrate dehydrogenase kinase/phosphatase
+EKN05_018490	EKN05_018490	isocitrate lyase	EKN05_018490 isocitrate lyase
+EKN05_018495	EKN05_018495	malate synthase A	EKN05_018495 malate synthase A
+EKN05_018500	EKN05_018500	homoserine O-succinyltransferase	EKN05_018500 homoserine O-succinyltransferase
+EKN05_018505	EKN05_018505	acetyltransferase	EKN05_018505 acetyltransferase
+EKN05_018540	EKN05_018540	sigma-54-dependent response regulator transcription factor ZraR	EKN05_018540 sigma-54-dependent response regulator transcription factor ZraR
+EKN05_018545	EKN05_018545	two-component system sensor histidine kinase ZraS	EKN05_018545 two-component system sensor histidine kinase ZraS
+EKN05_018725	EKN05_018725	TonB-dependent vitamin B12 receptor BtuB	EKN05_018725 TonB-dependent vitamin B12 receptor BtuB
+EKN05_018730	EKN05_018730	tRNA (uridine(54)-C5)-methyltransferase TrmA	EKN05_018730 tRNA (uridine(54)-C5)-methyltransferase TrmA
+EKN05_018745	EKN05_018745	Si-specific NAD(P)(+) transhydrogenase	EKN05_018745 Si-specific NAD(P)(+) transhydrogenase
+EKN05_018750	EKN05_018750	DNA-binding transcriptional regulator OxyR	EKN05_018750 DNA-binding transcriptional regulator OxyR
+EKN05_018755	EKN05_018755	MFS transporter	EKN05_018755 MFS transporter
+EKN05_018770	EKN05_018770	D-galactonate dehydratase family protein	EKN05_018770 D-galactonate dehydratase family protein
+EKN05_018780	EKN05_018780	argininosuccinate lyase	EKN05_018780 argininosuccinate lyase
+EKN05_018785	EKN05_018785	acetylglutamate kinase	EKN05_018785 acetylglutamate kinase
+EKN05_018790	EKN05_018790	N-acetyl-gamma-glutamyl-phosphate reductase	EKN05_018790 N-acetyl-gamma-glutamyl-phosphate reductase
+EKN05_018845	EKN05_018845	fructose-6-phosphate aldolase	EKN05_018845 fructose-6-phosphate aldolase
+EKN05_018850	EKN05_018850	bifunctional L-1,2-propanediol dehydrogenase/glycerol dehydrogenase	EKN05_018850 bifunctional L-1,2-propanediol dehydrogenase/glycerol dehydrogenase
+EKN05_018855	EKN05_018855	DUF1287 domain-containing protein	EKN05_018855 DUF1287 domain-containing protein
+EKN05_018860	EKN05_018860	cystine transporter YijE	EKN05_018860 cystine transporter YijE
+EKN05_018865	EKN05_018865	catalase/peroxidase HPI	EKN05_018865 catalase/peroxidase HPI
+EKN05_018870	EKN05_018870	methylenetetrahydrofolate reductase	EKN05_018870 methylenetetrahydrofolate reductase
+EKN05_018880	EKN05_018880	cystathionine gamma-synthase	EKN05_018880 cystathionine gamma-synthase
+EKN05_018890	EKN05_018890	YiiX family permuted papain-like enzyme	EKN05_018890 YiiX family permuted papain-like enzyme
+EKN05_018905	EKN05_018905	DNA-binding transcriptional regulator CytR	EKN05_018905 DNA-binding transcriptional regulator CytR
+EKN05_018920	EKN05_018920	HslU--HslV peptidase ATPase subunit	EKN05_018920 HslU--HslV peptidase ATPase subunit
+EKN05_018925	EKN05_018925	1,4-dihydroxy-2-naphthoate polyprenyltransferase	EKN05_018925 1,4-dihydroxy-2-naphthoate polyprenyltransferase
+EKN05_018930	EKN05_018930	ribonuclease E activity regulator RraA	EKN05_018930 ribonuclease E activity regulator RraA
+EKN05_018935	EKN05_018935	septal ring assembly protein ZapB	EKN05_018935 septal ring assembly protein ZapB
+EKN05_018940	EKN05_018940	glycerol uptake facilitator protein GlpF	EKN05_018940 glycerol uptake facilitator protein GlpF
+EKN05_018945	EKN05_018945	glycerol kinase	EKN05_018945 glycerol kinase
+EKN05_018950	EKN05_018950	class II fructose-bisphosphatase	EKN05_018950 class II fructose-bisphosphatase
+EKN05_018955	EKN05_018955	ferredoxin--NADP(+) reductase	EKN05_018955 ferredoxin--NADP(+) reductase
+EKN05_018960	EKN05_018960	universal stress protein UspD	EKN05_018960 universal stress protein UspD
+EKN05_018965	EKN05_018965	DUF406 domain-containing protein	EKN05_018965 DUF406 domain-containing protein
+EKN05_018975	EKN05_018975	cytochrome c peroxidase	EKN05_018975 cytochrome c peroxidase
+EKN05_018990	EKN05_018990	acid resistance transcriptional activator GadW	EKN05_018990 acid resistance transcriptional activator GadW
+EKN05_018995	EKN05_018995	efflux RND transporter permease subunit	EKN05_018995 efflux RND transporter permease subunit
+EKN05_019005	EKN05_019005	hypothetical protein	EKN05_019005 hypothetical protein
+EKN05_019025	EKN05_019025	hypothetical protein	EKN05_019025 hypothetical protein
+EKN05_019030	EKN05_019030	acyltransferase	EKN05_019030 acyltransferase
+EKN05_019035	EKN05_019035	YiaB family inner membrane protein	EKN05_019035 YiaB family inner membrane protein
+EKN05_019040	EKN05_019040	hypothetical protein	EKN05_019040 hypothetical protein
+EKN05_019045	EKN05_019045	xylulokinase	EKN05_019045 xylulokinase
+EKN05_019055	EKN05_019055	D-xylose ABC transporter substrate-binding protein	EKN05_019055 D-xylose ABC transporter substrate-binding protein
+EKN05_019060	EKN05_019060	D-xylose ABC transporter ATP-binding protein	EKN05_019060 D-xylose ABC transporter ATP-binding protein
+EKN05_019065	EKN05_019065	xylose ABC transporter permease XylH	EKN05_019065 xylose ABC transporter permease XylH
+EKN05_019070	EKN05_019070	xylose operon transcription regulator XylR	EKN05_019070 xylose operon transcription regulator XylR
+EKN05_019080	EKN05_019080	alpha-amylase	EKN05_019080 alpha-amylase
+EKN05_019085	EKN05_019085	valine--pyruvate transaminase	EKN05_019085 valine--pyruvate transaminase
+EKN05_019095	EKN05_019095	IclR family transcriptional regulator YiaJ	EKN05_019095 IclR family transcriptional regulator YiaJ
+EKN05_019100	EKN05_019100	3-dehydro-L-gulonate 2-dehydrogenase	EKN05_019100 3-dehydro-L-gulonate 2-dehydrogenase
+EKN05_019115	EKN05_019115	TRAP transporter small permease subunit	EKN05_019115 TRAP transporter small permease subunit
+EKN05_019120	EKN05_019120	2,3-diketo-L-gulonate transporter large permease YiaN	EKN05_019120 2,3-diketo-L-gulonate transporter large permease YiaN
+EKN05_019130	EKN05_019130	L-xylulokinase	EKN05_019130 L-xylulokinase
+EKN05_019135	EKN05_019135	3-keto-L-gulonate-6-phosphate decarboxylase UlaD	EKN05_019135 3-keto-L-gulonate-6-phosphate decarboxylase UlaD
+EKN05_019140	EKN05_019140	L-ribulose-5-phosphate 3-epimerase	EKN05_019140 L-ribulose-5-phosphate 3-epimerase
+EKN05_019145	EKN05_019145	L-ribulose-5-phosphate 4-epimerase	EKN05_019145 L-ribulose-5-phosphate 4-epimerase
+EKN05_019150	EKN05_019150	AraC family transcriptional regulator	EKN05_019150 AraC family transcriptional regulator
+EKN05_019155	EKN05_019155	MFS transporter	EKN05_019155 MFS transporter
+EKN05_019160	EKN05_019160	glycoside hydrolase family 127 protein	EKN05_019160 glycoside hydrolase family 127 protein
+EKN05_019165	EKN05_019165	MipA/OmpV family protein	EKN05_019165 MipA/OmpV family protein
+EKN05_019170	EKN05_019170	LysR family transcriptional regulator	EKN05_019170 LysR family transcriptional regulator
+EKN05_019180	EKN05_019180	LysR family transcriptional regulator	EKN05_019180 LysR family transcriptional regulator
+EKN05_019185	EKN05_019185	HlyD family secretion protein	EKN05_019185 HlyD family secretion protein
+EKN05_019190	EKN05_019190	DUF3302 domain-containing protein	EKN05_019190 DUF3302 domain-containing protein
+EKN05_019280	EKN05_019280	L-lactate permease	EKN05_019280 L-lactate permease
+EKN05_019290	EKN05_019290	quinone-dependent L-lactate dehydrogenase	EKN05_019290 quinone-dependent L-lactate dehydrogenase
+EKN05_019315	EKN05_019315	glutaredoxin 3	EKN05_019315 glutaredoxin 3
+EKN05_019330	EKN05_019330	2,3-bisphosphoglycerate-independent phosphoglycerate mutase	EKN05_019330 2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+EKN05_019340	EKN05_019340	divergent polysaccharide deacetylase family protein	EKN05_019340 divergent polysaccharide deacetylase family protein
+EKN05_019345	EKN05_019345	hypothetical protein	EKN05_019345 hypothetical protein
+EKN05_019355	EKN05_019355	glycosyltransferase	EKN05_019355 glycosyltransferase
+EKN05_019360	EKN05_019360	L-threonine 3-dehydrogenase	EKN05_019360 L-threonine 3-dehydrogenase
+EKN05_019425	EKN05_019425	lipopolysaccharide core heptosyltransferase RfaQ	EKN05_019425 lipopolysaccharide core heptosyltransferase RfaQ
+EKN05_019445	EKN05_019445	bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase	EKN05_019445 bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase
+EKN05_019460	EKN05_019460	JAB domain-containing protein	EKN05_019460 JAB domain-containing protein
+EKN05_019475	EKN05_019475	nucleoid occlusion factor SlmA	EKN05_019475 nucleoid occlusion factor SlmA
+EKN05_019480	EKN05_019480	orotate phosphoribosyltransferase	EKN05_019480 orotate phosphoribosyltransferase
+EKN05_019490	EKN05_019490	YicC family protein	EKN05_019490 YicC family protein
+EKN05_019500	EKN05_019500	DNA damage-inducible protein D	EKN05_019500 DNA damage-inducible protein D
+EKN05_019505	EKN05_019505	trimeric intracellular cation channel family protein	EKN05_019505 trimeric intracellular cation channel family protein
+EKN05_019510	EKN05_019510	NAD-dependent DNA ligase LigB	EKN05_019510 NAD-dependent DNA ligase LigB
+EKN05_019615	EKN05_019615	hypothetical protein	EKN05_019615 hypothetical protein
+EKN05_019620	EKN05_019620	hypothetical protein	EKN05_019620 hypothetical protein
+EKN05_019640	EKN05_019640	hypothetical protein	EKN05_019640 hypothetical protein
+EKN05_019650	EKN05_019650	IucA/IucC family siderophore biosynthesis protein	EKN05_019650 IucA/IucC family siderophore biosynthesis protein
+EKN05_019655	EKN05_019655	N-acetyltransferase	EKN05_019655 N-acetyltransferase
+EKN05_019660	EKN05_019660	IucA/IucC family siderophore biosynthesis protein	EKN05_019660 IucA/IucC family siderophore biosynthesis protein
+EKN05_019665	EKN05_019665	lysine 6-monooxygenase	EKN05_019665 lysine 6-monooxygenase
+EKN05_019670	EKN05_019670	TonB-dependent receptor	EKN05_019670 TonB-dependent receptor
+EKN05_019675	EKN05_019675	hypothetical protein	EKN05_019675 hypothetical protein
+EKN05_019695	EKN05_019695	DUF1198 domain-containing protein	EKN05_019695 DUF1198 domain-containing protein
+EKN05_019700	EKN05_019700	NCS2 family permease	EKN05_019700 NCS2 family permease
+EKN05_019705	EKN05_019705	adenine deaminase	EKN05_019705 adenine deaminase
+EKN05_019710	EKN05_019710	hexose-6-phosphate:phosphate antiporter	EKN05_019710 hexose-6-phosphate:phosphate antiporter
+EKN05_019715	EKN05_019715	MFS transporter family glucose-6-phosphate receptor UhpC	EKN05_019715 MFS transporter family glucose-6-phosphate receptor UhpC
+EKN05_019720	EKN05_019720	signal transduction histidine-protein kinase/phosphatase UhpB	EKN05_019720 signal transduction histidine-protein kinase/phosphatase UhpB
+EKN05_019725	EKN05_019725	transcriptional regulator UhpA	EKN05_019725 transcriptional regulator UhpA
+EKN05_019730	EKN05_019730	acetolactate synthase 1 small subunit	EKN05_019730 acetolactate synthase 1 small subunit
+EKN05_019750	EKN05_019750	multidrug efflux MFS transporter EmrD	EKN05_019750 multidrug efflux MFS transporter EmrD
+EKN05_019760	EKN05_019760	DUF202 domain-containing protein	EKN05_019760 DUF202 domain-containing protein
+EKN05_019765	EKN05_019765	DUF202 domain-containing protein	EKN05_019765 DUF202 domain-containing protein
+EKN05_019770	EKN05_019770	hypothetical protein	EKN05_019770 hypothetical protein
+EKN05_019775	EKN05_019775	DUF4976 domain-containing protein	EKN05_019775 DUF4976 domain-containing protein
+EKN05_019780	EKN05_019780	solute:sodium symporter family transporter	EKN05_019780 solute:sodium symporter family transporter
+EKN05_019785	EKN05_019785	AraC family transcriptional regulator	EKN05_019785 AraC family transcriptional regulator
+EKN05_019790	EKN05_019790	inactive 6-phospho-alpha-glucosidase	EKN05_019790 inactive 6-phospho-alpha-glucosidase
+EKN05_019795	EKN05_019795	PTS sugar transporter subunit IIB	EKN05_019795 PTS sugar transporter subunit IIB
+EKN05_019800	EKN05_019800	GntR family transcriptional regulator	EKN05_019800 GntR family transcriptional regulator
+EKN05_019805	EKN05_019805	putative transporter	EKN05_019805 putative transporter
+EKN05_019815	EKN05_019815	heat shock chaperone IbpA	EKN05_019815 heat shock chaperone IbpA
+EKN05_019820	EKN05_019820	YceK/YidQ family lipoprotein	EKN05_019820 YceK/YidQ family lipoprotein
+EKN05_019825	EKN05_019825	DUF3748 domain-containing protein	EKN05_019825 DUF3748 domain-containing protein
+EKN05_019830	EKN05_019830	colicin M resistance protein	EKN05_019830 colicin M resistance protein
+EKN05_019835	EKN05_019835	MFS transporter	EKN05_019835 MFS transporter
+EKN05_019840	EKN05_019840	galactonate dehydratase	EKN05_019840 galactonate dehydratase
+EKN05_019850	EKN05_019850	2-dehydro-3-deoxygalactonokinase	EKN05_019850 2-dehydro-3-deoxygalactonokinase
+EKN05_019855	EKN05_019855	FadR family transcriptional regulator	EKN05_019855 FadR family transcriptional regulator
+EKN05_019865	EKN05_019865	sugar-phosphatase	EKN05_019865 sugar-phosphatase
+EKN05_019880	EKN05_019880	DNA replication/repair protein RecF	EKN05_019880 DNA replication/repair protein RecF
+EKN05_019895	EKN05_019895	hypothetical protein	EKN05_019895 hypothetical protein
+EKN05_019920	EKN05_019920	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE	EKN05_019920 tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE
+EKN05_019925	EKN05_019925	tryptophanase leader peptide	EKN05_019925 tryptophanase leader peptide
+EKN05_019930	EKN05_019930	tryptophanase	EKN05_019930 tryptophanase
+EKN05_019935	EKN05_019935	low affinity tryptophan permease TnaB	EKN05_019935 low affinity tryptophan permease TnaB
+EKN05_019940	EKN05_019940	multidrug efflux MFS transporter MdtL	EKN05_019940 multidrug efflux MFS transporter MdtL
+EKN05_019945	EKN05_019945	HTH-type transcriptional regulator YidZ	EKN05_019945 HTH-type transcriptional regulator YidZ
+EKN05_019955	EKN05_019955	transcriptional regulator	EKN05_019955 transcriptional regulator
+EKN05_019960	EKN05_019960	hypothetical protein	EKN05_019960 hypothetical protein
+EKN05_019965	EKN05_019965	NAD(P)H-dependent chromate oxidoreductase YieF	EKN05_019965 NAD(P)H-dependent chromate oxidoreductase YieF
+EKN05_019970	EKN05_019970	NCS2 family permease	EKN05_019970 NCS2 family permease
+EKN05_019975	EKN05_019975	6-phosphogluconate phosphatase	EKN05_019975 6-phosphogluconate phosphatase
+EKN05_019980	EKN05_019980	protein CbrB	EKN05_019980 protein CbrB
+EKN05_020000	EKN05_020000	hypothetical protein	EKN05_020000 hypothetical protein
+EKN05_020020	EKN05_020020	glycoside hydrolase family 1 protein	EKN05_020020 glycoside hydrolase family 1 protein
+EKN05_020025	EKN05_020025	PTS beta-glucoside transporter subunit IIABC	EKN05_020025 PTS beta-glucoside transporter subunit IIABC
+EKN05_020030	EKN05_020030	transcriptional antiterminator BglG	EKN05_020030 transcriptional antiterminator BglG
+EKN05_020035	EKN05_020035	phosphate signaling complex protein PhoU	EKN05_020035 phosphate signaling complex protein PhoU
+EKN05_020040	EKN05_020040	phosphate ABC transporter ATP-binding protein PstB	EKN05_020040 phosphate ABC transporter ATP-binding protein PstB
+EKN05_020050	EKN05_020050	phosphate ABC transporter permease PstC	EKN05_020050 phosphate ABC transporter permease PstC
+EKN05_020055	EKN05_020055	phosphate ABC transporter substrate-binding protein PstS	EKN05_020055 phosphate ABC transporter substrate-binding protein PstS
+EKN05_020065	EKN05_020065	fimbrial biogenesis outer membrane usher protein	EKN05_020065 fimbrial biogenesis outer membrane usher protein
+EKN05_020075	EKN05_020075	fimbrial chaperone	EKN05_020075 fimbrial chaperone
+EKN05_020090	EKN05_020090	ATPase RavA	EKN05_020090 ATPase RavA
+EKN05_020095	EKN05_020095	ATPase RavA stimulator ViaA	EKN05_020095 ATPase RavA stimulator ViaA
+EKN05_020100	EKN05_020100	aspartate--ammonia ligase	EKN05_020100 aspartate--ammonia ligase
+EKN05_020105	EKN05_020105	transcriptional regulator AsnC	EKN05_020105 transcriptional regulator AsnC
+EKN05_020110	EKN05_020110	FMN-binding protein MioC	EKN05_020110 FMN-binding protein MioC
+EKN05_020115	EKN05_020115	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG	EKN05_020115 tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG
+EKN05_020120	EKN05_020120	16S rRNA (guanine(527)-N(7))-methyltransferase RsmG	EKN05_020120 16S rRNA (guanine(527)-N(7))-methyltransferase RsmG
+EKN05_020205	EKN05_020205	ribose ABC transporter ATP-binding protein RbsA	EKN05_020205 ribose ABC transporter ATP-binding protein RbsA
+EKN05_020210	EKN05_020210	ribose ABC transporter permease	EKN05_020210 ribose ABC transporter permease
+EKN05_020215	EKN05_020215	ribose ABC transporter substrate-binding protein RbsB	EKN05_020215 ribose ABC transporter substrate-binding protein RbsB
+EKN05_020220	EKN05_020220	ribokinase	EKN05_020220 ribokinase
+EKN05_020225	EKN05_020225	transcriptional regulator RbsR	EKN05_020225 transcriptional regulator RbsR
+EKN05_020230	EKN05_020230	DHA2 family efflux MFS transporter permease subunit	EKN05_020230 DHA2 family efflux MFS transporter permease subunit
+EKN05_020235	EKN05_020235	FadR family transcriptional regulator	EKN05_020235 FadR family transcriptional regulator
+EKN05_020275	EKN05_020275	macrodomain Ori organization protein MaoP	EKN05_020275 macrodomain Ori organization protein MaoP
+EKN05_020280	EKN05_020280	ATP-dependent protease	EKN05_020280 ATP-dependent protease
+EKN05_020305	EKN05_020305	branched-chain-amino-acid transaminase	EKN05_020305 branched-chain-amino-acid transaminase
+EKN05_020310	EKN05_020310	dihydroxy-acid dehydratase	EKN05_020310 dihydroxy-acid dehydratase
+EKN05_020315	EKN05_020315	threonine ammonia-lyase, biosynthetic	EKN05_020315 threonine ammonia-lyase, biosynthetic
+EKN05_020320	EKN05_020320	HTH-type transcriptional activator IlvY	EKN05_020320 HTH-type transcriptional activator IlvY
+EKN05_020325	EKN05_020325	ketol-acid reductoisomerase	EKN05_020325 ketol-acid reductoisomerase
+EKN05_020340	EKN05_020340	guanosine-5'-triphosphate,3'-diphosphate diphosphatase	EKN05_020340 guanosine-5'-triphosphate,3'-diphosphate diphosphatase
+EKN05_020370	EKN05_020370	ECA polysaccharide chain length modulation protein	EKN05_020370 ECA polysaccharide chain length modulation protein
+EKN05_020375	EKN05_020375	UDP-N-acetylglucosamine 2-epimerase (non-hydrolyzing)	EKN05_020375 UDP-N-acetylglucosamine 2-epimerase (non-hydrolyzing)
+EKN05_020380	EKN05_020380	UDP-N-acetyl-D-mannosamine dehydrogenase	EKN05_020380 UDP-N-acetyl-D-mannosamine dehydrogenase
+EKN05_020385	EKN05_020385	dTDP-glucose 4,6-dehydratase	EKN05_020385 dTDP-glucose 4,6-dehydratase
+EKN05_020395	EKN05_020395	dTDP-4-amino-4,6-dideoxy-D-galactose acyltransferase	EKN05_020395 dTDP-4-amino-4,6-dideoxy-D-galactose acyltransferase
+EKN05_020400	EKN05_020400	dTDP-4-amino-4,6-dideoxy-D-glucose transaminase	EKN05_020400 dTDP-4-amino-4,6-dideoxy-D-glucose transaminase
+EKN05_020425	EKN05_020425	amino acid permease	EKN05_020425 amino acid permease
+EKN05_020460	EKN05_020460	protoheme IX biogenesis protein HemY	EKN05_020460 protoheme IX biogenesis protein HemY
+EKN05_020465	EKN05_020465	uroporphyrinogen-III C-methyltransferase	EKN05_020465 uroporphyrinogen-III C-methyltransferase
+EKN05_020480	EKN05_020480	class I adenylate cyclase	EKN05_020480 class I adenylate cyclase
+EKN05_020495	EKN05_020495	hypothetical protein	EKN05_020495 hypothetical protein
+EKN05_020500	EKN05_020500	hypothetical protein	EKN05_020500 hypothetical protein
+EKN05_020515	EKN05_020515	DUF484 domain-containing protein	EKN05_020515 DUF484 domain-containing protein
+EKN05_020525	EKN05_020525	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB	EKN05_020525 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YigB
+EKN05_020535	EKN05_020535	hypothetical protein	EKN05_020535 hypothetical protein
+EKN05_020545	EKN05_020545	hypothetical protein	EKN05_020545 hypothetical protein
+EKN05_020555	EKN05_020555	DUF2628 domain-containing protein	EKN05_020555 DUF2628 domain-containing protein
+EKN05_020560	EKN05_020560	hypothetical protein	EKN05_020560 hypothetical protein
+EKN05_020565	EKN05_020565	EamA family transporter RarD	EKN05_020565 EamA family transporter RarD
+EKN05_020570	EKN05_020570	thioesterase family protein	EKN05_020570 thioesterase family protein
+EKN05_020575	EKN05_020575	phospholipase A	EKN05_020575 phospholipase A
+EKN05_020580	EKN05_020580	ATP-dependent DNA helicase RecQ	EKN05_020580 ATP-dependent DNA helicase RecQ
+EKN05_020585	EKN05_020585	threonine export protein RhtC	EKN05_020585 threonine export protein RhtC
+EKN05_020590	EKN05_020590	homoserine/homoserine lactone efflux protein	EKN05_020590 homoserine/homoserine lactone efflux protein
+EKN05_020595	EKN05_020595	lysophospholipase L2	EKN05_020595 lysophospholipase L2
+EKN05_020600	EKN05_020600	sugar/pyridoxal phosphate phosphatase YigL	EKN05_020600 sugar/pyridoxal phosphate phosphatase YigL
+EKN05_020605	EKN05_020605	biotin transporter	EKN05_020605 biotin transporter
+EKN05_020610	EKN05_020610	HTH-type transcriptional regulator MetR	EKN05_020610 HTH-type transcriptional regulator MetR
+EKN05_020615	EKN05_020615	5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase	EKN05_020615 5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+EKN05_020620	EKN05_020620	dienelactone hydrolase family protein	EKN05_020620 dienelactone hydrolase family protein
+EKN05_020625	EKN05_020625	uridine phosphorylase	EKN05_020625 uridine phosphorylase
+EKN05_020630	EKN05_020630	DNA recombination protein RmuC	EKN05_020630 DNA recombination protein RmuC
+EKN05_020640	EKN05_020640	ubiquinone biosynthesis protein UbiJ	EKN05_020640 ubiquinone biosynthesis protein UbiJ
+EKN05_020655	EKN05_020655	Sec-independent protein translocase subunit TatB	EKN05_020655 Sec-independent protein translocase subunit TatB
+EKN05_020665	EKN05_020665	3'-5' ssDNA/RNA exonuclease TatD	EKN05_020665 3'-5' ssDNA/RNA exonuclease TatD
+EKN05_020670	EKN05_020670	transcription/translation regulatory transformer protein RfaH	EKN05_020670 transcription/translation regulatory transformer protein RfaH
+EKN05_020680	EKN05_020680	NAD(P)H-flavin reductase	EKN05_020680 NAD(P)H-flavin reductase
+EKN05_020685	EKN05_020685	acetyl-CoA C-acyltransferase FadA	EKN05_020685 acetyl-CoA C-acyltransferase FadA
+EKN05_020690	EKN05_020690	fatty acid oxidation complex subunit alpha FadB	EKN05_020690 fatty acid oxidation complex subunit alpha FadB
+EKN05_020695	EKN05_020695	Xaa-Pro dipeptidase	EKN05_020695 Xaa-Pro dipeptidase
+EKN05_020755	EKN05_020755	serine/threonine protein kinase	EKN05_020755 serine/threonine protein kinase
+EKN05_020765	EKN05_020765	DUF945 family protein	EKN05_020765 DUF945 family protein
+EKN05_020775	EKN05_020775	DUF945 family protein	EKN05_020775 DUF945 family protein
+EKN05_020780	EKN05_020780	acyltransferase	EKN05_020780 acyltransferase
+EKN05_020805	EKN05_020805	oxygen-independent coproporphyrinogen III oxidase	EKN05_020805 oxygen-independent coproporphyrinogen III oxidase
+EKN05_020815	EKN05_020815	nitrogen regulation protein NR(I)	EKN05_020815 nitrogen regulation protein NR(I)
+EKN05_021150	EKN05_021150	MFS transporter	EKN05_021150 MFS transporter
+EKN05_021155	EKN05_021155	AsmA family protein	EKN05_021155 AsmA family protein
+EKN05_021160	EKN05_021160	cyclic-guanylate-specific phosphodiesterase	EKN05_021160 cyclic-guanylate-specific phosphodiesterase
+EKN05_021165	EKN05_021165	sugar kinase	EKN05_021165 sugar kinase
+EKN05_021175	EKN05_021175	dicarboxylate/amino acid:cation symporter	EKN05_021175 dicarboxylate/amino acid:cation symporter
+EKN05_021180	EKN05_021180	biofilm formation regulator HmsP	EKN05_021180 biofilm formation regulator HmsP
+EKN05_021185	EKN05_021185	cellulose biosynthesis protein BcsC	EKN05_021185 cellulose biosynthesis protein BcsC
+EKN05_021190	EKN05_021190	cellulose synthase	EKN05_021190 cellulose synthase
+EKN05_021200	EKN05_021200	cellulase	EKN05_021200 cellulase
+EKN05_021205	EKN05_021205	cellulose biosynthesis cyclic di-GMP-binding regulatory protein BcsB	EKN05_021205 cellulose biosynthesis cyclic di-GMP-binding regulatory protein BcsB
+EKN05_021210	EKN05_021210	UDP-forming cellulose synthase catalytic subunit	EKN05_021210 UDP-forming cellulose synthase catalytic subunit
+EKN05_021215	EKN05_021215	cellulose biosynthesis protein BcsQ	EKN05_021215 cellulose biosynthesis protein BcsQ
+EKN05_021225	EKN05_021225	hypothetical protein	EKN05_021225 hypothetical protein
+EKN05_021235	EKN05_021235	cellulose biosynthesis protein BcsE	EKN05_021235 cellulose biosynthesis protein BcsE
+EKN05_021245	EKN05_021245	cellulose biosynthesis protein BcsG	EKN05_021245 cellulose biosynthesis protein BcsG
+EKN05_021265	EKN05_021265	integrase	EKN05_021265 integrase
+EKN05_021275	EKN05_021275	transporter	EKN05_021275 transporter
+EKN05_021280	EKN05_021280	dipeptide ABC transporter ATP binding subunit DppF	EKN05_021280 dipeptide ABC transporter ATP binding subunit DppF
+EKN05_021285	EKN05_021285	dipeptide ABC transporter ATP-binding protein	EKN05_021285 dipeptide ABC transporter ATP-binding protein
+EKN05_021290	EKN05_021290	dipeptide ABC transporter permease DppC	EKN05_021290 dipeptide ABC transporter permease DppC
+EKN05_021295	EKN05_021295	dipeptide ABC transporter permease DppB	EKN05_021295 dipeptide ABC transporter permease DppB
+EKN05_021305	EKN05_021305	dipeptide ABC transporter substrate-binding protein DppA	EKN05_021305 dipeptide ABC transporter substrate-binding protein DppA
+EKN05_021315	EKN05_021315	kdo(2)-lipid A phosphoethanolamine 7''-transferase	EKN05_021315 kdo(2)-lipid A phosphoethanolamine 7''-transferase
+EKN05_021320	EKN05_021320	MFS transporter	EKN05_021320 MFS transporter
+EKN05_021325	EKN05_021325	autotransporter outer membrane beta-barrel domain-containing protein	EKN05_021325 autotransporter outer membrane beta-barrel domain-containing protein
+EKN05_021330	EKN05_021330	DNA-3-methyladenine glycosylase I	EKN05_021330 DNA-3-methyladenine glycosylase I
+EKN05_021335	EKN05_021335	N-acetyltransferase	EKN05_021335 N-acetyltransferase
+EKN05_021340	EKN05_021340	molybdopterin guanine dinucleotide-containing S/N-oxide reductase	EKN05_021340 molybdopterin guanine dinucleotide-containing S/N-oxide reductase
+EKN05_021345	EKN05_021345	OmpA family lipoprotein	EKN05_021345 OmpA family lipoprotein
+EKN05_021350	EKN05_021350	glyoxylate/hydroxypyruvate reductase GhrB	EKN05_021350 glyoxylate/hydroxypyruvate reductase GhrB
+EKN05_021355	EKN05_021355	DUF3053 domain-containing protein	EKN05_021355 DUF3053 domain-containing protein
+EKN05_021360	EKN05_021360	HTH-type transcriptional regulator	EKN05_021360 HTH-type transcriptional regulator
+EKN05_021385	EKN05_021385	efflux RND transporter periplasmic adaptor subunit	EKN05_021385 efflux RND transporter periplasmic adaptor subunit
+EKN05_021390	EKN05_021390	hypothetical protein	EKN05_021390 hypothetical protein
+EKN05_021395	EKN05_021395	acid resistance transcriptional activator GadE	EKN05_021395 acid resistance transcriptional activator GadE
+EKN05_021415	EKN05_021415	MgtC/SapB family protein	EKN05_021415 MgtC/SapB family protein
+EKN05_021420	EKN05_021420	helix-turn-helix transcriptional regulator	EKN05_021420 helix-turn-helix transcriptional regulator
+EKN05_021425	EKN05_021425	outer membrane lipoprotein Slp	EKN05_021425 outer membrane lipoprotein Slp
+EKN05_021430	EKN05_021430	hypothetical protein	EKN05_021430 hypothetical protein
+EKN05_021435	EKN05_021435	permease	EKN05_021435 permease
+EKN05_021445	EKN05_021445	ArsR family transcriptional regulator	EKN05_021445 ArsR family transcriptional regulator
+EKN05_021450	EKN05_021450	arsenate reductase	EKN05_021450 arsenate reductase
+EKN05_021455	EKN05_021455	arsenite/antimonite:H(+) antiporter ArsB	EKN05_021455 arsenite/antimonite:H(+) antiporter ArsB
+EKN05_021470	EKN05_021470	glutathione-disulfide reductase	EKN05_021470 glutathione-disulfide reductase
+EKN05_021475	EKN05_021475	23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ	EKN05_021475 23S rRNA (adenine(2030)-N(6))-methyltransferase RlmJ
+EKN05_021555	EKN05_021555	IS3-like element IS2 family transposase	EKN05_021555 IS3-like element IS2 family transposase
+EKN05_021560	EKN05_021560	fimbrial biogenesis outer membrane usher protein	EKN05_021560 fimbrial biogenesis outer membrane usher protein
+EKN05_021565	EKN05_021565	hypothetical protein	EKN05_021565 hypothetical protein
+EKN05_021585	EKN05_021585	DUF2776 family protein	EKN05_021585 DUF2776 family protein
+EKN05_021590	EKN05_021590	DUF4049 domain-containing protein	EKN05_021590 DUF4049 domain-containing protein
+EKN05_021600	EKN05_021600	HlyD family secretion protein	EKN05_021600 HlyD family secretion protein
+EKN05_021605	EKN05_021605	ribosome-associated ATPase	EKN05_021605 ribosome-associated ATPase
+EKN05_021610	EKN05_021610	ABC-2 transporter permease	EKN05_021610 ABC-2 transporter permease
+EKN05_021615	EKN05_021615	type II toxin-antitoxin system HicA family toxin	EKN05_021615 type II toxin-antitoxin system HicA family toxin
+EKN05_021620	EKN05_021620	type II toxin-antitoxin system HicB family antitoxin	EKN05_021620 type II toxin-antitoxin system HicB family antitoxin
+EKN05_021625	EKN05_021625	nickel-responsive transcriptional regulator NikR	EKN05_021625 nickel-responsive transcriptional regulator NikR
+EKN05_021635	EKN05_021635	nickel import ATP-binding protein NikD	EKN05_021635 nickel import ATP-binding protein NikD
+EKN05_021640	EKN05_021640	nickel ABC transporter permease subunit NikC	EKN05_021640 nickel ABC transporter permease subunit NikC
+EKN05_021645	EKN05_021645	nickel ABC transporter permease subunit NikB	EKN05_021645 nickel ABC transporter permease subunit NikB
+EKN05_021650	EKN05_021650	nickel ABC transporter, nickel/metallophore periplasmic binding protein	EKN05_021650 nickel ABC transporter, nickel/metallophore periplasmic binding protein
+EKN05_021655	EKN05_021655	4'-phosphopantetheinyl transferase AcpT	EKN05_021655 4'-phosphopantetheinyl transferase AcpT
+EKN05_021660	EKN05_021660	AI-2E family transporter	EKN05_021660 AI-2E family transporter
+EKN05_021665	EKN05_021665	MFS transporter	EKN05_021665 MFS transporter
+EKN05_021670	EKN05_021670	phage sensitivity protein DcrB	EKN05_021670 phage sensitivity protein DcrB
+EKN05_021675	EKN05_021675	7-cyano-7-deazaguanine/7-aminomethyl-7- deazaguanine transporter	EKN05_021675 7-cyano-7-deazaguanine/7-aminomethyl-7- deazaguanine transporter
+EKN05_021685	EKN05_021685	Zn(II)/Cd(II)/Pb(II) translocating P-type ATPase ZntA	EKN05_021685 Zn(II)/Cd(II)/Pb(II) translocating P-type ATPase ZntA
+EKN05_021690	EKN05_021690	lysoplasmalogenase	EKN05_021690 lysoplasmalogenase
+EKN05_021700	EKN05_021700	DUF1145 family protein	EKN05_021700 DUF1145 family protein
+EKN05_021730	EKN05_021730	branched-chain amino acid ABC transporter substrate-binding protein	EKN05_021730 branched-chain amino acid ABC transporter substrate-binding protein
+EKN05_021735	EKN05_021735	aspartate 1-decarboxylase autocleavage activator PanM	EKN05_021735 aspartate 1-decarboxylase autocleavage activator PanM
+EKN05_021740	EKN05_021740	high-affinity branched-chain amino acid ABC transporter substrate-binding protein LivK	EKN05_021740 high-affinity branched-chain amino acid ABC transporter substrate-binding protein LivK
+EKN05_021745	EKN05_021745	high-affinity branched-chain amino acid ABC transporter permease LivH	EKN05_021745 high-affinity branched-chain amino acid ABC transporter permease LivH
+EKN05_021750	EKN05_021750	high-affinity branched-chain amino acid ABC transporter permease LivM	EKN05_021750 high-affinity branched-chain amino acid ABC transporter permease LivM
+EKN05_021755	EKN05_021755	high-affinity branched-chain amino acid ABC transporter ATP-binding protein LivG	EKN05_021755 high-affinity branched-chain amino acid ABC transporter ATP-binding protein LivG
+EKN05_021775	EKN05_021775	sn-glycerol-3-phosphate ABC transporter permease UgpE	EKN05_021775 sn-glycerol-3-phosphate ABC transporter permease UgpE
+EKN05_021780	EKN05_021780	sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC	EKN05_021780 sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC
+EKN05_021785	EKN05_021785	glycerophosphodiester phosphodiesterase	EKN05_021785 glycerophosphodiester phosphodiesterase
+EKN05_021790	EKN05_021790	DUF2756 family protein	EKN05_021790 DUF2756 family protein
+EKN05_021875	EKN05_021875	glycerol-3-phosphate dehydrogenase	EKN05_021875 glycerol-3-phosphate dehydrogenase
+EKN05_021885	EKN05_021885	rhomboid family intramembrane serine protease GlpG	EKN05_021885 rhomboid family intramembrane serine protease GlpG
+EKN05_021890	EKN05_021890	DeoR/GlpR family transcriptional regulator	EKN05_021890 DeoR/GlpR family transcriptional regulator
+EKN05_021895	EKN05_021895	sigma 54-dependent transcriptional regulator	EKN05_021895 sigma 54-dependent transcriptional regulator
+EKN05_021900	EKN05_021900	RtcB family protein	EKN05_021900 RtcB family protein
+EKN05_021905	EKN05_021905	RNA 3'-terminal phosphate cyclase	EKN05_021905 RNA 3'-terminal phosphate cyclase
+EKN05_021910	EKN05_021910	HTH-type transcriptional regulator MalT	EKN05_021910 HTH-type transcriptional regulator MalT
+EKN05_021915	EKN05_021915	maltodextrin phosphorylase	EKN05_021915 maltodextrin phosphorylase
+EKN05_021920	EKN05_021920	4-alpha-glucanotransferase	EKN05_021920 4-alpha-glucanotransferase
+EKN05_021925	EKN05_021925	gluconate transporter	EKN05_021925 gluconate transporter
+EKN05_021935	EKN05_021935	DNA utilization protein GntX	EKN05_021935 DNA utilization protein GntX
+EKN05_021940	EKN05_021940	pimeloyl-ACP methyl ester esterase BioH	EKN05_021940 pimeloyl-ACP methyl ester esterase BioH
+EKN05_021950	EKN05_021950	AbrB/MazE/SpoVT family DNA-binding domain-containing protein	EKN05_021950 AbrB/MazE/SpoVT family DNA-binding domain-containing protein
+EKN05_022020	EKN05_022020	GMP/IMP nucleotidase	EKN05_022020 GMP/IMP nucleotidase
+EKN05_022035	EKN05_022035	peptidoglycan glycosyltransferase/peptidoglycan DD-transpeptidase MrcA	EKN05_022035 peptidoglycan glycosyltransferase/peptidoglycan DD-transpeptidase MrcA
+EKN05_022040	EKN05_022040	DNA utilization protein HofM	EKN05_022040 DNA utilization protein HofM
+EKN05_022045	EKN05_022045	DNA utilization protein HofN	EKN05_022045 DNA utilization protein HofN
+EKN05_022050	EKN05_022050	DNA utilization protein HofO	EKN05_022050 DNA utilization protein HofO
+EKN05_022055	EKN05_022055	DNA utilization protein HofP	EKN05_022055 DNA utilization protein HofP
+EKN05_022060	EKN05_022060	DNA transporter HofQ	EKN05_022060 DNA transporter HofQ
+EKN05_022070	EKN05_022070	3-dehydroquinate synthase	EKN05_022070 3-dehydroquinate synthase
+EKN05_022075	EKN05_022075	cell division protein DamX	EKN05_022075 cell division protein DamX
+EKN05_022080	EKN05_022080	adenine-specific DNA-methyltransferase	EKN05_022080 adenine-specific DNA-methyltransferase
+EKN05_022090	EKN05_022090	phosphoglycolate phosphatase	EKN05_022090 phosphoglycolate phosphatase
+EKN05_022100	EKN05_022100	hypothetical protein	EKN05_022100 hypothetical protein
+EKN05_022715	EKN05_022715	metalloprotease TldD	EKN05_022715 metalloprotease TldD
+EKN05_022720	EKN05_022720	HTH-type transcriptional activator AaeR	EKN05_022720 HTH-type transcriptional activator AaeR
+EKN05_022725	EKN05_022725	DUF1656 domain-containing protein	EKN05_022725 DUF1656 domain-containing protein
+EKN05_022730	EKN05_022730	p-hydroxybenzoic acid efflux pump subunit AaeA	EKN05_022730 p-hydroxybenzoic acid efflux pump subunit AaeA
+EKN05_022735	EKN05_022735	p-hydroxybenzoic acid efflux pump subunit AaeB	EKN05_022735 p-hydroxybenzoic acid efflux pump subunit AaeB
+EKN05_022740	EKN05_022740	hypothetical protein	EKN05_022740 hypothetical protein
+EKN05_022745	EKN05_022745	peroxide/acid stress response protein YhcN	EKN05_022745 peroxide/acid stress response protein YhcN
+EKN05_022765	EKN05_022765	serine endoprotease DegQ	EKN05_022765 serine endoprotease DegQ
+EKN05_022770	EKN05_022770	DUF1043 family protein	EKN05_022770 DUF1043 family protein
+EKN05_022775	EKN05_022775	cell division protein ZapE	EKN05_022775 cell division protein ZapE
+EKN05_022790	EKN05_022790	stringent starvation protein A	EKN05_022790 stringent starvation protein A
+EKN05_022795	EKN05_022795	ClpXP protease specificity-enhancing factor	EKN05_022795 ClpXP protease specificity-enhancing factor
+EKN05_022800	EKN05_022800	C4-dicarboxylate transporter DcuC	EKN05_022800 C4-dicarboxylate transporter DcuC
+EKN05_022810	EKN05_022810	transcriptional regulator NanR	EKN05_022810 transcriptional regulator NanR
+EKN05_022815	EKN05_022815	N-acetylneuraminate lyase	EKN05_022815 N-acetylneuraminate lyase
+EKN05_022820	EKN05_022820	sialic acid transporter NanT	EKN05_022820 sialic acid transporter NanT
+EKN05_022825	EKN05_022825	N-acetylmannosamine-6-phosphate 2-epimerase	EKN05_022825 N-acetylmannosamine-6-phosphate 2-epimerase
+EKN05_022830	EKN05_022830	N-acetylmannosamine kinase	EKN05_022830 N-acetylmannosamine kinase
+EKN05_022840	EKN05_022840	IS3 family transposase	EKN05_022840 IS3 family transposase
+EKN05_022845	EKN05_022845	DUF1016 family protein	EKN05_022845 DUF1016 family protein
+EKN05_022860	EKN05_022860	TIGR01212 family radical SAM protein	EKN05_022860 TIGR01212 family radical SAM protein
+EKN05_022870	EKN05_022870	isoprenoid biosynthesis glyoxalase ElbB	EKN05_022870 isoprenoid biosynthesis glyoxalase ElbB
+EKN05_022875	EKN05_022875	monofunctional biosynthetic peptidoglycan transglycosylase	EKN05_022875 monofunctional biosynthetic peptidoglycan transglycosylase
+EKN05_022880	EKN05_022880	PhoP regulatory network protein YrbL	EKN05_022880 PhoP regulatory network protein YrbL
+EKN05_022895	EKN05_022895	PTS IIA-like nitrogen regulatory protein PtsN	EKN05_022895 PTS IIA-like nitrogen regulatory protein PtsN
+EKN05_022900	EKN05_022900	ribosome hibernation promoting factor	EKN05_022900 ribosome hibernation promoting factor
+EKN05_022930	EKN05_022930	arabinose-5-phosphate isomerase KdsD	EKN05_022930 arabinose-5-phosphate isomerase KdsD
+EKN05_022935	EKN05_022935	calcium/sodium antiporter	EKN05_022935 calcium/sodium antiporter
+EKN05_022940	EKN05_022940	phospholipid ABC transporter ATP-binding protein MlaF	EKN05_022940 phospholipid ABC transporter ATP-binding protein MlaF
+EKN05_022950	EKN05_022950	outer membrane lipid asymmetry maintenance protein MlaD	EKN05_022950 outer membrane lipid asymmetry maintenance protein MlaD
+EKN05_022955	EKN05_022955	phospholipid-binding protein MlaC	EKN05_022955 phospholipid-binding protein MlaC
+EKN05_022960	EKN05_022960	lipid asymmetry maintenance protein MlaB	EKN05_022960 lipid asymmetry maintenance protein MlaB
+EKN05_023005	EKN05_023005	serine-type D-Ala-D-Ala carboxypeptidase	EKN05_023005 serine-type D-Ala-D-Ala carboxypeptidase
+EKN05_023010	EKN05_023010	transcription elongation factor GreA	EKN05_023010 transcription elongation factor GreA
+EKN05_023015	EKN05_023015	ribosome assembly RNA-binding protein YhbY	EKN05_023015 ribosome assembly RNA-binding protein YhbY
+EKN05_023300	EKN05_023300	enamine/imine deaminase	EKN05_023300 enamine/imine deaminase
+EKN05_023305	EKN05_023305	L-serine ammonia-lyase	EKN05_023305 L-serine ammonia-lyase
+EKN05_023310	EKN05_023310	HAAAP family serine/threonine permease	EKN05_023310 HAAAP family serine/threonine permease
+EKN05_023315	EKN05_023315	serine dehydratase subunit alpha family protein	EKN05_023315 serine dehydratase subunit alpha family protein
+EKN05_023325	EKN05_023325	pirin family protein	EKN05_023325 pirin family protein
+EKN05_023330	EKN05_023330	LysR family transcriptional regulator	EKN05_023330 LysR family transcriptional regulator
+EKN05_023340	EKN05_023340	glutathione S-transferase family protein	EKN05_023340 glutathione S-transferase family protein
+EKN05_023350	EKN05_023350	hypothetical protein	EKN05_023350 hypothetical protein
+EKN05_023360	EKN05_023360	DUF883 domain-containing protein	EKN05_023360 DUF883 domain-containing protein
+EKN05_023370	EKN05_023370	EnvZ/OmpR regulon moderator MzrA	EKN05_023370 EnvZ/OmpR regulon moderator MzrA
+EKN05_023375	EKN05_023375	DedA family protein	EKN05_023375 DedA family protein
+EKN05_024305	EKN05_024305	protein kinase OspG	EKN05_024305 protein kinase OspG
+EKN05_024310	EKN05_024310	type II toxin-antitoxin system RelE/ParE family toxin	EKN05_024310 type II toxin-antitoxin system RelE/ParE family toxin
+EKN05_024320	EKN05_024320	T3SS effector E3 ubiquitin-protein ligase IpaH9.8	EKN05_024320 T3SS effector E3 ubiquitin-protein ligase IpaH9.8
+EKN05_024330	EKN05_024330	type II toxin-antitoxin system toxin CcdB	EKN05_024330 type II toxin-antitoxin system toxin CcdB
+EKN05_024350	EKN05_024350	IS1 family transposase	EKN05_024350 IS1 family transposase
+EKN05_024355	EKN05_024355	hypothetical protein	EKN05_024355 hypothetical protein
+EKN05_024360	EKN05_024360	hypothetical protein	EKN05_024360 hypothetical protein
+EKN05_024390	EKN05_024390	IS110 family transposase	EKN05_024390 IS110 family transposase
+EKN05_024395	EKN05_024395	hypothetical protein	EKN05_024395 hypothetical protein
+EKN05_024400	EKN05_024400	hypothetical protein	EKN05_024400 hypothetical protein
+EKN05_024405	EKN05_024405	DUF1380 domain-containing protein	EKN05_024405 DUF1380 domain-containing protein
+EKN05_024410	EKN05_024410	hypothetical protein	EKN05_024410 hypothetical protein
+EKN05_024415	EKN05_024415	DNA methylase	EKN05_024415 DNA methylase
+EKN05_024425	EKN05_024425	DUF1281 domain-containing protein	EKN05_024425 DUF1281 domain-containing protein
+EKN05_024430	EKN05_024430	hypothetical protein	EKN05_024430 hypothetical protein
+EKN05_024435	EKN05_024435	plasmid stabilization protein	EKN05_024435 plasmid stabilization protein
+EKN05_024440	EKN05_024440	plasmid stabilization protein	EKN05_024440 plasmid stabilization protein
+EKN05_024445	EKN05_024445	type II toxin-antitoxin system RelB/DinJ family antitoxin	EKN05_024445 type II toxin-antitoxin system RelB/DinJ family antitoxin
+EKN05_024455	EKN05_024455	phosphatase PAP2 family protein	EKN05_024455 phosphatase PAP2 family protein
+EKN05_024475	EKN05_024475	transposase domain-containing protein	EKN05_024475 transposase domain-containing protein
+EKN05_024480	EKN05_024480	hypothetical protein	EKN05_024480 hypothetical protein
+EKN05_024485	EKN05_024485	bifunctional UDP-sugar hydrolase/5'-nucleotidase	EKN05_024485 bifunctional UDP-sugar hydrolase/5'-nucleotidase
+EKN05_024495	EKN05_024495	hypothetical protein	EKN05_024495 hypothetical protein
+EKN05_024500	EKN05_024500	autotransporter outer membrane beta-barrel domain-containing protein	EKN05_024500 autotransporter outer membrane beta-barrel domain-containing protein
+EKN05_024505	EKN05_024505	cysteine protease	EKN05_024505 cysteine protease
+EKN05_024510	EKN05_024510	IS3 family transposase	EKN05_024510 IS3 family transposase
+EKN05_024515	EKN05_024515	IS3 family transposase	EKN05_024515 IS3 family transposase
+EKN05_024520	EKN05_024520	hypothetical protein	EKN05_024520 hypothetical protein
+EKN05_024525	EKN05_024525	reverse transcriptase	EKN05_024525 reverse transcriptase
+EKN05_024530	EKN05_024530	transposase	EKN05_024530 transposase
+EKN05_024535	EKN05_024535	transposase	EKN05_024535 transposase
+EKN05_024545	EKN05_024545	ISL3 family transposase	EKN05_024545 ISL3 family transposase
+EKN05_024565	EKN05_024565	IS110 family transposase	EKN05_024565 IS110 family transposase
+EKN05_024570	EKN05_024570	hypothetical protein	EKN05_024570 hypothetical protein
+EKN05_024575	EKN05_024575	IS630 family transposase	EKN05_024575 IS630 family transposase
+EKN05_024580	EKN05_024580	hypothetical protein	EKN05_024580 hypothetical protein
+EKN05_024620	EKN05_024620	IS3-like element ISSfl11 family transposase	EKN05_024620 IS3-like element ISSfl11 family transposase
+EKN05_024625	EKN05_024625	hypothetical protein	EKN05_024625 hypothetical protein
+EKN05_024630	EKN05_024630	EscU/YscU/HrcU family type III secretion system export apparatus switch protein	EKN05_024630 EscU/YscU/HrcU family type III secretion system export apparatus switch protein
+EKN05_024635	EKN05_024635	EscT/YscT/HrcT family type III secretion system export apparatus protein	EKN05_024635 EscT/YscT/HrcT family type III secretion system export apparatus protein
+EKN05_024640	EKN05_024640	EscS/YscS/HrcS family type III secretion system export apparatus protein	EKN05_024640 EscS/YscS/HrcS family type III secretion system export apparatus protein
+EKN05_024645	EKN05_024645	EscR/YscR/HrcR family type III secretion system export apparatus protein	EKN05_024645 EscR/YscR/HrcR family type III secretion system export apparatus protein
+EKN05_024650	EKN05_024650	surface presentation of antigens protein SpaO	EKN05_024650 surface presentation of antigens protein SpaO
+EKN05_024655	EKN05_024655	surface presentation of antigens protein SpaN	EKN05_024655 surface presentation of antigens protein SpaN
+EKN05_024660	EKN05_024660	surface presentation of antigens protein SpaM	EKN05_024660 surface presentation of antigens protein SpaM
+EKN05_024665	EKN05_024665	FliI/YscN family ATPase	EKN05_024665 FliI/YscN family ATPase
+EKN05_024670	EKN05_024670	surface presentation of antigens protein SpaK	EKN05_024670 surface presentation of antigens protein SpaK
+EKN05_024675	EKN05_024675	EscV/YscV/HrcV family type III secretion system export apparatus protein	EKN05_024675 EscV/YscV/HrcV family type III secretion system export apparatus protein
+EKN05_024680	EKN05_024680	YopN family type III secretion system gatekeeper subunit	EKN05_024680 YopN family type III secretion system gatekeeper subunit
+EKN05_024685	EKN05_024685	EscC/YscC/HrcC family type III secretion system outer membrane ring protein	EKN05_024685 EscC/YscC/HrcC family type III secretion system outer membrane ring protein
+EKN05_024690	EKN05_024690	helix-turn-helix domain-containing protein	EKN05_024690 helix-turn-helix domain-containing protein
+EKN05_024695	EKN05_024695	AraC family transcriptional activator MxiE	EKN05_024695 AraC family transcriptional activator MxiE
+EKN05_024700	EKN05_024700	Mxi-Spa secretion machinery protein MxiL	EKN05_024700 Mxi-Spa secretion machinery protein MxiL
+EKN05_024705	EKN05_024705	MxiN	EKN05_024705 MxiN
+EKN05_024710	EKN05_024710	type III secretion apparatus protein OrgA/MxiK	EKN05_024710 type III secretion apparatus protein OrgA/MxiK
+EKN05_024715	EKN05_024715	EscJ/YscJ/HrcJ family type III secretion inner membrane ring protein	EKN05_024715 EscJ/YscJ/HrcJ family type III secretion inner membrane ring protein
+EKN05_024720	EKN05_024720	protein MxiI	EKN05_024720 protein MxiI
+EKN05_024725	EKN05_024725	type III secretion system needle complex protein	EKN05_024725 type III secretion system needle complex protein
+EKN05_024730	EKN05_024730	protein MxiG	EKN05_024730 protein MxiG
+EKN05_024735	EKN05_024735	protein IpgF	EKN05_024735 protein IpgF
+EKN05_024740	EKN05_024740	type III secretion system chaperone	EKN05_024740 type III secretion system chaperone
+EKN05_024745	EKN05_024745	type III secretion system effector inositol phosphate phosphatase	EKN05_024745 type III secretion system effector inositol phosphate phosphatase
+EKN05_024750	EKN05_024750	hypothetical protein	EKN05_024750 hypothetical protein
+EKN05_024755	EKN05_024755	Virulence protein IcsB	EKN05_024755 Virulence protein IcsB
+EKN05_024760	EKN05_024760	chaperone protein IpgA	EKN05_024760 chaperone protein IpgA
+EKN05_024765	EKN05_024765	protein IpgB	EKN05_024765 protein IpgB
+EKN05_024775	EKN05_024775	type III secretion system needle tip complex protein SipB	EKN05_024775 type III secretion system needle tip complex protein SipB
+EKN05_024780	EKN05_024780	IpaC/SipC family type III secretion system effector	EKN05_024780 IpaC/SipC family type III secretion system effector
+EKN05_024790	EKN05_024790	invasin IpaA	EKN05_024790 invasin IpaA
+EKN05_024795	EKN05_024795	acyl carrier protein	EKN05_024795 acyl carrier protein
+EKN05_024800	EKN05_024800	Virulence regulon transcriptional activator VirB	EKN05_024800 Virulence regulon transcriptional activator VirB
