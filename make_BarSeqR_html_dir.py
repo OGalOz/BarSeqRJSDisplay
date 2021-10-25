@@ -25,7 +25,8 @@ and then a variable number of sets with different conditions
 def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t,
                         inp_exps_used=None,
                         org_name="Unknown",
-                        col_start="5"):
+                        col_start="5",
+                        tmp_dir="./tmp"):
     """ We make an HTML directory from which to run visualization
     
         We copy the default 'HTML' dir to the HTML_out_dir location
@@ -33,6 +34,7 @@ def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t,
         Javascript files in the HTML_out_dir/JS/directory
         Finally we updated the organisms name
     """
+
 
     if not os.path.exists(HTML_out_dir):
         #if os.access(HTML_out_dir, os.W_OK | os.X_OK):
@@ -43,11 +45,16 @@ def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t,
     else:
         raise Exception("Output directory already exists. Please choose new destination")
 
+    if not os.path.exists(tmp_dir):
+        raise Exception("'tmp' dir doesn't exist in current directory, please include path to tmp dir or create 'tmp' dir")
+
     add_files_to_js_dir(HTML_out_dir, 
                        inp_fit,
                        inp_t,
                        inp_exps_used,
-                       col_start)
+                       col_start,
+                       org_name,
+                       tmp_dir=tmp_dir)
 
     add_strings_to_brsq_viz_html(org_name, HTML_out_dir)
 
@@ -86,7 +93,9 @@ def add_files_to_js_dir(op_dir,
                         inp_fit_score_fp,
                         inp_t_score_fp,
                         inp_exps_used,
-                        column_start_index):
+                        column_start_index,
+                        org_name,
+                        tmp_dir=None):
     """
     All inputs string, col_start is string of int.
     inp_exps_used could be None
@@ -110,10 +119,11 @@ def add_files_to_js_dir(op_dir,
             raise Exception("Input file for exps {} does not exist".format(
                             inp_exps_used))
 
+    fit_fp, t_fp = check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_index, org_name)
+    column_start_index = 5
 
-
-    Fit_tsv_fh = open(inp_fit_score_fp, "r")
-    T_tsv_fh = open(inp_t_score_fp, "r")
+    Fit_tsv_fh = open(fit_fp, "r")
+    T_tsv_fh = open(t_fp, "r")
     if eb:
         expsUsed_df = pd.read_table(inp_exps_used, sep="\t")
 
@@ -124,7 +134,6 @@ def add_files_to_js_dir(op_dir,
     if eb:
         exps_headers = expsUsed_df.columns.to_list()
 
-    #raise Exception("Stop - test")
 
     # Below fit_column_headers refers to condition sets
     fit_column_headers = fit_headers[column_start_index:]
@@ -132,13 +141,13 @@ def add_files_to_js_dir(op_dir,
     if len(fit_column_headers) != len(t_column_headers):
         raise Exception("fitness score file and t score file not " + \
                 "compatible: t - {}, fit - {}".format(
-                    inp_fit_score_fp, inp_t_score_fp))
+                    fit_fp, t_fp))
     else:
         for i in range(len(fit_column_headers)):
             if fit_column_headers[i] != t_column_headers[i]:
                 raise Exception("fitness score file and t score file not " + \
                         "compatible: t - {}, fit - {}".format(
-                            inp_fit_score_fp, inp_t_score_fp))
+                            fit_fp, t_fp))
 
     # We switch the 'desc' part of the headers to have condition before set #
     for i in range(len(t_column_headers)):
@@ -263,9 +272,6 @@ def add_files_to_js_dir(op_dir,
         else:
             genedesc2id4[gene_desc] = [gene_id4]
 
-    with open("tmp/my_json.json", "w") as g:
-        g.write(json.dumps(row_num_to_gene_info, indent=2))
-        raise Exception("Stop test")
 
     barseqr_row_info_d = {
         "rownum2gene": row_num_to_gene_info,
@@ -284,7 +290,94 @@ def add_files_to_js_dir(op_dir,
     return None
 
 
+def check_input_files(inp_fit_score_fp, inp_t_score_fp, tmp_dir, column_start_index, org_name):
+    """
+    Description:
+        This function is used to verify that the formats in which the files
+        are coming in are correct, if they aren't, then we issue a warning,
+        convert them to the right format, create new versions of them,
+        and return the new file paths, while keeping the old files at
+        their existing location.
+    """
     
+    Fit_tsv_fh = open(inp_fit_score_fp, "r")
+    T_tsv_fh = open(inp_t_score_fp, "r")
+
+
+    op_fit_fp = os.path.join(tmp_dir, "fit.tsv")
+    op_t_fp = os.path.join(tmp_dir, "t.tsv")
+    
+    # We get the headers in lists
+    fit_headers = Fit_tsv_fh.readline().rstrip().split('\t')
+    t_headers = T_tsv_fh.readline().rstrip().split('\t')
+
+    fit_df = pd.read_table(inp_fit_score_fp)
+    t_df = pd.read_table(inp_t_score_fp)
+    # Below fit_column_headers refers to condition sets
+    fit_column_headers = fit_df.columns.to_list()
+    t_column_headers = t_df.columns.to_list()
+
+    print(fit_column_headers)
+    print(t_column_headers)
+
+
+    fit_info = fit_df[fit_df.columns.to_list()[:column_start_index]]
+    t_info = t_df[t_df.columns.to_list()[:column_start_index]]
+    fit_values = fit_df[fit_df.columns.to_list()[column_start_index:]]
+    t_values = t_df[t_df.columns.to_list()[column_start_index:]]
+
+
+    if len(fit_column_headers) != len(t_column_headers):
+        raise Exception("fitness score file and t score file not " + \
+                "compatible: t - {}, fit - {}".format(
+                    inp_fit_score_fp, inp_t_score_fp))
+    else:
+        for i in range(len(fit_column_headers)):
+            if fit_column_headers[i] != t_column_headers[i]:
+                raise Exception("fitness score file and t score file not " + \
+                        "compatible: t - {}, fit - {}".format(
+                            inp_fit_score_fp, inp_t_score_fp))
+
+    for x in ["locusId", "desc"]:
+        if x not in t_column_headers:
+            raise Exception(f"Crucial header '{x}' missing from headers: " + \
+                            ", ".join(t_column_headers)
+                            )
+
+    updated = False
+    for x in ["sysName", "orgId", "geneName"]:
+        if x not in t_column_headers:
+            logging.warning(f"Non-crucial header '{x}' missing from headers: " + \
+                            ", ".join(t_column_headers) + ". " + \
+                            "Adding header to dataframe."
+                            )
+            updated = True
+            if x == "orgId":
+                unknown_value = org_name 
+            else:
+                unknown_value = "Unknown"
+            fit_info[x] = [unknown_value]*fit_df.shape[0] 
+            t_info[x] = [unknown_value]*t_df.shape[0] 
+
+    fit_info = fit_info[["orgId", "locusId", "sysName", "geneName", "desc"]]
+    t_info = t_info[["orgId", "locusId", "sysName", "geneName", "desc"]]
+    fit_df = pd.concat([fit_info, fit_values], axis=1, join="inner")
+    t_df = pd.concat([t_info, t_values], axis=1, join="inner")
+    #print(fit_df)
+    #print(t_df)
+    fit_df.to_csv(op_fit_fp, sep="\t", index=False)
+    t_df.to_csv(op_t_fp, sep="\t", index=False)
+
+
+    return op_fit_fp, op_t_fp
+        
+
+
+
+
+
+
+
 
 
 # Unused
@@ -437,8 +530,6 @@ def convert_tsvs_to_json(
     # The description is in the last part of the gene string,
     # so we get rid of it
 
-    print(row_num_to_gene_info)
-    raise Exception("Stop Test")
 
     gene2rownum = {'|'.join(v.split('|')[0:-1]): k for k, v in \
                     row_num_to_gene_info.items()}

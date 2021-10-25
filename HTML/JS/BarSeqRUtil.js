@@ -502,7 +502,7 @@ function BarSeqRShowInfoRelatedToPoint(inp_d) {
 
     // inp_d: Object which contains the following keys: 
     //      typ: (str) from ["volcano", "compare", "gene_cond"] 
-    //          IF typ volcano, compare:
+    //          IF typ volcano OR compare, these keys also:
     //              row_num: (Num) int representing row from which
     //                       point came
     //              x_val: Num

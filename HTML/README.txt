@@ -25,6 +25,6 @@ following keys:
             "ix2col": the reverse of above, but str(int) -> experiment + set name
 The third is called 'genes2row', which has the 
 following keys:
-    "rownum2gene":
-    "gene_id4_2rownum":
-    "desc2id4":
+    "rownum2gene": str(int) -> gene info split by "|"
+    "gene_id4_2rownum": gene info split by "|" w/o the last piece -> tuple<row_num (int), description (str)>
+    "desc2id4": gene description (str) -> gene info split by "|" w/o the last piece
