@@ -5,6 +5,7 @@ import sys
 import logging
 import json
 import shutil
+import pandas as pd
 
 """
 We convert output files from BarSeqR into JSON files
@@ -21,7 +22,9 @@ Generally, fitness and t score TSV files have the following headers:
 and then a variable number of sets with different conditions
 """
 
-def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t, org_name="Unknown",
+def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t,
+                        inp_exps_used=None,
+                        org_name="Unknown",
                         col_start="5"):
     """ We make an HTML directory from which to run visualization
     
@@ -43,6 +46,7 @@ def create_new_HTML_dir(HTML_out_dir, inp_fit, inp_t, org_name="Unknown",
     add_files_to_js_dir(HTML_out_dir, 
                        inp_fit,
                        inp_t,
+                       inp_exps_used,
                        col_start)
 
     add_strings_to_brsq_viz_html(org_name, HTML_out_dir)
@@ -81,13 +85,16 @@ def add_strings_to_brsq_viz_html(org_name, HTML_out_dir):
 def add_files_to_js_dir(op_dir, 
                         inp_fit_score_fp,
                         inp_t_score_fp,
+                        inp_exps_used,
                         column_start_index):
     """
     All inputs string, col_start is string of int.
+    inp_exps_used could be None
     """
     
     JS_dir = os.path.join(op_dir, "JS")
     column_start_index = int(column_start_index)
+    eb = True if inp_exps_used is not None else False
 
     if not os.path.isdir(JS_dir):
         raise Exception("JS dir not found in HTML dir? Must redownload.")
@@ -98,15 +105,26 @@ def add_files_to_js_dir(op_dir,
         if not os.path.isfile(x):
             raise Exception("Input file {} does not exist".format(
                             x))
+    if eb:
+        if not os.path.isfile(inp_exps_used):
+            raise Exception("Input file for exps {} does not exist".format(
+                            inp_exps_used))
+
 
 
     Fit_tsv_fh = open(inp_fit_score_fp, "r")
     T_tsv_fh = open(inp_t_score_fp, "r")
+    if eb:
+        expsUsed_df = pd.read_table(inp_exps_used, sep="\t")
 
 
     # We get the headers in lists
     fit_headers = Fit_tsv_fh.readline().rstrip().split('\t')
     t_headers = T_tsv_fh.readline().rstrip().split('\t')
+    if eb:
+        exps_headers = expsUsed_df.columns.to_list()
+
+    #raise Exception("Stop - test")
 
     # Below fit_column_headers refers to condition sets
     fit_column_headers = fit_headers[column_start_index:]
@@ -245,6 +263,10 @@ def add_files_to_js_dir(op_dir,
         else:
             genedesc2id4[gene_desc] = [gene_id4]
 
+    with open("tmp/my_json.json", "w") as g:
+        g.write(json.dumps(row_num_to_gene_info, indent=2))
+        raise Exception("Stop test")
+
     barseqr_row_info_d = {
         "rownum2gene": row_num_to_gene_info,
         "gene_id4_2rownum": gene2rownum,
@@ -265,7 +287,7 @@ def add_files_to_js_dir(op_dir,
     
 
 
-
+# Unused
 def convert_tsvs_to_json(
                         inp_fit_score_fp,
                         inp_t_score_fp,
@@ -414,8 +436,13 @@ def convert_tsvs_to_json(
     # We make this dict so each gene hash doesn't contain the description
     # The description is in the last part of the gene string,
     # so we get rid of it
+
+    print(row_num_to_gene_info)
+    raise Exception("Stop Test")
+
     gene2rownum = {'|'.join(v.split('|')[0:-1]): k for k, v in \
                     row_num_to_gene_info.items()}
+
 
     barseqr_row_info_d = {
         "rownum2gene": row_num_to_gene_info,
@@ -551,14 +578,34 @@ def main():
     '''
     
     args = sys.argv
-    if args[-1] != "1":
+    if args[-1] not in ["1", "2"]:
         help_str = "python3 make_BarSeqR_html_dir.py new_HTML_dir_path" + \
+                   " inp_fit.tsv inp_t_score.tsv inp_expsUsed.tsv organism_name" + \
+                   " exps_start_col 1 (if using KBase BarSeq)\n" + \
+                   "OR\n" + \
+                   "python3 make_BarSeqR_html_dir.py new_HTML_dir_path" + \
                    " inp_fit.tsv inp_t_score.tsv organism_name" + \
-                   " exps_start_col 1\n" + \
-                   "\nNote that exps_start_col refers to the column at" + \
-                   " which the experiment values start, normally 5" 
+                   " exps_start_col 2 (if using perl/R BarSeq)\n" + \
+                   "\nNote that for BOTH above exps_start_col refers to the column at" + \
+                   " which the experiment values start, normally 3/5" 
         print(help_str)
+    elif args[-1] == "1":
+        logging.basicConfig(level=logging.DEBUG)
+        new_HTML_dir_path = args[1]
+        inp_fit_score_fp = args[2]
+        inp_t_score_fp = args[3]
+        inp_exps_used_fp = args[4]
+        organism_name = args[5]
+        col_start = args[6]
+        create_new_HTML_dir(new_HTML_dir_path, 
+                            inp_fit_score_fp, 
+                            inp_t_score_fp, 
+                            inp_exps_used=inp_exps_used_fp,
+                            org_name=organism_name,
+                            col_start=col_start
+                            )
     else:
+        raise Exception("Functionality incomplete.")
         logging.basicConfig(level=logging.DEBUG)
         new_HTML_dir_path = args[1]
         inp_fit_score_fp = args[2]
@@ -570,6 +617,7 @@ def main():
                             inp_t_score_fp, 
                             organism_name,
                             col_start)
+
         
 
 
